@@ -3,6 +3,7 @@ layout: store
 title: 'Hello'
 ---
 <body ng-controller="ProductCtrl">
+    {% include store/cover.html %}
     <ul ng-repeat="product in products">
         <li>[[product.title]]</li>
     </ul>
