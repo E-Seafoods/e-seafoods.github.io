@@ -3,7 +3,7 @@
 angular.module 'eSeafoodsApp', ['ngCookies'], ($interpolateProvider) ->
   $interpolateProvider.startSymbol '[['
   $interpolateProvider.endSymbol ']]'
-.controller 'ProductCtrl',
+.controller 'StoreCtrl',
   ($scope, $http, $log, $cookies) ->
 
     SPLASH_COOKIE_NAME = '_splash'
