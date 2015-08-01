@@ -2,4 +2,8 @@
 layout: store
 title: 'Hello'
 ---
-THIS IS MY CONTENT
+<body ng-controller="ProductCtrl">
+    <ul ng-repeat="product in products">
+        <li>[[product.title]]</li>
+    </ul>
+</body>
