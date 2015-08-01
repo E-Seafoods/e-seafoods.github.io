@@ -2,16 +2,16 @@
 layout: store
 title: 'Hello'
 ---
-<body ng-controller="StoreCtrl">
+<div ng-controller="StoreCtrl">
     {% include store/cover.html %}
-    <ul ng-repeat="product in products">
-        <li>[[product.title]]</li>
-    </ul>
-</body>
-
-<ul id="category-nav">
-    <li class="col-md-3">Crab, Lobster, and Shrimp</li>
-    <li class="col-md-3">Fish and Eel</li>
-    <li class="col-md-3">Mussels and Clams</li>
-    <li class="col-md-3">Squid</li>
-</ul>
+    <div id="category-nav-container">
+        <div class="container">
+            <ul id="category-nav">
+                <li class="col-md-3">Crab, Lobster, and Shrimp</li>
+                <li class="col-md-3">Fish and Eel</li>
+                <li class="col-md-3">Mussels and Clams</li>
+                <li class="col-md-3">Squids and Others</li>
+            </ul>
+        </div>
+    </div>
+</div>
