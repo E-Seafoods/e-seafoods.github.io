@@ -1,0 +1,15 @@
+---
+layout: null
+---
+{% assign first = true %}
+[
+{% for product in site.products %}
+  {% if product.title != null and product.title != empty %}
+    {% unless first %},{% endunless %}{
+      "title": {{product.title | jsonify}},
+      "types": {{product.types | jsonify}}
+    }
+    {% assign first = false %}
+  {% endif %}
+{% endfor %}
+]
