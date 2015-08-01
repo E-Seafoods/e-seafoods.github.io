@@ -97,9 +97,38 @@ header
         font-family: Avenir-Book, sans-serif
         margin: 0 15px 0 15px
 
+
+.container-fluid.full-width
+  padding-left: 0
+  padding-right: 0
+  overflow-x: hidden
+
+.row.row-no-gutter
+  margin: 0
+  [class*="col-"]
+    padding: 0
+
+.img-full-width
+  width: 100.5%
+  height: auto
+
+.has-inner .row.row-no-gutter
+  margin-left: -10px
+  margin-right: -10px
+
+.row.row-no-gutter .inner
+  padding-left: 10px
+  padding-right: 10px
+
 @media (max-width: 991px)
   .navbar.navbar-fixed-top .navbar-collapse
     border-bottom: 1px solid #282428
+    text-align: center
+    float: none !important
+
+@media (max-width: 767px)
+  .category-nav-container
+    display: none
 
 @media (min-width: 992px)
   header.hero
@@ -132,7 +161,6 @@ header
     background-color: rgba(0, 0, 0, 0.6) !important
 
 #category-nav-container
-
   background: rgba(0, 0, 0, 0.3)
 
   #category-nav
