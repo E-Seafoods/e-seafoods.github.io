@@ -120,15 +120,21 @@ header
 
 #category-nav-container
 
-  background: rgba(0, 0, 0, 0.2)
+  background: rgba(0, 0, 0, 0.3)
 
   #category-nav
     padding: 0
     li
-      display: inline
-      text-transform: uppercase
-      font-family: Avenir-Book, sans-serif
-      font-size: 17px
-      color: #ffffff
-      text-align: center
       padding: 10px
+      display: inline
+      text-align: center
+
+      a
+        text-transform: uppercase
+        font-family: Avenir-Book, sans-serif
+        font-size: 17px
+        color: #ffffff
+
+        &:hover
+          text-decoration: none
+

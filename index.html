@@ -2,42 +2,55 @@
 layout: store
 title: 'Hello'
 ---
+<div ng-controller="StoreCtrl">
+    {% include store/cover.html %}
+    <div id="category-nav-container">
+        <div class="container">
+            <ul id="category-nav">
+                {% for category in site.data.categories %}
+                    <li class="col-md-3"><a href="#">{{ category.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+
 <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
 <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/jquery.sticky.js"></script>
 <script type="text/javascript" src="/js/debouncer.js"></script>
 <script type="text/javascript">
-  $(document).ready(function(){
-      var stickyMenu = function(){
-          var nav = $('.navbar.navbar-fixed-top');
-          nav.unstick();
-          nav.sticky({topSpacing: 0});
-      };
+    $(document).ready(function(){
+        var stickyMenu = function(){
+            var nav = $('.navbar.navbar-fixed-top');
+            nav.unstick();
+            nav.sticky({topSpacing: 0});
+        };
 
-      stickyMenu();
+        stickyMenu();
 
-      // Call pageScroll() and stickyMenu() when window is resized.
-      $(window).smartresize(function(){
-          pageScroll();
-          stickyMenu();
-      });
+        // Call pageScroll() and stickyMenu() when window is resized.
+        $(window).smartresize(function(){
+            pageScroll();
+            stickyMenu();
+        });
 
-      /*-------------------------------------------------------------------*/
-      /*  3. Page scrolling feature, requires jQuery Easing plugin.
-       /*-------------------------------------------------------------------*/
-      var pageScroll = function(){
-          $('.page-scroll a').bind('click', function(e){
-              e.preventDefault();
+        /*-------------------------------------------------------------------*/
+        /*  3. Page scrolling feature, requires jQuery Easing plugin.
+         /*-------------------------------------------------------------------*/
+        var pageScroll = function(){
+            $('.page-scroll a').bind('click', function(e){
+                e.preventDefault();
 
-              var $anchor = $(this);
-              var offset = $('body').attr('data-offset');
+                var $anchor = $(this);
+                var offset = $('body').attr('data-offset');
 
-              $('html, body').stop().animate({
-                  scrollTop: $($anchor.attr('href')).offset().top - (offset - 1)
-              }, 1500, 'easeInOutExpo');
-          });
-      };
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top - (offset - 1)
+                }, 1500, 'easeInOutExpo');
+            });
+        };
 
-      pageScroll();
-  });
+        pageScroll();
+    });
 </script>
