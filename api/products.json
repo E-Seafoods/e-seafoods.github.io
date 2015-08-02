@@ -9,7 +9,8 @@ layout: null
       "name": {{product.name | jsonify}},
       "types": {{product.types | jsonify}},
       "images": {{product.images | jsonify}},
-      "measure": {{product.measure | jsonify}}
+      "measure": {{product.measure | jsonify}},
+      "url": "{{ site.url }}{{product.url}}"
     }
     {% assign first = false %}
   {% endif %}

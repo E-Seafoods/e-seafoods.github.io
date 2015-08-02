@@ -20,6 +20,7 @@ title: 'Hello'
             <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_332,h_280,c_fill,r_max,f_auto/[[ product.images[0] ]]"/>
             <div class="name">[[ product.name ]]</div>
             <div class="price">₱[[ product.lowestPrice | number: 2 ]] / [[ product.measure ]]</div>
+            <a ng-href="[[ product.url ]]"><button>VIEW DETAILS</button></a>
         </li>
     </ul>
 </div>
