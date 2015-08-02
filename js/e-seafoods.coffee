@@ -3,6 +3,9 @@
 angular.module 'eSeafoodsApp', ['ngCookies'], ($interpolateProvider) ->
   $interpolateProvider.startSymbol '[['
   $interpolateProvider.endSymbol ']]'
+.filter 'joinBy', ->
+  (input, delimiter) ->
+    (input or []).join delimiter or ','
 .controller 'StoreCtrl',
   ($scope, $http, $log, $cookies) ->
 

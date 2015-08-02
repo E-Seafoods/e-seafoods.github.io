@@ -16,7 +16,7 @@ title: 'Hello'
         </div>
     </div>
     <ul id="products" class="clearfix">
-        <li class="col-md-3" ng-repeat="product in products | orderBy: ['categories[0]', 'name']">
+        <li class="col-md-3 [[ product.categories | joinBy: ' ' ]]" ng-repeat="product in products | orderBy: ['categories[0]', 'name']">
             <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ product.images[0] ]]"/>
             <div class="name">[[ product.name ]]</div>
             <a ng-href="[[ product.url ]]"><button>P[[ product.lowestPrice | number ]]</button></a>
