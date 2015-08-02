@@ -2,6 +2,8 @@
 layout: demo
 slug: mussels-chilean-whole
 name: Mussels Chilean Whole
+categories:
+    - mollusk
 specie: Mytilus chilensis
 form: Whole Mussels in Shell
 images:

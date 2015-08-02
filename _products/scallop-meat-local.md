@@ -2,6 +2,8 @@
 layout: demo
 slug: scallop-meat-local
 name: Scallop Meat Local
+categories:
+    - mollusk
 specie: Bay
 form: Meat
 images:

@@ -2,6 +2,8 @@
 layout: demo
 slug: snow-crab-cluster-legs
 name: Snow Crab Cluster Legs
+categories:
+   - crustacean
 specie: Chionoecetes opilio
 form: Legs Boiled
 images:
@@ -13,6 +15,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - crustacean
      sizes:
      -  size: normal
         price: 2158.00

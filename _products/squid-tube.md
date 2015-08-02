@@ -2,6 +2,8 @@
 layout: demo
 slug: squid-tube
 name: Squid Tube
+categories:
+   - cephalopod
 specie: Illex argentinus
 form: Tubes
 images:
@@ -12,6 +14,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - cephalopod
      sizes:
      -  size: normal
         price: 1211.00

@@ -2,6 +2,8 @@
 layout: demo
 slug: salmon-atlantic-fillet
 name: Salmon Atlantic Fillet
+categories:
+    - fish
 specie: Salmo salar
 form: Fillet Portion 
 images:

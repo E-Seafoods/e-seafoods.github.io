@@ -2,6 +2,8 @@
 layout: demo
 slug: shrimp-nobashi-ebi
 name: Shrimp Nobashi Ebi
+categories:
+   - crustacean
 specie: Penaeus monodon and Penaeus vannamei
 form: Peeled, deveined, tail on stretched shrimp
 images:
@@ -12,6 +14,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - crustacean
      sizes:
      -  size: normal
         price: 3174.00

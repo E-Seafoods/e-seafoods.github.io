@@ -2,6 +2,8 @@
 layout: demo
 slug: tuna-panga
 name: Tuna Panga
+categories:
+   - fish
 specie: Thunnus albacares
 form: Collar
 images:
@@ -12,6 +14,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - fish
      sizes:
      -  size: normal
         price: 2694.00

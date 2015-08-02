@@ -2,7 +2,9 @@
 layout: demo
 slug: shrimp-peeled
 name: Shrimp Peeled
-specie: Penaeus monodon and Penaeus vannamei 
+categories:
+   - crustacean
+specie: Penaeus monodon and Penaeus vannamei
 form: Peeled & Deveined
 images:
     - http://www.midafood.com/Data/Images/Shrimp_album/1024x1024/54ace4881480e959.jpg
@@ -11,6 +13,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - crustacean
      sizes:
      -  size: normal
         price: 1329.00

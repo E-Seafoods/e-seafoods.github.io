@@ -2,6 +2,8 @@
 layout: demo
 slug: tuna-steak
 name: Tuna Steak
+categories:
+   - fish
 specie: Thunnus albacares
 form: Steak
 images:
@@ -14,6 +16,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - fish
      sizes:
      -  size: normal
         price: 3081.00

@@ -2,6 +2,8 @@
 layout: demo
 slug: tuna-tail
 name: Tuna Tail
+categories:
+   - fish
 specie: Thunnus albacares
 form: Tail portion
 images:
@@ -12,6 +14,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - fish
      sizes:
      -  size: normal
         price: 909.00

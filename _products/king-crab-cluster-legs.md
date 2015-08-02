@@ -2,6 +2,8 @@
 layout: demo
 slug: king-crab-cluster-legs
 name: King Crab Cluster Legs
+categories:
+    - crustacean
 specie: King crab
 form: Legs Boiled 
 images:

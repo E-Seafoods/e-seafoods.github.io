@@ -2,6 +2,8 @@
 layout: demo
 slug: chilean-seabass
 name: Chilean Seabass
+categories:
+    - fish
 specie: Patagonian Toothfish/Dissostichus Eleginoides
 form: Headed, Gutted Tail Off (HGT)
 images:

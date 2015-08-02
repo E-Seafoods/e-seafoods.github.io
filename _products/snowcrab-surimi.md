@@ -2,6 +2,8 @@
 layout: demo
 slug: snowcrab-surimi
 name: Snowcrab Surimi
+categories:
+   - crustacean
 specie: Surimi base
 form: Surimi
 images:
@@ -11,6 +13,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - crustacean
      sizes:
      -  size: normal
         price: 2290.00

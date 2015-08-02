@@ -2,6 +2,8 @@
 layout: demo
 slug: tuna-belly
 name: Tuna Belly
+categories:
+   - fish
 specie: Thunnus albacares
 form: Belly
 images:
@@ -13,6 +15,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - fish
      sizes:
      -  size: normal
         price: 2456.00

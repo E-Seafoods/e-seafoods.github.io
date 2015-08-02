@@ -2,6 +2,8 @@
 layout: demo
 slug: fillet-alaskan-pollock
 name: Fillet Alaskan Pollock
+categories:
+    - fish
 specie: Theragra Chalcogramma
 form: Fillet
 images:

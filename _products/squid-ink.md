@@ -2,6 +2,8 @@
 layout: demo
 slug: squid-ink
 name: Squid Ink
+categories:
+   - cephalopod
 specie: Sepia spp ink
 form: Liquid 
 images:
@@ -12,6 +14,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - cephalopod
      sizes:
      -  size: normal
         price: 3284.00

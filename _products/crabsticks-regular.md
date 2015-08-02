@@ -2,6 +2,9 @@
 layout: demo
 slug: crabsticks-regular
 name: Crabsticks Regular
+categories:
+    - processed
+    - crustacean
 specie: Surimi based
 form: Regular 
 images:

@@ -2,6 +2,8 @@
 layout: demo
 slug: fillet-atlantic-cod
 name: Fillet Atlantic Cod
+categories:
+    - fish
 specie: Gadus morhua
 form: Fillet
 images:

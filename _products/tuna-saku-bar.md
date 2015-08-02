@@ -2,6 +2,8 @@
 layout: demo
 slug: tuna-saku-bar
 name: Tuna Saku Bar
+categories:
+   - fish
 specie: Thunnus albacares
 form: Lion portion
 images:
@@ -15,6 +17,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - fish
      sizes:
      -  size: normal
         price: 5623.00

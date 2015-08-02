@@ -2,6 +2,8 @@
 layout: demo
 slug: clam-whole
 name: Clam Whole
+categories:
+    - fish
 specie: Meretrix Lyrata
 form: Whole
 images:

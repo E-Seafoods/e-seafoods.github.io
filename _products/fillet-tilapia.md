@@ -2,6 +2,8 @@
 layout: demo
 slug: fillet-tilapia
 name: Fillet Tilapia
+categories:
+    - fish
 specie: Tilapia spp., Oreochromis spp.
 form: Fillet
 images:

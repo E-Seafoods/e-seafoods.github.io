@@ -2,6 +2,8 @@
 layout: demo
 slug: mussels-halfshell
 name: Mussels Halfshell
+categories:
+    - mollusk
 specie: Perna canaliculus
 form: Halfshell
 images:

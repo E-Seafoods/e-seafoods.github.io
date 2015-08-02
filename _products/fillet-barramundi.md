@@ -2,6 +2,8 @@
 layout: demo
 slug: fillet-barramundi
 name: Fillet Barramundi
+categories:
+    - fish
 specie: Lates calcarifer
 form: Fillet skin off
 images:

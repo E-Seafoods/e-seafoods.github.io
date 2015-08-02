@@ -2,6 +2,8 @@
 layout: demo
 slug: squid-loligo
 name: Squid Loligo
+categories:
+   - cephalopod
 specie: Loligo sp
 form: Whole Round 
 images:
@@ -13,6 +15,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - cephalopod
      sizes:
      -  size: normal
         price: 1734.00

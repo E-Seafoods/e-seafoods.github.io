@@ -2,6 +2,8 @@
 layout: demo
 slug: hake
 name: Hake
+categories:
+    - fish
 specie: Merluccius australis
 form: Headed, Gutted Tail Off (HGT)
 images:

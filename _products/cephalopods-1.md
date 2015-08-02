@@ -2,6 +2,8 @@
 layout: demo
 slug: cephalopods-1
 name: Octopus
+categories:
+    - cephalopod
 specie: Octopus Vulgaris
 form: Flower/Ball Type
 images:

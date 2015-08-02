@@ -2,6 +2,8 @@
 layout: demo
 slug: fillet-cream-dory
 name: Fillet Cream Dory
+categories:
+    - fish
 specie: Pangasius hypopthalmus
 form: Fillet skin off
 images:

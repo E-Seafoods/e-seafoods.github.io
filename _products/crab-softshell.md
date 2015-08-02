@@ -2,6 +2,8 @@
 layout: demo
 slug: crab-softshell
 name: Crab Softshell
+categories:
+    - crustacean
 specie: Scylla Serrata
 form: Whole
 images:

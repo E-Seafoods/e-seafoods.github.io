@@ -2,6 +2,8 @@
 layout: demo
 slug: hamachi-fillet
 name: Hamachi Fillet
+categories:
+    - fish
 specie: Japanese amberjack
 form: Fillet
 images:

@@ -2,6 +2,8 @@
 layout: demo
 slug: salmon-gravadlacks
 name: Salmon Gravadlacks
+categories:
+    - fish
 specie: Salmo salar
 form: Marinated Pre sliced
 images:

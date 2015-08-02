@@ -2,6 +2,9 @@
 layout: demo
 slug: crabsticks-shredded
 name: Crabsticks Shredded 
+categories:
+    - processed
+    - crustacean
 specie: Surimi based
 form: Shredded
 images:

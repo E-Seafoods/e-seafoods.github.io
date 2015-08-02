@@ -2,7 +2,9 @@
 layout: demo
 slug: shrimp-pdto
 name: Shrimp PDTO
-specie: Penaeus monodon and Penaeus vannamei 
+categories:
+   - crustacean
+specie: Penaeus monodon and Penaeus vannamei
 form: Peeled, Deveined, Tail On
 images:
     - http://www.midafood.com/Data/Images/Shrimp_album/1024x1024/54ace4829ccf920.jpg
@@ -13,6 +15,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - crustacean
      sizes:
      -  size: normal
         price: 4186.00

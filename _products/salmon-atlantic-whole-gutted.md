@@ -2,6 +2,8 @@
 layout: demo
 slug: salmon-atlantic-whole-gutted
 name: Salmon Atlantic Whole Gutted
+categories:
+    - fish
 specie: Salmo salar
 form: Whole Gutted
 images:

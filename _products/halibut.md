@@ -2,6 +2,8 @@
 layout: demo
 slug: halibut
 name: Halibut
+categories:
+    - fish
 specie: Dissostichus eleginoides
 form: Headed, Gutted Tail Off (HGT)
 images:

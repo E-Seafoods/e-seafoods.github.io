@@ -2,6 +2,8 @@
 layout: demo
 slug: squid-giant-fillet
 name: Squid Giant Fillet
+categories:
+   - cephalopod
 specie: Dosodicus gigas
 form: Fillet 
 images:
@@ -12,6 +14,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - cephalopod
      sizes:
      -  size: normal
         price: 3524.00

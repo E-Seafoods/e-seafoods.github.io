@@ -2,6 +2,8 @@
 layout: demo
 slug: gindara
 name: Gindara
+categories:
+    - fish
 specie: Anaplopoma fimbria
 form: Headed, Gutted Tail On (H&G)
 images:

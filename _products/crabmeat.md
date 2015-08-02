@@ -2,6 +2,9 @@
 layout: demo
 slug: crabmeat
 name: Crabmeat
+categories:
+    - processed
+    - crustacean
 specie: Callinectes sapidus
 form: Meat in lumps or flakes
 images:

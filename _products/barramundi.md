@@ -2,6 +2,8 @@
 layout: demo
 slug: barramundi
 name: Barramundi
+categories:
+    - fish
 specie: Lates calcarifer
 form: Collar
 images:

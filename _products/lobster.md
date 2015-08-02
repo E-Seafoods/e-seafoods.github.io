@@ -2,6 +2,8 @@
 layout: demo
 slug: lobster
 name: Lobster
+categories:
+    - crustacean
 specie: Thenus orientais
 form: Slipper Whole Round
 images:

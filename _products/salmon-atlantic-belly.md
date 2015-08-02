@@ -2,6 +2,8 @@
 layout: demo
 slug: salmon-atlantic-belly
 name: Salmon Atlantic Belly
+categories:
+    - fish
 specie: Salmo salar
 form: Belly
 images:

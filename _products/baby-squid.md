@@ -2,7 +2,9 @@
 layout: demo
 slug: baby-squid
 name: Baby Squid
-specie: Illex argentinus	
+categories:
+    - crustacean
+specie: Illex argentinus
 form: Whole Round
 images:
     - http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg

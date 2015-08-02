@@ -2,7 +2,9 @@
 layout: demo
 slug: salmon-head
 name: Salmon Head
-specie: Salmo salar 
+categories:
+    - fish
+specie: Salmo salar
 form: Head
 images:
     - http://www.midafood.com/Data/Images/salmon_album/1024x1024/54ace32739fe1392.jpg

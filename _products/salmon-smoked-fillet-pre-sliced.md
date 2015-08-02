@@ -2,6 +2,8 @@
 layout: demo
 slug: salmon-smoked-fillet-pre-sliced
 name: Salmon Smoked Fillet Pre-sliced
+categories:
+    - fish
 specie: Salmo salar
 form: Smoked Pre-Sliced
 images:

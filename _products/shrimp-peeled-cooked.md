@@ -2,6 +2,8 @@
 layout: demo
 slug: shrimp-peeled-cooked
 name: Shrimp Peeled & Cooked
+categories:
+   - crustacean
 specie: Penaeus monodon and Penaeus vannamei
 form: Cooked, Peeled, Undeveined
 images:
@@ -11,6 +13,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - crustacean
      sizes:
      -  size: normal
         price: 4472.00

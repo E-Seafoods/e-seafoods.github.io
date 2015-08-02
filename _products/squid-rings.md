@@ -2,6 +2,8 @@
 layout: demo
 slug: squid-rings
 name: Squid Rings
+categories:
+   - cephalopod
 specie: Illex argentinus
 form: Rings
 images:
@@ -13,6 +15,8 @@ description: >
 measure: kg
 types:
    - name: fresh
+categories:
+   - cephalopod
      sizes:
      -  size: normal
         price: 2788.00

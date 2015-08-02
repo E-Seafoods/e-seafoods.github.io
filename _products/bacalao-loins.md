@@ -1,7 +1,9 @@
 ---
 layout: demo
-slug: test
+slug: bacalao-loins
 name: Bacalao Loins
+categories:
+    - fish
 specie: Gadus morhua
 form: Loin Portion
 images:

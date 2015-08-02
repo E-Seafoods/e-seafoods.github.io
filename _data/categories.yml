@@ -1,10 +1,10 @@
-- slug: crab-lobster-shrimp
+- slug: crustacean
   name: Crab, Lobster & Shrimp
 - slug: fish
   name: Fish
-- slug: mussel-and-clam
+- slug: mollusk
   name: Mussel & Clam
-- slug: squid-and-octupus
+- slug: cephalopod
   name: Squid & Octopus
 - slug: processed
   name: Processed

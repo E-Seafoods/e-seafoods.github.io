@@ -2,6 +2,8 @@
 layout: demo
 slug: breaded-shrimp-pattie
 name: Breaded Shrimp Pattie
+categories:
+    - crustacean
 specie: Penaeus vannamei
 form: Breaded
 images:

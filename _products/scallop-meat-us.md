@@ -2,6 +2,8 @@
 layout: demo
 slug: scallop-meat-us
 name: Scallop Meat US
+categories:
+    - mollusk
 specie: Placopecten magellanicus
 form: Meat
 images:
