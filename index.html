@@ -19,7 +19,7 @@ title: 'Hello'
         <li class="col-md-4" ng-repeat="product in products">
             <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_332,h_280,c_fill,r_max,f_auto/[[ product.images[0] ]]"/>
             <div class="name">[[ product.name ]]</div>
-            <div class="price">P[[ product.lowestPrice | number: 2 ]] / [[ product.measure ]]</div>
+            <div class="price">₱[[ product.lowestPrice | number: 2 ]] / [[ product.measure ]]</div>
         </li>
     </ul>
 </div>
