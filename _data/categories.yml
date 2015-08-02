@@ -1,8 +1,12 @@
 - slug: crab-lobster-shrimp
-  name: Crab, Lobster, and Shrimp
-- slug: fish-and-eel
-  name: Fish and Eel
-- slug: mussels-and-clams
-  name: Mussels and Clams
-- slug: squids-and-others
-  name: Squids and Others
+  name: Crab, Lobster & Shrimp
+- slug: fish
+  name: Fish
+- slug: mussel-and-clam
+  name: Mussel & Clam
+- slug: squid-and-octupus
+  name: Squid & Octopus
+- slug: processed
+  name: Processed
+- slug: sushi-sashimi
+  name: Sushi & Sashimi
