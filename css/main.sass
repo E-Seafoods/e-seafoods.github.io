@@ -168,20 +168,16 @@ header
   #category-nav
     padding: 0
     li
+      cursor: pointer
       list-style: none
       padding: 10px
       display: inline
       text-align: center
-
-      a
-        text-transform: uppercase
-        font-family: Avenir-Book, sans-serif
-        font-size: 17px
-        color: #ffffff
-        text-shadow: 0px 1px 3px #000
-
-        &:hover
-          text-decoration: none
+      text-transform: uppercase
+      font-family: Avenir-Book, sans-serif
+      font-size: 17px
+      color: #ffffff
+      text-shadow: 0px 1px 3px #000
 
 #footer
   background-image: url(/images/navbar-bg.jpg)
@@ -222,6 +218,7 @@ ul#products
   background-color: rgba(0,0,0,0.5)
   padding: 0
   li
+    display: none //for mixitup
     padding: 20px 0
     list-style: none
     text-align: center
