@@ -4,10 +4,12 @@ layout: null
 {% assign first = true %}
 [
 {% for product in site.products %}
-  {% if product.title != null and product.title != empty %}
+  {% if product.name != null and product.name != empty %}
     {% unless first %},{% endunless %}{
-      "title": {{product.title | jsonify}},
-      "types": {{product.types | jsonify}}
+      "name": {{product.name | jsonify}},
+      "types": {{product.types | jsonify}},
+      "images": {{product.images | jsonify}},
+      "measure": {{product.measure | jsonify}}
     }
     {% assign first = false %}
   {% endif %}

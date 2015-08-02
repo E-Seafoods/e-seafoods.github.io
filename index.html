@@ -2,7 +2,7 @@
 layout: store
 title: 'Hello'
 ---
-<div class="wood-bg">
+<div class="wood-bg" ng-controller="StoreCtrl">
     {% include store/promotion.html %}
     <div ng-controller="StoreCtrl" class="category-nav-container">
         <div id="category-nav-container">
@@ -15,8 +15,13 @@ title: 'Hello'
             </div>
         </div>
     </div>
-    <div id="products">
-    </div>
+    <ul id="products">
+        <li class="col-md-4" ng-repeat="product in products">
+            <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_332,h_280,c_fill,r_max,f_auto/[[ product.images[0] ]]"/>
+            <div class="name">[[ product.name ]]</div>
+            <div class="price">P[[ product.lowestPrice | number: 2 ]] / [[ product.measure ]]</div>
+        </li>
+    </ul>
 </div>
 
 <div id="footer">

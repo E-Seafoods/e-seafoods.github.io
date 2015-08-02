@@ -12,3 +12,9 @@ angular.module 'eSeafoodsApp', ['ngCookies'], ($interpolateProvider) ->
 
     $http.get('api/products.json').success (data) ->
       $scope.products = data
+      for product in $scope.products
+        product.lowestPrice = _.min(_.map(product.types, (type) ->
+          _.min _.map(type.sizes, (size) ->
+            size.price
+          )
+        ))
