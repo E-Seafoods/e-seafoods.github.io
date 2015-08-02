@@ -18,3 +18,4 @@ angular.module 'eSeafoodsApp', ['ngCookies'], ($interpolateProvider) ->
             size.price
           )
         ))
+        $log.debug product

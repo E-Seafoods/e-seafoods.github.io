@@ -6,11 +6,12 @@ layout: null
 {% for product in site.products %}
   {% if product.name != null and product.name != empty %}
     {% unless first %},{% endunless %}{
+      "url": "{{ site.url }}{{product.url}}",
       "name": {{product.name | jsonify}},
       "types": {{product.types | jsonify}},
       "images": {{product.images | jsonify}},
       "measure": {{product.measure | jsonify}},
-      "url": "{{ site.url }}{{product.url}}"
+      "categories": {{product.categories | jsonify}}
     }
     {% assign first = false %}
   {% endif %}
