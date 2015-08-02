@@ -19,8 +19,8 @@ title: 'Hello'
         <li class="col-md-3" ng-repeat="product in products">
             <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ product.images[0] ]]"/>
             <div class="name">[[ product.name ]]</div>
-            <div class="price">₱[[ product.lowestPrice | number ]]</div>
-            <a ng-href="[[ product.url ]]"><button>VIEW DETAILS</button></a>
+            <div class="price"></div>
+            <a ng-href="[[ product.url ]]"><button>P[[ product.lowestPrice | number ]]</button></a>
         </li>
     </ul>
 </div>
