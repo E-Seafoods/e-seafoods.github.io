@@ -53,7 +53,8 @@ File file = new File('out/'+data.slug+'.md')
 file.write ('---')
 file << '\n'
 file << 'layout: demo' << '\n'
-data.each{ key, value ->
+
+data.findAll{ it.key != 'description' }.each{ key, value ->
     if (value instanceof String) {
         file << "$key: $value" << '\n'
     } else if (value instanceof List) {
@@ -63,6 +64,13 @@ data.each{ key, value ->
         }
     }
 }
+
+file << 'description: >' << '\n'
+data.description.split(/\.[^w]?/).each{
+    file << '   '+it+'.\n'
+}
+
+file << 'measure: kg' << '\n'
 
 file << 'types:' << '\n'
 file << '   - name: fresh' << '\n'
