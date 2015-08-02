@@ -2,7 +2,7 @@
 layout: store
 title: 'Hello'
 ---
-<div class="wood-bg" ng-controller="StoreCtrl">
+<div class="container-fluid full-width wood-bg" ng-controller="StoreCtrl">
     {% include store/promotion.html %}
     <div ng-controller="StoreCtrl" class="category-nav-container">
         <div id="category-nav-container">
@@ -20,6 +20,7 @@ title: 'Hello'
             <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ product.images[0] ]]"/>
             <div class="name">[[ product.name ]]</div>
             <div class="price">₱[[ product.lowestPrice | number ]]</div>
+            <a ng-href="[[ product.url ]]"><button>VIEW DETAILS</button></a>
         </li>
     </ul>
 </div>
