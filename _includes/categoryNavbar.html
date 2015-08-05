@@ -1,0 +1,13 @@
+<div class="category-nav-container">
+    <div id="category-nav-container">
+        <div class="container-fluid full-width">
+            <ul id="category-nav">
+                {% for category in site.data.categories %}
+                <li class="col-sm-2 filter" data-filter=".{{ category.slug }}" href="#">
+                    <span>{{ category.name }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

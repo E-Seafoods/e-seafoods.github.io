@@ -1,0 +1,91 @@
+#mock
+  display: none
+  width: 100%
+  height: 500px
+  background: url(/images/home.jpg)
+  opacity: 0.8
+  background-position: 76px 100px
+  background-size: 1280px
+  background-repeat: no-repeat
+  z-index: 10000
+  position: absolute
+
+html, body
+  width: 100%
+  height: 100%
+
+body
+  background-color: #d1bb96
+  background-image: url(/images/wood-bg.jpg)
+  background-size: 100%
+
+.navbar.navbar-fixed-top
+  position: relative
+  margin: 0
+  border: 0
+  background-color: #171717
+  border-bottom: 1px solid #282428
+  .navbar-brand
+    font-family: Manus, sans-serif
+    color: white
+    font-size: 32px
+  #navbar
+    li
+      a
+        color: white
+        font-size: 20px
+        font-family: Avenir-Book, sans-serif
+        margin: 0 15px 0 15px
+        text-shadow: 0px 1px 3px #000
+
+@media (max-width: 991px)
+  .navbar.navbar-fixed-top .navbar-collapse
+    border-bottom: 1px solid #282428
+    text-align: center
+    float: none !important
+
+.navbar
+  background-image: url(/images/navbar-bg.jpg)
+  .active a
+    background-color: rgba(0, 0, 0, 0.6) !important
+
+#footer
+  background-image: url(/images/navbar-bg.jpg)
+  background-repeat: no-repeat
+  padding: 10px
+  color: #fff
+  font-family: Avenir-Book, sans-serif
+  .copyright
+    float: left
+  #social-media-buttons
+    float: right
+    a
+      display: inline-block
+      height: 40px
+      width: 40px
+      background-image: url(/images/social-media-buttons.png)
+      background-repeat: no-repeat
+      background-size: auto 38px
+      margin: 0 2px
+
+      &:hover
+        opacity: 0.5
+
+      &.twitter
+        background-position: 0 0
+
+      &.fb
+        background-position: -51px 0
+
+      &.gplus
+        background-position: -101px 0
+
+/* TEMP */
+#navbar
+  display: none !important
+
+#video-overlay
+  width: 100%
+  height: 100%
+  position: absolute
+  background-color: rgba(0,43,55,0.5)
