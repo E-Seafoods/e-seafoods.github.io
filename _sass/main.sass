@@ -48,6 +48,27 @@ body
   background-image: url(/images/navbar-bg.jpg)
   .active a
     background-color: rgba(0, 0, 0, 0.6) !important
+.container-fluid.full-width
+  padding-left: 0
+  padding-right: 0
+  overflow-x: hidden
+
+.row.row-no-gutter
+  margin: 0
+  [class*="col-"]
+    padding: 0
+
+.img-full-width
+  width: 100.5%
+  height: auto
+
+.has-inner .row.row-no-gutter
+  margin-left: -10px
+  margin-right: -10px
+
+.row.row-no-gutter .inner
+  padding-left: 10px
+  padding-right: 10px
 
 #footer
   background-image: url(/images/navbar-bg.jpg)
