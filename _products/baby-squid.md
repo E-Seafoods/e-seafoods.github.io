@@ -3,7 +3,7 @@ layout: demo
 slug: baby-squid
 name: Baby Squid
 categories:
-    - crustacean
+    - cephalopod
 specie: Illex argentinus
 form: Whole Round
 images:
