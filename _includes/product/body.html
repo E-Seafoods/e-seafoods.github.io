@@ -9,36 +9,7 @@
                 <p>
                     Crab Softshells are harvested just after they have molted and before the new carapace hardens. These are commonly served at Japanese restaurants as Spider sushi. They can also be served deep fried, battered, breaded or just simply sautéed.
                 </p>
-                <div id="product-option">
-                    <div class="row" id="picker-option">
-                        <div class="col-md-5">
-                            <span>Pick</span>
-                        </div>
-                        <div class="col-md-7">
-                            <div class="col-md-6">
-                                <label class="radio">
-                                    <input type="radio" name="pickerOption" id="picker1" value="option1"> Frozen
-                                </label>
-                            </div>
-                            <div class="col-md-6">
-                                <label class="radio">
-                                    <input type="radio" name="pickerOption" id="picker2" value="option2"> Live
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row" id="size-option">
-                        <div class="col-md-5">
-                            <span>Choose Size</span>
-                        </div>
-                        <div class="col-md-7">
-                            <a><span class="glyphicon glyphicon-minus"/></a>
-                                <span>0</span>
-                            <a><span class="glyphicon glyphicon-plus"/></a>
-                        </div>
-                    </div>
-                </div>
+                {% include product/pickOption.html %}
             </div>
         </div>
     </div>
