@@ -59,11 +59,22 @@ body
       padding-bottom: 20px
       font-size: 20px
     @media (min-width: 768px)
-      width: 160px
+      width: 110px
     @media (min-width: 992px)
-      width: 350px
+      width: 300px
     @media (min-width: 1200px)
       width: 450px
+
+@media (max-width: 991px)
+  .navbar.navbar-fixed-top
+    .container
+      padding: 0 5px 0 5px
+
+@media (max-width: 768px)
+  .navbar.navbar-fixed-top
+    .container
+      padding: 0 15px 0 15px
+
 @media (max-width: 991px)
   .navbar.navbar-fixed-top .navbar-collapse
     border-bottom: 1px solid #282428
