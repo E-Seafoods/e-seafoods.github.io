@@ -38,14 +38,7 @@ body
         margin: 0 15px 0 15px
         text-shadow: 0px 1px 3px #000
 
-@media (min-width: 1367px)
 
-
-@media (max-width: 991px)
-  .navbar.navbar-fixed-top .navbar-collapse
-    border-bottom: 1px solid #282428
-    text-align: center
-    float: none !important
 
 .navbar
   background-image: url(/images/navbar-bg.jpg)
@@ -113,3 +106,18 @@ body
   height: 100%
   position: absolute
   background-color: rgba(0,43,55,0.5)
+
+
+@media (min-width: 1367px)
+  .navbar
+    &.navbar-fixed-top
+      .container
+        width: 100%
+        .navbar-brand
+          margin-left: 90px
+
+@media (max-width: 991px)
+  .navbar.navbar-fixed-top .navbar-collapse
+    border-bottom: 1px solid #282428
+    text-align: center
+    float: none !important
