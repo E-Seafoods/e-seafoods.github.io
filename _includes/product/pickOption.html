@@ -29,20 +29,28 @@
 <!--Choose option-->
     <div class="row" id="size-option">
         <div class="col-lg-5 col-md-5">
-            <span class="option-title">Choose Size</span>
+            <span class="option-title">Size</span>
         </div>
         <div class="col-lg-7 col-md-7">
-            <a href="javascript:void(0)"><span class="glyphicon glyphicon-minus option-operator"/></a>
-            <span class="option-size-value">1000</span>
-            <span class="option-size-unit">gms/pc</span>
-            <a href="javascript:void(0)"><span class="glyphicon glyphicon-plus option-operator"/></a>
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Choose Size
+                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="javascript:void(0)">Large</a></li>
+                    <li><a href="javascript:void(0)">Medium</a></li>
+                    <li><a href="javascript:void(0)">Small</a></li>
+
+                </ul>
+            </div>
         </div>
     </div>
 
 <!--Quantity option-->
     <div class="row" id="quantity-option">
         <div class="col-lg-5 col-md-5">
-            <span class="option-title">Per Kilo</span>
+            <span class="option-title">Quantity</span>
         </div>
         <div class="col-lg-7 col-md-7">
             <a href="javascript:void(0)"><span class="glyphicon glyphicon-minus option-operator"/></a>
@@ -55,7 +63,7 @@
 <!--Price-->
     <div class="row" id="product-price">
         <div class="col-lg-5 col-md-5">
-            <span class="option-title">PRICE</span>
+            <span class="option-title">Price</span>
         </div>
         <div class="col-lg-7 col-md-7">
             <span class="product-price">₱ 400.00</span>
