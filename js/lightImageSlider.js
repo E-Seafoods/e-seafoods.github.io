@@ -16,7 +16,7 @@ esf.productImageSlider = function(){
             {
                 breakpoint:800,
                 settings: {
-                    item:3,
+                    item:1,
                     enableDrag:true
                 }
             },
