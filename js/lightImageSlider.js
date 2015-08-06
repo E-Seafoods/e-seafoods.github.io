@@ -14,6 +14,12 @@ esf.productImageSlider = function(){
         enableDrag:false,
         responsive : [
             {
+                breakpoint:1024,
+                settings: {
+                    item:2,
+                }
+            },
+            {
                 breakpoint:800,
                 settings: {
                     item:1,

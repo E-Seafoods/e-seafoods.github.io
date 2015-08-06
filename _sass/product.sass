@@ -4,39 +4,6 @@
   background: rgba(0, 0, 0, 0.5)
   .product-image
     margin-top: 30px
-    .related-products
-    margin-top: 50px
-    margin-bottom: 5%
-  .related-products
-    h3
-      margin: 100px 0px 25px
-      font-size: 20px
-      color: #ffffff
-    .lSSlideOuter
-      a
-        text-decoration: none
-        h4
-          color: #ffffff
-          font-size: 18px
-          margin-top: 20px
-        img
-          height: 250px
-      .lSAction
-        a
-          top: 40%
-          width: 22px
-          height: 36px
-          z-index: 0
-          text-decoration: none
-          background-image: url("/images/controls.png")
-          background-repeat: no-repeat
-          background-size: 50px
-          &.lSPrev
-            background-position: 0
-          &.lSNext
-            background-position: -28px
-      .lSPager
-        display: none
   .product-description
     margin-top: 30px
     margin-bottom: 5%
@@ -148,7 +115,6 @@
             font-size: 30px
             display: inline-block
             height: 65px
-
         h3
           margin-top: 40px
         h4
@@ -161,6 +127,72 @@
             font-size: 19px
           .contact-number
             font-size: 19px
+    .related-products2
+      display: none
+      h3
+        margin: 100px 0px 25px
+        font-size: 20px
+        color: #ffffff
+      .lSSlideOuter
+        a
+          text-decoration: none
+          h4
+            color: #ffffff
+            font-size: 18px
+            margin-top: 20px
+          img
+            height: 250px
+        .lSAction
+          a
+            top: 40%
+            width: 22px
+            height: 36px
+            z-index: 0
+            text-decoration: none
+            background-image: url("/images/controls.png")
+            background-repeat: no-repeat
+            background-size: 50px
+            &.lSPrev
+              background-position: 0
+            &.lSNext
+              background-position: -28px
+        .lSPager
+          display: none
+  .product-slider
+    position: absolute
+    bottom: 20%
+    .related-products
+      margin-top: 50px
+      margin-bottom: 5%
+      h3
+        margin: 100px 0px 25px
+        font-size: 20px
+        color: #ffffff
+      .lSSlideOuter
+        a
+          text-decoration: none
+          h4
+            color: #ffffff
+            font-size: 18px
+            margin-top: 20px
+          img
+            height: 250px
+        .lSAction
+          a
+            top: 40%
+            width: 22px
+            height: 36px
+            z-index: 0
+            text-decoration: none
+            background-image: url("/images/controls.png")
+            background-repeat: no-repeat
+            background-size: 50px
+            &.lSPrev
+              background-position: 0
+            &.lSNext
+              background-position: -28px
+        .lSPager
+          display: none
 @media (max-width: 1200px)
   #product-container
     .product-description
@@ -169,8 +201,8 @@
 
 @media (max-width: 1024px)
   #product-container
-    .related-products
-      display: none
+    .product-slider
+      position: relative
 
 
 
