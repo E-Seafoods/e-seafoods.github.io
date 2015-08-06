@@ -38,14 +38,17 @@ body
         margin: 0 15px 0 15px
         text-shadow: 0px 1px 3px #000
   #search-bar
+    margin-bottom: 0
     button
       background-color: transparent
       color: white
       border: 0
     input
+      margin-top: 8px
+      margin-bottom: 8px
       box-shadow: none !important
       color: white
-      width: 500px
+      //width: 500px
       background-color: transparent
       border: none
       background-image: url('/images/search-bar.png')
@@ -55,7 +58,12 @@ body
       font-family: LemonYellowSun, sans-serif
       padding-bottom: 20px
       font-size: 20px
-
+    @media (min-width: 768px)
+      width: 160px
+    @media (min-width: 992px)
+      width: 350px
+    @media (min-width: 1200px)
+      width: 450px
 @media (max-width: 991px)
   .navbar.navbar-fixed-top .navbar-collapse
     border-bottom: 1px solid #282428
@@ -100,7 +108,7 @@ body
 
 /* TEMP */
 #navbar
-  display: none !important
+  //display: none !important
 
 #video-overlay
   width: 100%
