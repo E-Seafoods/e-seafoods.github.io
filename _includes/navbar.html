@@ -9,11 +9,13 @@
             </button>
             <a class="navbar-brand" href="#">e-seafoods</a>
         </div>
-        <form class="navbar-form navbar-left" role="search">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search" ng-model="searchText">
+        <form id="search-bar" class="navbar-form navbar-left" role="search">
+            <div class="form-group input-group">
+                <input type="text" class="form-control" ng-model="searchText">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </span>
             </div>
-            <button type="submit" class="btn btn-default">Submit</button>
         </form>
         <div id="navbar" class="collapse navbar-collapse pull-right">
             <ul class="nav navbar-nav">
