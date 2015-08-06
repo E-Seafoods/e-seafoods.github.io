@@ -52,82 +52,85 @@
         font-size: 20px
       #product-option
         padding: 30px 0px 70px
-        .option-title
-          font-size: 1.5em
-
-          input[type="radio"]
-            margin: 4px
-            transform: scale(1.3)
-            position: relative
+        #picker-option
+          padding: 10px 0 20px
+          .option-title
+            font-size: 1.5em
+            input[type="radio"]
+              margin: 4px
+              transform: scale(1.3)
+              position: relative
+              background-color: transparent
+              color: transparent
+          .option-fresh, .option-live
+            padding: 0
+            input
+              display: none
+            label
+              color: #333
+              display: inline-block
+              font-weight: lighter
+              margin-top: 0
+              margin-bottom: 0
+              font-size: 20px
+            span.big
+              border-radius: 50% 50% 50% 50%
+              display: inline-block
+              height: 12px
+              margin-right: 9px
+              padding: 8px
+              position: relative
+              width: 12px
+            span.small
+              border-radius: 50% 50% 50% 50%
+              display: block
+              height: 100%
+              transition: background 0.4s ease 0s
+              width: 100%
+            .circle .big
+              transform: scale(1.5)
+              padding: 2px
+              border: 1px solid black
+            input[type="radio"]:checked + label.circle span.small
+              background-color: black
+        #size-option
+          padding: 10px 0 20px
+          .option-title
+            font-size: 1.5em
+          .btn-default
+            border-radius: 0px
             background-color: transparent
-            color: transparent
-        input
-          display: none
-        label
-          color: #333
-          display: inline-block
-          font-weight: lighter
-          margin-top: 0
-          margin-bottom: 0
-          font-size: 20px
-        span.big
-          border-radius: 50% 50% 50% 50%
-          display: inline-block
-          height: 12px
-          margin-right: 9px
-          padding: 8px
-          position: relative
-          width: 12px
-        span.small
-          border-radius: 50% 50% 50% 50%
-          display: block
-          height: 100%
-          transition: background 0.4s ease 0s
-          width: 100%
-        .circle .big
-          transform: scale(1.5)
-          padding: 2px
-          border: 1px solid black
-        input[type="radio"]:checked + label.circle span.small
-          background-color: black
-      #size-option
-        margin-top: 15px
-        .option-title
-          font-size: 1.5em
-        .btn-default
-          border-radius: 0px
-          background-color: transparent
-          min-width: 70%
-          font-size: 18px
-          text-align: left
-          padding: 10px 10px
-          span
-            float: right
-            font-size: 15px
-            vertical-align: middle
-        .dropdown-menu
-          width: 70%
-          a
+            min-width: 70%
             font-size: 18px
-      #quantity-option
-        margin-top: 15px
-        .option-title
-          font-size: 1.5em
-        .option-operator
-          font-size: 15px
-          color: #333
-        .option-quantity-value
-          padding: 0 2% 0 5%
-          font-size: 20px
-        .option-quantity-unit
-          padding: 0 5% 0 2%
-          font-size: 20px
-      #product-price
-        margin-top: 15px
-        .option-title
-          font-size: 1.5em
-        .product-price
-          font-size: 20px
+            text-align: left
+            padding: 10px 10px
+            span
+              float: right
+              font-size: 15px
+              vertical-align: middle
+          .dropdown-menu
+            width: 70%
+            a
+              font-size: 18px
+        #quantity-option
+          padding: 10px 0 20px
+          .option-title
+            font-size: 1.5em
+          .option-operator
+            font-size: 15px
+            color: #333
+          .option-quantity-value
+            padding: 0 2% 0 5%
+            font-size: 20px
+          .option-quantity-unit
+            padding: 0 5% 0 2%
+            font-size: 20px
+        #product-price
+          padding: 10px 0 20px
+          .option-title
+            font-size: 1.5em
+          .product-price
+            font-size: 20px
       .contact-container
         .cart-button
           background-image: url(/images/cart-box.png)
