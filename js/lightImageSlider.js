@@ -4,7 +4,7 @@ esf.imageSlider = function() {
 };
 
 esf.productImageSlider = function(){
-    var autoPlaySlider = $('#product-img-slider').lightSlider({
+    var autoPlaySlider = $('.product-img-slider').lightSlider({
         item: 1,
         controls: true,
         speed: 2000,
@@ -29,10 +29,10 @@ esf.productImageSlider = function(){
             }
         ]
     });
-    $('#product-img-slider').on('mouseenter',function(){
+    $('.product-img-slider').on('mouseenter',function(){
         autoPlaySlider.pause();
     });
-    $('#product-img-slider').on('mouseleave',function(){
+    $('.product-img-slider').on('mouseleave',function(){
         autoPlaySlider.play();
     });
 };

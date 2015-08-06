@@ -7,6 +7,7 @@
     .related-products
     margin-top: 50px
     margin-bottom: 5%
+  .related-products
     h3
       margin: 100px 0px 25px
       font-size: 20px
@@ -109,6 +110,7 @@
               font-size: 15px
               vertical-align: middle
           .dropdown-menu
+            border-radius: 0px
             width: 70%
             a
               font-size: 18px
@@ -132,20 +134,21 @@
           .product-price
             font-size: 20px
       .contact-container
-        .cart-button
-          background-image: url(/images/cart-box.png)
-          background-color: transparent
-          background-repeat: no-repeat
-          background-size: contain
-          border: 0
-          padding: 4px 20px
-          font-family: LemonYellowSun, sans-serif
-          font-size: 30px
-          display: inline-block
-          height: 65px
-          a
-            text-decoration: none
-            color: #333
+        a
+          text-decoration: none
+          color: #333
+          .cart-button
+            background-image: url(/images/cart-box.png)
+            background-color: transparent
+            background-repeat: no-repeat
+            background-size: contain
+            border: 0
+            padding: 4px 20px
+            font-family: LemonYellowSun, sans-serif
+            font-size: 30px
+            display: inline-block
+            height: 65px
+
         h3
           margin-top: 40px
         h4
@@ -165,6 +168,10 @@
         padding-top: 13%
 
 @media (max-width: 1024px)
+  #product-container
+    .related-products
+      display: none
+
 
 
       
