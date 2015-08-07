@@ -34,6 +34,15 @@ $(document).ready(function(){
     };
 
     pageScroll();
+
+    $("#search-bar").on("submit", function() {
+        var $anchor = $("#products");
+        var offset = $('body').attr('data-offset');
+
+        $('html, body').stop().animate({
+            scrollTop: $anchor.offset().top - (offset - 1)
+        }, 1500, 'easeInOutExpo');
+    });
 });
 
 function videoChange(){
