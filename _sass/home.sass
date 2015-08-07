@@ -140,6 +140,12 @@ ul#products
 //.price
 //  font-size: 15px
 
+@media (max-width: 1200px)
+  ul#products
+    li
+      img
+        height: 200px
+        min-height: 0
 @media (max-width: 767px)
   .category-nav-container
     display: none
@@ -168,3 +174,7 @@ ul#products
           margin-left: auto
           max-width: 80%
 
+@media (max-width: 480px)
+  ul#products
+    li.col-xs-6
+      width: 100%
