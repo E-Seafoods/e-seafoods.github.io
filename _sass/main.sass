@@ -10,11 +10,12 @@
   z-index: 10000
   position: absolute
 
-html, body
-  width: 100%
-  height: 100%
+html
+  position: relative
+  min-height: 100%
 
 body
+  margin: 0 0 66px
   background-color: #d1bb96
   background-image: url(/images/wood-bg.jpg)
   background-size: 100%
@@ -86,10 +87,15 @@ body
   .active a
     background-color: rgba(0, 0, 0, 0.6) !important
 
-#footer
+footer
+  position: absolute
+  left: 0
+  bottom: 0
+  height: 66px
+  width: 100%
   background-image: url(/images/navbar-bg.jpg)
   background-repeat: no-repeat
-  padding: 10px
+  position: absolute
   color: #fff
   font-family: Avenir-Book, sans-serif
   .copyright
