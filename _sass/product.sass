@@ -208,6 +208,37 @@
           a
             img
               height: 200px
-  
+    .product-description
+      padding: 0
 
-      
+@media (max-width: 767px)
+  #product-container
+    padding: 0
+    .row
+      margin: 0
+      padding: 0
+      .product-image
+        .image-container
+          img
+            height: 300px
+      .product-description
+        padding: 0
+        .description-container
+          background-position: center
+          background-size: cover
+          padding: 14% 10% 10% 10%
+          .contact-container
+            [class*="col-"]
+              padding: 0
+@media (max-width: 480px)
+  #product-container
+    .row
+      .product-description
+        .description-container
+          padding: 20% 5% 20% 5%
+          #product-option
+            [class*="col-"]
+              padding: 0
+          .contact-container
+            [class*="col-"]
+              padding: 0
