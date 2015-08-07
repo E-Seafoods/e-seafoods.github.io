@@ -1,6 +1,6 @@
 ---
 ---
-angular.module 'eSeafoodsApp', ['ngCookies'], ($interpolateProvider) ->
+angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'ui.bootstrap'], ($interpolateProvider) ->
   $interpolateProvider.startSymbol '[['
   $interpolateProvider.endSymbol ']]'
 .filter 'joinBy', ->
@@ -35,8 +35,15 @@ angular.module 'eSeafoodsApp', ['ngCookies'], ($interpolateProvider) ->
             size.price
           )
         ))
-        $log.debug product
+#        $log.debug product
       $ ->
-        $log.debug "INIT MIXITUP"
+#        $log.debug "INIT MIXITUP"
         $('#products').mixItUp
           load: filter: 'all'
+
+.controller 'PopoverDemoCtrl', ($scope) ->
+  $scope.dynamicPopover =
+    content: 'Hello, World!'
+    templateUrl: 'myPopoverTemplate.html'
+    title: 'Title'
+
