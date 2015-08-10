@@ -1,0 +1,12 @@
+- img: /images/crab.png
+  name: Crab Small
+  price: 400.00
+
+- img: /images/crab.png
+  name: Crab Medium
+  price: 500.00
+
+- img: /images/crab.png
+  name: Crab Large
+  price: 700.00
+
