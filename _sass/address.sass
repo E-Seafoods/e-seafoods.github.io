@@ -5,7 +5,6 @@
   background-size: cover
   background-repeat: no-repeat
   .container
-    width: 970px
     font-family: LemonYellowSun, sans-serif
     .section-title
       background-position: bottom
@@ -77,6 +76,48 @@
         width: 17%
         margin: 50px 0
 
+@media (max-width: 991px)
+  #address
+    .container
+      .address-section
+        .row
+          [class*="col-"]
+            padding: 0 5px
+          input
+            font-size: 20px
+      .contact-section
+        .row
+          [class*="col-"]
+            padding: 0 5px
+            input
+            font-size: 20px
+      .specific-instruction
+        [class*="col-"]
+          padding: 0 5px
+      h3
+        margin: auto -10px
+      a
+        .proceed-button
+          display: table
+          float: none
+          margin: 50px auto 70px
 
-
-//[class*="col-"]
+@media (max-width: 767px)
+  #address
+    .container
+      .section-title
+        margin-top: 200px
+      h2
+        text-align: center
+      .address-section
+        .row
+          input
+            font-size: 28px
+      .contact-section
+        .row
+          input
+            font-size: 28px
+      .specific-instruction
+        input
+          font-size: 25px
+            
