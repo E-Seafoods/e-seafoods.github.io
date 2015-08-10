@@ -22,64 +22,51 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">Best Sellers</a></li>
                 <li><a href="#about">Our Products</a></li>
-                <!--<li ng-controller="ngCartContainer"><a href="#about">[[ ngCart.totalCost() | currency ]] </a></li>-->
-                <li ng-controller="PopoverDemoCtrl">
-                    <a popover-placement="bottom" popover-template="dynamicPopover.templateUrl" popover-title="[[dynamicPopover.title]]">
+                <li>
+                    <a id="cart-button" data-content-template="cart-summary.html" placement="bottom" html="true" bs-popover>
                         <ngcart-summary></ngcart-summary>
                     </a>
-                    <script type="text/ng-template" id="myPopoverTemplate.html" ng-controller="CartController">
+                    <script type="text/ng-template" id="cart-summary.html" ng-controller="CartController">
                         <div ng-controller="CartController">
-                            <div class="alert alert-warning" role="alert" ng-show="ngCart.getTotalItems() === 0">
-                                Your cart is empty
-                            </div>
-
-                            <div class="table-responsive col-lg-12" ng-show="ngCart.getTotalItems() > 0">
+                            <div class="table-responsive col-lg-12">
 
                                 <table class="table table-striped ngCart cart">
 
                                     <thead>
                                     <tr>
-                                        <th></th>
-                                        <th></th>
-                                        <th>Quantity</th>
-                                        <th>Amount</th>
-                                        <th>Total</th>
+                                        <th colspan="2">ITEMS YOU'VE ORDERED</th>
+                                        <th colspan="2">
+                                            <div class="price-button">
+                                                <span class="price">Checkout</span>
+                                            </div>
+                                        </th>
                                     </tr>
                                     </thead>
                                     <tfoot>
-                                    <tr ng-show="ngCart.getTax()">
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Tax ([[ ngCart.getTaxRate() ]]%):</td>
-                                        <td>[[ ngCart.getTax() | currency ]]</td>
-                                    </tr>
-                                    <tr ng-show="ngCart.getShipping()">
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>Shipping:</td>
-                                        <td>[[ ngCart.getShipping() | currency ]]</td>
-                                    </tr>
                                     <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
                                         <td>Total:</td>
+                                        <td></td>
+                                        <td></td>
                                         <td>[[ ngCart.totalCost() | currency ]]</td>
                                     </tr>
                                     </tfoot>
                                     <tbody>
+                                    <tr ng-show="ngCart.getTotalItems() === 0">
+                                        <td colspan="4">
+                                            <div class="alert alert-warning" role="alert">
+                                                Your cart is empty
+                                            </div>
+                                        </td>
+                                    </tr>
                                     <tr ng-repeat="item in ngCart.getCart().items track by $index">
-                                        <td><span ng-click="ngCart.removeItemById(item.getId())" class="glyphicon glyphicon-remove"></span></td>
-
+                                        <td>
+                                            <div class="image-container">
+                                                <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ item.getData()[0] ]]"/>
+                                            </div>
+                                        </td>
                                         <td>[[ item.getName() ]]</td>
-                                        <td><span class="glyphicon glyphicon-minus" ng-class="{'disabled':item.getQuantity()==1}"
-                                                  ng-click="item.setQuantity(-1, true)"></span>&nbsp;&nbsp;
-                                            [[ item.getQuantity() | number ]]&nbsp;&nbsp;
-                                            <span class="glyphicon glyphicon-plus" ng-click="item.setQuantity(1, true)"></span></td>
-                                        <td>[[ item.getPrice() | currency]]</td>
-                                        <td>[[ item.getTotal() | currency ]]</td>
+                                        <td class="cart-summary-price">[[ item.getTotal() | currency ]]</td>
+                                        <td class="cross-item"><span ng-click="ngCart.removeItemById(item.getId())" class="glyphicon glyphicon-remove"></span></td>
                                     </tr>
                                     </tbody>
                                 </table>

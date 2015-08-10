@@ -18,7 +18,7 @@ title: 'Hello'
                     <span class="price">P[[ product.lowestPrice | number: 2 ]]</span>
                 </div>
             </a>
-            <ngcart-addtocart id="[[ $index + 1]]" name="[[ product.name ]]" price="[[ product.lowestPrice ]]" quantity="1" quantity-max="30" data="item"></ngcart-addtocart>
+            <ngcart-addtocart id="[[ $index + 1]]" name="[[ product.name ]]" price="[[ product.lowestPrice ]]" quantity="1" quantity-max="30" data="product.images"></ngcart-addtocart>
         </li>
     </ul>
 </div>

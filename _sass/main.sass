@@ -1,8 +1,63 @@
 .nav, .pagination, .carousel, .panel-title a
   cursor: pointer
 
+//.popover
+//  color: black
+  
+.popover.bottom .arrow
+  left: 90% !important
+
 .popover
   max-width: 500px
+  min-width: 500px
+  left: -230% !important
+  display: table !important
+  .table
+    color: black
+    font-family: LemonYellowSun, sans-serif
+    thead
+      th
+        width: 230px
+        vertical-align: middle
+        font-size: 25px
+        .price-button
+          float: right
+          -webkit-filter: invert(100%)
+          filter: invert(100%)
+          background-image: url(/images/box.png)
+          background-color: transparent
+          background-repeat: no-repeat
+          background-size: contain
+          border: 0
+          padding: 0px 15px 8px 15px
+          display: inline-block
+          span
+            color: black
+            -webkit-filter: invert(100%)
+            filter: invert(100%)
+
+    tfoot
+      td
+        font-size: 25px
+    td
+      vertical-align: middle
+      font-size: 20px
+      &.cross-item
+        text-align: center
+        font-size: 15px
+        color: grey
+      &.cart-summary-price
+        text-align: right
+      .alert
+        margin-bottom: 0
+        color: black
+        background-color: transparent
+        border-color: #cbcbcb
+    .image-container
+      padding: 0
+      img
+        margin: 10px
+        max-width: 100px
 
 #mock
   display: none
