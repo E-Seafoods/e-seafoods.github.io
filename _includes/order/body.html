@@ -2,18 +2,18 @@
     <div class="section-title">
         <span>REVIEW YOUR ORDER</span>
     </div>
-    <div class="col-md-8">
+    <div class="col-lg-8 col-md-8 col-sm-7">
         {% include order/address-info.html %}
     </div>
-    <div class="col-md-4">
+    <div class="col-lg-4 col-md-4 col-sm-5">
         {% include order/total-order.html %}
+        <a href="#">
+            <div class="proceed-button">
+                <span>Checkout Now</span>
+            </div>
+        </a>
     </div>
-    <div class="col-md-7">
+    <div class="col-lg-7 col-md-7 col-sm-12">
         {% include order/items-ordered.html %}
     </div>
-    <a href="#">
-        <div class="proceed-button">
-            <span>Checkout Now</span>
-        </div>
-    </a>
 </div>
