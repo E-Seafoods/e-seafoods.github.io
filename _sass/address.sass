@@ -1,7 +1,6 @@
 #address
   margin-top: -55px
   width: 100%
-  height: 100vh
   background: url("/images/addressbg.png")
   background-size: cover
   background-repeat: no-repeat
@@ -21,17 +20,61 @@
       font-size: 35px
       display: table
       height: 65px
-    .row
+    .address-section
+      .row
+        padding-top: 30px
+        padding-bottom: 30px
+        input
+          background-color: transparent
+          width: 100%
+          font-size: 23px
+          border-color: transparent transparent #CBCBCB
+          transition: all 500ms ease
+          outline: none
+          &:focus
+            border-color: transparent transparent #333
+    .contact-section
+      margin-top: 20px
+      margin-bottom: 20px
+      h3
+        margin: 50px 0 20px
+      .row
+        padding-top: 30px
+        padding-bottom: 30px
+        input
+          background-color: transparent
+          width: 100%
+          font-size: 23px
+          border-color: transparent transparent #CBCBCB
+          transition: all 500ms ease
+          outline: none
+          &:focus
+            border-color: transparent transparent #333
+    .specific-instruction
       margin-top: 20px
       margin-bottom: 20px
       input
         background-color: transparent
         width: 100%
         font-size: 23px
-        border-color: transparent transparent #ededed
+        border-color: transparent transparent #CBCBCB
         transition: all 500ms ease
         outline: none
         &:focus
           border-color: transparent transparent #333
+    .proceed-button
+      background-image: url(/images/cart-box.png)
+      background-color: transparent
+      background-repeat: no-repeat
+      background-size: 100% 100%
+      border: 0
+      padding: 4px 35px
+      font-size: 27px
+      display: inline-block
+      height: 55px
+      width: 17%
+      margin: 50px 0
+
+
 
 //[class*="col-"]
