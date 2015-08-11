@@ -132,10 +132,11 @@
         .product-image
           img
             height: 80px
-@media (max-width: 991px)
+@media (max-width: 991px) and (min-width: 768px)
   #order
     .items-ordered
-      width: 100vh 
+      max-width: 150%
+      min-width: 150%
 
 @media (max-width: 767px)
   #order
