@@ -150,17 +150,31 @@
         width: 100%
         text-align: center
         .order-product
-          padding-top: 30px
-          padding-bottom: 30px
+          padding-top: 5px
+          padding-bottom: 5px
+          height: auto
           .product-image
             padding: 15px 0
+            img
+              height: 120px
+              top: 0px
+              display: block
+              transform: none
           .product-title
-            li
-              padding: 8px 0
+            ul
+              top: 0
+              transform: none
+              li
+                padding: 8px 0 0
+                &:first-child
+                  font-size: 1.3em
           .product-picker
-            a
-              .product-close
-                top: -230px
+            .picker-container
+              padding: 15px 0
+              top: 0
+              transform: none
+            .product-close
+              top: -230px
 
         h2
           text-align: center
