@@ -11,13 +11,15 @@
                 <li>PHP{{ order.price }}/KILO</li>
             </ul>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 product-picker">
-            <a href="javascript:void(0)"><span class="glyphicon glyphicon-minus option-operator"/></a>
+        <div class="col-lg-4 col-md-4 col-sm-4 product-picker">
+            <a href="javascript:void(0)">
+                <span class="glyphicon glyphicon-minus option-operator"/></a>
                 <span class="option-quantity-value">{{ order.price }}/KILO</span>
-            <a href="javascript:void(0)"><span class="glyphicon glyphicon-plus option-operator"/></a>
-        </div>
-        <div class="col-lg-1 col-md-1 col-sm-1 product-close">
-            <span class="glyphicon glyphicon-remove"></span>
+            <a href="javascript:void(0)">
+                <span class="glyphicon glyphicon-plus option-operator"/></a>
+            <a href="javascript:void(0)">
+                <span class="glyphicon glyphicon-remove product-close"></span>
+            </a>
         </div>
     </div>
     {% endfor %}

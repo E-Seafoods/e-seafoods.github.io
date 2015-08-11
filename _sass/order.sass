@@ -72,6 +72,7 @@
     h2
       margin: 50px 0
     .order-product
+      margin: 0
       padding-top: 15px
       padding-bottom: 15px
       border-top: 1px solid #CBCBCB
@@ -88,15 +89,29 @@
         font-size: 1.5em
         a
           display: inline-block
+          font-size: 15px
           span
+            padding: 0 5px
             display: inline-block
+          .product-close
+            position: absolute
+            font-size: 14px
+            right: 0
     .total-amount-due
+      margin: 0
       span
         display: block
         text-align: right
         margin: 50px 0
         font-size: 2em
-        
+
+@media (max-width: 1200px)
+  #order
+    .items-ordered
+      .order-product
+        .product-image
+          img
+            height: 80px
 @media (max-width: 991px)
   #order
     .items-ordered
@@ -123,8 +138,11 @@
           .product-title
             li
               padding: 8px 0
-          .product-close
-            display: none
+          .product-picker
+            a
+              .product-close
+                top: -230px
+
         h2
           text-align: center
         .total-amount-due
