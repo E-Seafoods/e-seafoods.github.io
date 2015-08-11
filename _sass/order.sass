@@ -66,37 +66,56 @@
         height: 55px
         width: 100%
         padding: 5px 25px
-        margin: 10px 0 40px
+        margin: 10px 0 0
   .items-ordered
     margin-bottom: 50px
     h2
       margin: 50px 0
     .order-product
       margin: 0
-      padding-top: 15px
-      padding-bottom: 15px
+      height: 140px
       border-top: 1px solid #CBCBCB
       border-bottom: 1px solid #CBCBCB
       .product-image
+        height: inherit
         img
+          top: 50%
+          position: relative
+          transform: translateY(-50%)
           height: 110px
       .product-title
+        height: inherit
         font-size: 1.8em
         ul
+          top: 50%
+          position: relative
+          transform: translateY(-50%)
+          margin-bottom: 0
           padding-left: 0
           list-style: none
       .product-picker
-        font-size: 1.5em
-        a
-          display: inline-block
-          font-size: 15px
-          span
-            padding: 0 5px
+        height: inherit
+        font-size: 1.8em
+        .picker-container
+          top: 50%
+          position: relative
+          transform: translateY(-50%)
+          a
+            top: 25%
+            position: relative
+            transform: translateY(-25%)
             display: inline-block
-          .product-close
-            position: absolute
-            font-size: 14px
-            right: 0
+            font-size: 15px
+            span
+              padding: 0 5px
+              display: inline-block
+        .product-close
+          position: absolute
+          font-size: 15px
+          right: 0
+          top: 50%
+          transform: translateY(-50%)
+          
     .total-amount-due
       margin: 0
       span
