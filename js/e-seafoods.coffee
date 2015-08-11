@@ -17,6 +17,9 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
         return
     }
 ]
+.filter 'capitalize', ->
+  (input) ->
+    input.charAt(0).toUpperCase() + input.substr(1).toLowerCase()
 .controller 'StoreCtrl',
   ($scope, $http, $log, $cookies) ->
 
@@ -40,3 +43,32 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
 #        $log.debug "INIT MIXITUP"
         $('#products').mixItUp
           load: filter: 'all'
+
+.controller 'PickOptionsCtrl',
+  ($scope, $log) ->
+    $scope.data = {}
+    $scope.product =
+    $scope.data.selectedType
+    $scope.data.selectedSize
+    $scope.data.kg = 1
+
+    $scope.setProduct = (data) ->
+      $log.debug 'Initializing product data'
+      $scope.product = data
+
+    $scope.setSelectedType = (type) ->
+      $log.debug 'Initializing selected type'
+      $scope.data.selectedType = type
+
+    $scope.setSelectedSize = (size) ->
+      $log.debug 'Initializing selected size'
+      $log.debug size
+      $scope.data.selectedSize = size
+
+    $scope.calculateTotal = ->
+      $total = 0
+      if(!angular.isUndefined($scope.data.selectedSize))
+        $total = $scope.data.selectedSize.price * $scope.data.kg
+
+      return $total
+

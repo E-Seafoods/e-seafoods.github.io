@@ -1,25 +1,19 @@
 <!--Pick option-->
-<div id="product-option">
+<div id="product-option" ng-controller="PickOptionsCtrl">
+    <div data-ng-init='setProduct({{ page | jsonify }})'></div>
     <div class="row" id="picker-option">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
             <span class="option-title">Pick</span>
         </div>
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 option-fresh">
-                <input type="radio" checked value="1" id="radio1" name="option-pick">
-                <label class="radio circle" for="radio1">
-                    <span class="big">
-                        <span class="small"></span>
-                    </span>Fresh
-                </label>
-            </div>
-            <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7 option-live">
-                <input type="radio"  value="two" id="radio2" name="option-pick">
-                <label class="radio circle" for="radio2">
-                    <span class="big">
-                        <span class="small"></span>
-                    </span>Live
-                </label>
+            <div class="dropdown">
+                <a class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" dropdown-toggle>
+                    [[ data.selectedType.name || "Choose Type" | capitalize ]]
+                    <span class="glyphicon glyphicon-triangle-bottom"></span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a ng-click="setSelectedType(type)" ng-repeat="type in product.types">[[ type.name | capitalize]]</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -31,15 +25,12 @@
         </div>
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
             <div class="dropdown">
-                <a class="btn btn-default dropdown-toggle" type="button" id="option-size" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Choose Size
+                <a class="btn btn-default dropdown-toggle" type="button" id="option-size" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" dropdown-toggle>
+                    [[ data.selectedSize.size|| "Choose Size" | capitalize ]]
                     <span class="glyphicon glyphicon-triangle-bottom"></span>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="">Large</a></li>
-                    <li><a href="">Medium</a></li>
-                    <li><a href="">Small</a></li>
-
+                    <li><a ng-click="setSelectedSize(size)" ng-repeat="size in data.selectedType.sizes">[[ size.size | capitalize ]]</a></li>
                 </ul>
             </div>
         </div>
@@ -51,10 +42,10 @@
             <span class="option-title">Quantity</span>
         </div>
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
-            <a href="javascript:void(0)"><span class="glyphicon glyphicon-minus option-operator"/></a>
-            <span class="option-quantity-value">1000</span>
+            <a href="" id="option-quantity-minus"><span class="glyphicon glyphicon-minus option-operator"/></a>
+            <input ng-model="data.kg" id="option-quantity-value" class="option-quantity-value" type="number" min="1"/>
             <span class="option-quantity-unit">kg</span>
-            <a href="javascript:void(0)"><span class="glyphicon glyphicon-plus option-operator"/></a>
+            <a href="" id="option-quantity-plus"><span class="glyphicon glyphicon-plus option-operator"/></a>
         </div>
     </div>
 
@@ -64,7 +55,7 @@
             <span class="option-title">Price</span>
         </div>
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
-            <span class="product-price">₱ 400.00</span>
+            <span class="product-price">P [[ calculateTotal() | number: 2 ]]</span>
         </div>
     </div>
 </div>

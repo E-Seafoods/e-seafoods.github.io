@@ -348,7 +348,7 @@ angular.module('ngCart.directives', ['ngCart.fulfilment'])
                 data:'='
             },
             transclude: true,
-            templateUrl: 'template/ngCart/addtocart.html',
+            templateUrl: '/template/ngCart/addtocart.html',
             link:function(scope, element, attrs){
                 scope.attrs = attrs;
                 scope.inCart = function(){
@@ -376,7 +376,7 @@ angular.module('ngCart.directives', ['ngCart.fulfilment'])
             restrict : 'E',
             controller : 'CartController',
             scope: {},
-            templateUrl: 'template/ngCart/cart.html',
+            templateUrl: '/template/ngCart/cart.html',
             link:function(scope, element, attrs){
 
             }
@@ -389,7 +389,7 @@ angular.module('ngCart.directives', ['ngCart.fulfilment'])
             controller : 'CartController',
             scope: {},
             transclude: true,
-            templateUrl: 'template/ngCart/summary.html'
+            templateUrl: '/template/ngCart/summary.html'
         };
     }])
 
@@ -411,7 +411,7 @@ angular.module('ngCart.directives', ['ngCart.fulfilment'])
                 settings:'='
             },
             transclude: true,
-            templateUrl: 'template/ngCart/checkout.html'
+            templateUrl: '/template/ngCart/checkout.html'
         };
     }]);;
 angular.module('ngCart.fulfilment', [])

@@ -21,4 +21,8 @@ types:
      sizes:
      -  size: normal
         price: 288.00
+   - name: live
+     sizes:
+     -  size: small
+        price: 2818.00
 ---

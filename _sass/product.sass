@@ -84,17 +84,30 @@
               font-size: 18px
         #quantity-option
           padding: 10px 0 20px
+          input::-webkit-outer-spin-button,
+          input::-webkit-inner-spin-button
+            -webkit-appearance: none
+            margin: 0
           .option-title
             font-size: 1.5em
           .option-operator
             font-size: 15px
             color: #333
           .option-quantity-value
-            padding: 0 2% 0 5%
+            background-color: transparent
+            border: 0
+            width: 100px
+            text-align: center
+            //margin: 0
+            //padding: 0 2% 0 5%
             font-size: 20px
           .option-quantity-unit
             padding: 0 5% 0 2%
             font-size: 20px
+          //.ui-spinner
+          //  background-color: transparent
+          //  a.ui-spinner-button
+          //    display: none
         #product-price
           padding: 10px 0 20px
           .option-title

@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <title>e-seafoods - {{ page.title }}</title>
-    <link rel="stylesheet" href="{{ page.css }}">
+    <link rel="stylesheet" href="/css/product.css">
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <script src="/js/underscore-min.js"></script>
     <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
@@ -19,7 +19,7 @@
     <script src="/bower_components/ngcart/dist/ngCart.js"></script>
     <script src="//cdn.jsdelivr.net/angularjs/1.4.2/angular-sanitize.min.js" data-semver="1.4.2"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.tpl.min.js"></script
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.1.2/angular-strap.tpl.min.js"></script>
 
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
@@ -38,7 +38,8 @@
 <div id="mock"></div>
 
 {% include navbar.html %}
-{{ content }}
+{% include store/promotion.html %}
+{% include product/body.html %}
 {% include footer.html %}
 </body>
 </html>
