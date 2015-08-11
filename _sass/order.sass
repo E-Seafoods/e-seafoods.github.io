@@ -1,0 +1,193 @@
+#order
+  margin-top: -55px
+  width: 100%
+  background: url("/images/addressbg.png")
+  background-size: cover
+  background-repeat: no-repeat
+  .container
+    font-family: LemonYellowSun, sans-serif
+    .section-title
+      background-position: bottom
+      float: none
+      margin: 160px auto 0
+      background-image: url("/images/title-line.png")
+      background-color: transparent
+      background-repeat: no-repeat
+      background-size: 50%
+      border: 0
+      padding: 0 5px
+      font-size: 35px
+      display: table
+      height: 65px
+    .address-section
+      padding: 30px 0 50px
+      span
+        font-size: 24px
+        margin-top: 20px
+        margin-bottom: 10px
+        padding-left: 30px
+    .total-container
+      margin: 30px 0
+      border: 1px solid #CBCBCB
+      padding: 10px 20px
+      .subtotal-due
+        span
+          display: block
+          font-size: 20px
+          margin: 15px 0 10px
+          text-align: right
+      .delivery-fee
+        border-bottom: 1px solid #CBCBCB
+        span
+          display: block
+          font-size: 20px
+          margin: 15px 0 10px
+          text-align: right
+      .total-due
+        span
+          display: block
+          font-size: 25px
+          margin: 15px 0 10px
+          text-align: right
+    a
+      display: table
+      float: none
+      margin: 0 auto
+      color: #333
+      .proceed-button
+        text-align: center
+        background-image: url(/images/cart-box.png)
+        background-color: transparent
+        background-repeat: no-repeat
+        background-size: 100% 100%
+        border: 0
+        font-size: 26px
+        display: inline-block
+        height: 55px
+        width: 100%
+        padding: 5px 25px
+        margin: 10px 0 0
+  .items-ordered
+    margin-bottom: 50px
+    h2
+      margin: 50px 0
+    .order-product
+      margin: 0
+      height: 140px
+      border-top: 1px solid #CBCBCB
+      border-bottom: 1px solid #CBCBCB
+      .product-image
+        height: inherit
+        img
+          top: 50%
+          position: relative
+          transform: translateY(-50%)
+          height: 110px
+      .product-title
+        height: inherit
+        font-size: 1.8em
+        ul
+          top: 50%
+          position: relative
+          transform: translateY(-50%)
+          margin-bottom: 0
+          padding-left: 0
+          list-style: none
+      .product-picker
+        height: inherit
+        font-size: 1.8em
+        .picker-container
+          top: 50%
+          position: relative
+          transform: translateY(-50%)
+          a
+            top: 25%
+            position: relative
+            transform: translateY(-25%)
+            display: inline-block
+            font-size: 15px
+            span
+              padding: 0 5px
+              display: inline-block
+        .product-close
+          position: absolute
+          font-size: 15px
+          right: 0
+          top: 50%
+          transform: translateY(-50%)
+          
+    .total-amount-due
+      margin: 0
+      span
+        display: block
+        text-align: right
+        margin: 50px 0
+        font-size: 2em
+
+@media (max-width: 1200px)
+  #order
+    .items-ordered
+      .order-product
+        height: 120px
+        .product-image
+          img
+            height: 80px
+@media (max-width: 991px) and (min-width: 768px)
+  #order
+    .items-ordered
+      max-width: 150%
+      min-width: 150%
+
+@media (max-width: 767px)
+  #order
+    background-position: top center
+    .container
+      .section-title
+        margin-top: 200px
+      .address-section
+        text-align: center
+        span
+          padding: 0px !important
+      .proceed-container
+        padding-bottom: 130px
+      .items-ordered
+        width: 100%
+        text-align: center
+        .order-product
+          padding-top: 5px
+          padding-bottom: 5px
+          height: auto
+          .product-image
+            padding: 15px 0
+            img
+              height: 120px
+              top: 0px
+              display: block
+              transform: none
+          .product-title
+            ul
+              top: 0
+              transform: none
+              li
+                padding: 8px 0 0
+                &:first-child
+                  font-size: 1.3em
+          .product-picker
+            .picker-container
+              padding: 15px 0
+              top: 0
+              transform: none
+            .product-close
+              top: -230px
+
+        h2
+          text-align: center
+        .total-amount-due
+          h2
+            text-align: left
+
+
+
+          
+
+
