@@ -1,0 +1,38 @@
+<div class="items-ordered">
+    <h2>Items You've Ordered</h2>
+    {% for order in site.data.dummy %}
+    <div class="row order-product">
+        <div class="col-lg-4 col-md-4 col-sm-4 product-image">
+            <img class="center-block" src="{{ order.img }}"/>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 product-title">
+            <ul>
+                <li>{{ order.name }}</li>
+                <li>PHP{{ order.price }}/KILO</li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 product-picker">
+            <div class="picker-container">
+                <a href="javascript:void(0)">
+                    <span class="glyphicon glyphicon-minus option-operator"/>
+                </a>
+                <span class="option-quantity-value">{{ order.price }}/KILO</span>
+                <a href="javascript:void(0)">
+                    <span class="glyphicon glyphicon-plus option-operator"/>
+                </a>
+            </div>
+            <a href="javascript:void(0)">
+                <span class="glyphicon glyphicon-remove product-close"></span>
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+    <div class="row total-amount-due">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+        <h2>Subtotal</h2>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <span>₱400.00</span>
+        </div>
+    </div>
+</div>
