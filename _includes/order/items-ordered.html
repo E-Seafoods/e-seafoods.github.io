@@ -1,14 +1,13 @@
-<div class="items-ordered">
+<div ng-controller="CartController" ng-show="ngCart.getTotalItems() > 0" class="items-ordered">
     <h2>Items You've Ordered</h2>
-    {% for order in site.data.dummy %}
-    <div class="row order-product">
+    <div class="row order-product" ng-repeat="item in ngCart.getCart().items track by $index">
         <div class="col-lg-4 col-md-4 col-sm-4 product-image">
-            <img class="center-block" src="{{ order.img }}"/>
+            <img class="center-block" ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ item.getData()[0] ]]"/>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 product-title">
             <ul>
-                <li>{{ order.name }}</li>
-                <li>PHP{{ order.price }}/KILO</li>
+                <li>[[ item.getName() ]]</li>
+                <li>[[ item.getPrice() | currency:"P " ]]/KILO</li>
             </ul>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 product-picker">
@@ -16,17 +15,16 @@
                 <a href="javascript:void(0)">
                     <span class="glyphicon glyphicon-minus option-operator"/>
                 </a>
-                <span class="option-quantity-value">{{ order.price }}/KILO</span>
+                <span class="option-quantity-value">[[ item.getPrice() | currency:"P " ]]/KILO</span>
                 <a href="javascript:void(0)">
                     <span class="glyphicon glyphicon-plus option-operator"/>
                 </a>
             </div>
-            <a href="javascript:void(0)">
+            <a ng-click="ngCart.removeItemById(item.getId())">
                 <span class="glyphicon glyphicon-remove product-close"></span>
             </a>
         </div>
     </div>
-    {% endfor %}
     <div class="row total-amount-due">
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
         <h2>Subtotal</h2>
