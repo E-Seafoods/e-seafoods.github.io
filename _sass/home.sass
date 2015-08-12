@@ -62,7 +62,6 @@ header
           .arrow-icon
             font-size: 30px
             position: absolute
-            top: 110%
             animation: arrow-animation 1.5s infinite
       img
         width: 700px
@@ -177,8 +176,8 @@ ul#products
 
 @keyframes arrow-animation
   0%
-    top: 110%
+    transform: translate(0, 75px)
   50%
-    top: 140%
+    transform: translate(0, 90px)
   100%
-    top: 110%
+    transform: translate(0, 75px)
