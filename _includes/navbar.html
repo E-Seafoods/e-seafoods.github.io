@@ -48,7 +48,7 @@
                                         <td></td>
                                         <td></td>
                                         <td></td>
-                                        <td>[[ ngCart.totalCost() | currency ]]</td>
+                                        <td>[[ ngCart.totalCost() | currency:"P " ]]</td>
                                     </tr>
                                     </tfoot>
                                     <tbody>
@@ -67,7 +67,7 @@
                                         </td>
                                         <td>[[ item.getName() ]]</td>
                                         <td class="cart-summary-quantity">[[ item.getQuantity() | number ]] KG</td>
-                                        <td class="cart-summary-price">[[ item.getTotal() | currency ]]</td>
+                                        <td class="cart-summary-price">[[ item.getTotal() | currency:"P " ]]</td>
                                         <td class="cross-item"><span ng-click="ngCart.removeItemById(item.getId())" class="glyphicon glyphicon-remove"></span></td>
                                     </tr>
                                     </tbody>
