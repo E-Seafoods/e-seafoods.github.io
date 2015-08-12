@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: squid-loligo
 name: Squid Loligo
 categories:

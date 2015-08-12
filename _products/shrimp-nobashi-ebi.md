@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: shrimp-nobashi-ebi
 name: Shrimp Nobashi Ebi
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: crabsticks-regular
 name: Crabsticks Regular
 categories:

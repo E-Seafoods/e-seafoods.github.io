@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: tuna-tail
 name: Tuna Tail
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: hake
 name: Hake
 categories:

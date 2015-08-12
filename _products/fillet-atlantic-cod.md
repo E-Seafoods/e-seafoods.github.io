@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: fillet-atlantic-cod
 name: Fillet Atlantic Cod
 categories:

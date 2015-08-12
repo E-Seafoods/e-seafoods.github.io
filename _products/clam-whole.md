@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: clam-whole
 name: Clam Whole
 categories:

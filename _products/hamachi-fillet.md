@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: hamachi-fillet
 name: Hamachi Fillet
 categories:

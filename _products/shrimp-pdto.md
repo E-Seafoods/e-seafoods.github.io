@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: shrimp-pdto
 name: Shrimp PDTO
 categories:

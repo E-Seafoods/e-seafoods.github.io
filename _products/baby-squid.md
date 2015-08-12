@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: baby-squid
 name: Baby Squid
 categories:
@@ -14,8 +14,12 @@ description: >
    It is an alternative for squid rings and excellent for chipirones.
 measure: kg
 types:
-   - name: fresh
+   - name: live
      sizes:
      -  size: normal
         price: 2900.00
+   - name: fresh
+     sizes:
+     -  size: small
+        price: 1900.00
 ---

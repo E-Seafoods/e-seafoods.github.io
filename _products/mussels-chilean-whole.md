@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: mussels-chilean-whole
 name: Mussels Chilean Whole
 categories:

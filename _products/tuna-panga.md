@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: tuna-panga
 name: Tuna Panga
 categories:

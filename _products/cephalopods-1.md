@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: cephalopods-1
 name: Octopus
 categories:

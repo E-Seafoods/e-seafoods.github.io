@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: snowcrab-surimi
 name: Snowcrab Surimi
 categories:

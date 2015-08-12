@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: squid-giant-fillet
 name: Squid Giant Fillet
 categories:

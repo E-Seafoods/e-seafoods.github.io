@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: crab-softshell
 name: Crab Softshell
 categories:

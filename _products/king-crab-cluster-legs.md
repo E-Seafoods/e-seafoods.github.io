@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: king-crab-cluster-legs
 name: King Crab Cluster Legs
 categories:

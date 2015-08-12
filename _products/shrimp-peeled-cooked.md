@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: shrimp-peeled-cooked
 name: Shrimp Peeled & Cooked
 categories:

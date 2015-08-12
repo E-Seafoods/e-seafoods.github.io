@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: salmon-smoked-fillet-pre-sliced
 name: Salmon Smoked Fillet Pre-sliced
 categories:

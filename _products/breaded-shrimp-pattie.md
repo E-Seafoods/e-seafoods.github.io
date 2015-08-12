@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: breaded-shrimp-pattie
 name: Breaded Shrimp Pattie
 categories:

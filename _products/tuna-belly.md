@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: tuna-belly
 name: Tuna Belly
 categories:

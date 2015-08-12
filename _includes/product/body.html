@@ -2,15 +2,13 @@
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 product-image">
             <div class="image-container">
-                <img class="center-block img-responsive" ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://www.midafood.com/Data/Images/Fillets_album/1024x1024/54acdeb3a71f8242.jpg" src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://www.midafood.com/Data/Images/Fillets_album/1024x1024/54acdeb3a71f8242.jpg">
+                <img class="center-block img-responsive" ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/{{ page.images[0] }}" src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://www.midafood.com/Data/Images/Fillets_album/1024x1024/54acdeb3a71f8242.jpg">
             </div>
         </div>
         <div class="col-lg-7 col-md-7 product-description">
             <div class="description-container">
-                <h2>Crab Softshell</h2>
-                <p>
-                    Crab Softshells are harvested just after they have molted and before the new carapace hardens. These are commonly served at Japanese restaurants as Spider sushi. They can also be served deep fried, battered, breaded or just simply sautéed.
-                </p>
+                <h2>{{ page.name }}</h2>
+                <p>{{ page.description }}</p>
                 {% include product/pickOption.html %}
                 {% include product/contact.html %}
             </div>

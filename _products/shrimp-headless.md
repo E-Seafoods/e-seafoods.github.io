@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: shrimp-headless
 name: Shrimp Headless
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: salmon-atlantic-whole-gutted
 name: Salmon Atlantic Whole Gutted
 categories:
