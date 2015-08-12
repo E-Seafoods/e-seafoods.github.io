@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="col-lg-7 col-md-7 product-description">
-            <div class="description-container">
+            <div class="description-container" ng-controller="PickOptionsCtrl">
                 <h2>{{ page.name }}</h2>
                 <p>{{ page.description }}</p>
                 {% include product/pickOption.html %}
