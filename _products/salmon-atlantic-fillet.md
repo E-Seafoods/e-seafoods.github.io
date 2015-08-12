@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: salmon-atlantic-fillet
 name: Salmon Atlantic Fillet
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: scallop-meat-local
 name: Scallop Meat Local
 categories:

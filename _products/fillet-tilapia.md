@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: fillet-tilapia
 name: Fillet Tilapia
 categories:

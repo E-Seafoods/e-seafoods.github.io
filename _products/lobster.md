@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: lobster
 name: Lobster
 categories:

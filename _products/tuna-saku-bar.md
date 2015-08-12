@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: tuna-saku-bar
 name: Tuna Saku Bar
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: fillet-barramundi
 name: Fillet Barramundi
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: squid-rings
 name: Squid Rings
 categories:

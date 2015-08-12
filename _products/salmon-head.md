@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: salmon-head
 name: Salmon Head
 categories:

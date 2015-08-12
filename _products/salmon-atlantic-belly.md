@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: salmon-atlantic-belly
 name: Salmon Atlantic Belly
 categories:

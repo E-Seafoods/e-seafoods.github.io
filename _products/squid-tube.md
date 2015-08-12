@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: squid-tube
 name: Squid Tube
 categories:

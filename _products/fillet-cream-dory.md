@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: fillet-cream-dory
 name: Fillet Cream Dory
 categories:

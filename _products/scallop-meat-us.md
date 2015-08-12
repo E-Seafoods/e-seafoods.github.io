@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: scallop-meat-us
 name: Scallop Meat US
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: barramundi
 name: Barramundi
 categories:

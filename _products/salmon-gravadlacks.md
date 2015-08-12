@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: salmon-gravadlacks
 name: Salmon Gravadlacks
 categories:

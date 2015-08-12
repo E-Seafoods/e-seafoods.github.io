@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: tuna-steak
 name: Tuna Steak
 categories:

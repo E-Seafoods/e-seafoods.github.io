@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: shrimp-peeled
 name: Shrimp Peeled
 categories:

@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: crabsticks-shredded
 name: Crabsticks Shredded 
 categories:

@@ -52,7 +52,7 @@ new URL(url).withReader (ENCODING) { reader ->
 File file = new File('out/'+data.slug+'.md')
 file.write ('---')
 file << '\n'
-file << 'layout: demo' << '\n'
+file << 'layout: product' << '\n'
 
 data.findAll{ it.key != 'description' }.each{ key, value ->
     if (value instanceof String) {

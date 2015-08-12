@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: snow-crab-cluster-legs
 name: Snow Crab Cluster Legs
 categories:

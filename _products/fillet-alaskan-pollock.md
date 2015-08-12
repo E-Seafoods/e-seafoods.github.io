@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: fillet-alaskan-pollock
 name: Fillet Alaskan Pollock
 categories:

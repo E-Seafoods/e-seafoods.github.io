@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: bacalao-loins
 name: Bacalao Loins
 categories:

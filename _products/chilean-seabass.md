@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: chilean-seabass
 name: Chilean Seabass
 categories:

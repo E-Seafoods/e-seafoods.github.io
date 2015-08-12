@@ -1,5 +1,5 @@
 ---
-layout: demo
+layout: product
 slug: mussels-halfshell
 name: Mussels Halfshell
 categories:
