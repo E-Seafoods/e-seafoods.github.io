@@ -175,43 +175,7 @@ footer
 
         &.gplus
           background-position: -101px 0
-@media (min-width: 1367px)
-  footer
-    background-size: 100vw
 
-@media (max-width: 1366px)
-  footer
-    background-size: auto 66px
-
-@media (max-width: 991px)
-  .navbar.navbar-fixed-top
-    .container
-      padding: 0 5px 0 5px
-
-@media (max-width: 768px)
-  .navbar.navbar-fixed-top
-    .container
-      padding: 0 15px 0 15px
-
-
-
-@media (max-width: 570px)
-  footer
-    .container
-      .copyright
-        text-align: center
-        position: relative !important
-        transform: none
-        top: 0
-        left: 0
-      #social-media-buttons
-        position: relative !important
-        transform: none
-        top: 0
-        right: 0
-        float: none
-        display: table
-        margin: 0 auto
 
 
 .navbar
@@ -259,19 +223,44 @@ footer
         width: 100%
         .navbar-brand
           margin-left: 90px
+        .navbar-collapse
+          border-bottom: 1px solid #282428
+          text-align: center
+          float: none !important
+        .navbar-right
+          margin-right: 90px
+
+  footer
+    background-size: 100vw
+
+@media (max-width: 1366px)
+  footer
+    background-size: auto 66px
 
 @media (max-width: 991px)
-  .navbar.navbar-fixed-top .navbar-collapse
-    border-bottom: 1px solid #282428
-    text-align: center
-    float: none !important
+  .navbar.navbar-fixed-top
+    .container
+      padding: 0 5px 0 5px
 
-@media (max-width 570px)
-  #footer
-    padding: 0
+@media (max-width: 768px)
+  .navbar.navbar-fixed-top
+    .container
+      padding: 0 15px 0 15px
+
+@media (max-width: 570px)
+  footer
     .container
       .copyright
         text-align: center
+        position: relative !important
+        transform: none
+        top: 0
+        left: 0
+      #social-media-buttons
+        position: relative !important
+        transform: none
+        top: 0
+        right: 0
         float: none
-      .social-media-buttons
-        float: none
+        display: table
+        margin: 0 auto
