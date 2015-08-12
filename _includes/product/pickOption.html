@@ -1,5 +1,5 @@
 <!--Pick option-->
-<div id="product-option" ng-controller="PickOptionsCtrl">
+<div id="product-option">
     <div data-ng-init='setProduct({{ page | jsonify }})'></div>
     <div class="row" id="picker-option">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
@@ -26,7 +26,7 @@
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
             <div class="dropdown">
                 <a class="btn btn-default dropdown-toggle" type="button" id="option-size" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" dropdown-toggle>
-                    [[ data.selectedSize.size|| "Choose Size" | capitalize ]]
+                    [[ data.selectedSize.size || "Choose Size" | capitalize ]]
                     <span class="glyphicon glyphicon-triangle-bottom"></span>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -43,7 +43,7 @@
         </div>
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
             <a href="" id="option-quantity-minus"><span class="glyphicon glyphicon-minus option-operator"/></a>
-            <input ng-model="data.kg" id="option-quantity-value" class="option-quantity-value" type="number" min="1"/>
+            <input name="quantity" id="option-quantity-value" ng-model="data.kg" class="option-quantity-value" type="number" min="1"/>
             <span class="option-quantity-unit">kg</span>
             <a href="" id="option-quantity-plus"><span class="glyphicon glyphicon-plus option-operator"/></a>
         </div>
