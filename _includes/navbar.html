@@ -62,6 +62,9 @@
                                     <tr ng-repeat="item in ngCart.getCart().items track by $index">
                                         <td>
                                             <div class="image-container">
+                                                <div class="picker-banner-container">
+                                                    <span>" LIVE "</span>
+                                                </div>
                                                 <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ item.getData()[0] ]]"/>
                                             </div>
                                         </td>
