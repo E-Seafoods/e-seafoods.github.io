@@ -15,8 +15,6 @@ description: >
 measure: kg
 types:
    - name: fresh
-categories:
-   - crustacean
      sizes:
      -  size: normal
         price: 4186.00

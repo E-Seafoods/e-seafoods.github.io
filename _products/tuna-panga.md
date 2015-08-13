@@ -14,8 +14,6 @@ description: >
 measure: kg
 types:
    - name: fresh
-categories:
-   - fish
      sizes:
      -  size: normal
         price: 2694.00

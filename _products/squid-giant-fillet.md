@@ -14,8 +14,6 @@ description: >
 measure: kg
 types:
    - name: fresh
-categories:
-   - cephalopod
      sizes:
      -  size: normal
         price: 3524.00
