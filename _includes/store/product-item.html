@@ -1,0 +1,11 @@
+<ul id="products" class="clearfix">
+    <li post-render class="mix col-lg-3 col-md-3 col-sm-4 col-xs-6  [[ product.categories | joinBy: ' ' ]]" ng-repeat="product in products | orderBy: ['categories[0]', 'name'] | filter: searchText">
+        <a ng-href="[[ product.url ]]">
+            <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ product.images[0] ]]"/>
+            <div class="name">[[ product.name ]]</div>
+            <div class="price-button">
+                <span class="price">P[[ product.lowestPrice | number: 2 ]]</span>
+            </div>
+        </a>
+    </li>
+</ul>
