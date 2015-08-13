@@ -1,5 +1,4 @@
 ---
-sku: 2
 layout: product
 slug: bacalao-loins
 name: Bacalao Loins

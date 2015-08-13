@@ -1,5 +1,4 @@
 ---
-sku: 1
 layout: product
 slug: baby-squid
 name: Baby Squid
@@ -17,10 +16,12 @@ measure: kg
 types:
    - name: live
      sizes:
-     -  size: normal
+     -  sku: 1
+        size: normal
         price: 2900.00
    - name: fresh
      sizes:
-     -  size: small
+     -  sku: 2
+        size: small
         price: 1900.00
 ---
