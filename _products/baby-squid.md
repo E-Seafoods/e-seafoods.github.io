@@ -1,4 +1,5 @@
 ---
+sku: 1
 layout: product
 slug: baby-squid
 name: Baby Squid
