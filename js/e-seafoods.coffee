@@ -6,7 +6,7 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
 .filter 'joinBy', ->
   (input, delimiter) ->
     (input or []).join delimiter or ','
-.directive 'postRender', [
+.directive 'mixItUpAfterRender', [
   '$timeout'
   ($timeout) ->
     {
@@ -17,9 +17,21 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
         return
     }
 ]
+.directive 'relatedProducts', [
+  '$timeout'
+  ($timeout) ->
+    {
+    restrict: 'A'
+    link: (scope, element, attrs) ->
+      esf.autoPlaySlider.play()
+      esf.autoPlaySlider.refresh()
+      return
+    }
+]
 .filter 'capitalize', ->
   (input) ->
     input.charAt(0).toUpperCase() + input.substr(1).toLowerCase()
+
 .controller 'StoreCtrl',
   ($scope, $http, $log, $cookies) ->
 
@@ -30,7 +42,7 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
     $scope.refreshMixItUp = ->
       $('#products').mixItUp('filter', 'all')
 
-    $http.get('api/products.json').success (data) ->
+    $http.get('/api/products.json').success (data) ->
       $scope.products = data
       for product in $scope.products
         product.lowestPrice = _.min(_.map(product.types, (type) ->
@@ -71,4 +83,3 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
         $total = $scope.data.selectedSize.price * $scope.data.kg
 
       return $total
-
