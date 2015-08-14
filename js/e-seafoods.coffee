@@ -82,3 +82,8 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
       $log.debug 'Successfully save to localstorage'
       localStorage.setItem("billingAddress", angular.toJson(billing));
       window.location.href = '/checkout/order'
+
+.controller 'DeliveryDateCtrl',
+  ($scope, $log) ->
+    $scope.deliveryDate = new Date()
+    $scope.deliveryDate.setDate($scope.deliveryDate.getDate() + 1)
