@@ -21,11 +21,24 @@
       display: table
       height: 65px
     .edit-shipping-info
-      position: absolute
-      top: 20px
-      right: 0
+      a
+        display: inline-block
+        color: #333
+        .edit-button
+          text-align: center
+          background-image: url(/images/cart-box.png)
+          background-color: transparent
+          background-repeat: no-repeat
+          background-size: 100% 100%
+          border: 0
+          font-size: 26px
+          display: inline-block
+          height: 55px
+          width: 100%
+          padding: 5px 25px
+          margin: 10px 0 0
     .address-section
-      padding: 30px 0 50px
+      padding: 0 0 50px
       span
         font-size: 24px
         margin-top: 20px
@@ -54,24 +67,25 @@
           font-size: 25px
           margin: 15px 0 10px
           text-align: right
-    a
-      display: table
-      float: none
-      margin: 0 auto
-      color: #333
-      .proceed-button
-        text-align: center
-        background-image: url(/images/cart-box.png)
-        background-color: transparent
-        background-repeat: no-repeat
-        background-size: 100% 100%
-        border: 0
-        font-size: 26px
-        display: inline-block
-        height: 55px
-        width: 100%
-        padding: 5px 25px
-        margin: 10px 0 0
+    .proceed-container
+      a
+        display: table
+        float: none
+        margin: 0 auto
+        color: #333
+        .proceed-button
+          text-align: center
+          background-image: url(/images/cart-box.png)
+          background-color: transparent
+          background-repeat: no-repeat
+          background-size: 100% 100%
+          border: 0
+          font-size: 26px
+          display: inline-block
+          height: 55px
+          width: 100%
+          padding: 5px 25px
+          margin: 10px 0 0
   .items-ordered
     margin-bottom: 50px
     h2
@@ -190,9 +204,6 @@
         .total-amount-due
           h2
             text-align: left
-      .edit-shipping-info
-        position: relative
-
 
 
           
