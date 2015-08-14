@@ -73,3 +73,26 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
         $total = $scope.data.selectedSize.price * $scope.data.kg
 
       return $total
+
+.controller 'AddressCtrl',
+  ($scope, $log) ->
+    $scope.saveBillingAddress = (details) ->
+      localStorage.setItem("billingAddress", angular.toJson(details));
+
+#    $scope.setBillingAddress = (street, postal, company, buildingName, blockNumber, floor, unit, firstName, lastName, emailAddress, contactNumber, specialInstructions) ->
+#      $log.debug firstName
+#      $scope.billingAddress = []
+#      $scope.billingAddress.push(street)
+#      $scope.billingAddress.push(postal)
+#      $scope.billingAddress.push(company)
+#      $scope.billingAddress.push(street)
+#      $scope.billingAddress.push(street)
+#      $scope.billingAddress.push(street)
+#      $scope.billingAddress.push(street)
+#      $scope.billingAddress.push(street)
+#      $scope.billingAddress.push(street)
+#      $scope.billingAddress.push(street)
+#      $scope.billingAddress.push(street)
+#      $scope.billingAddress.push(street)
+#
+

@@ -1,4 +1,4 @@
 Cart
-<span class="cart-items">({{ ngCart.getTotalItems() }}
-    <ng-pluralize count="ngCart.getTotalItems()" when="{1: 'kilo', 'other':'kilos'}"></ng-pluralize>)
+<span class="cart-items">({{ ngCart.getTotalUniqueItems() }}
+    <ng-pluralize count="ngCart.getTotalUniqueItems()" when="{1: 'item', 'other':'items'}"></ng-pluralize>)
 </span>

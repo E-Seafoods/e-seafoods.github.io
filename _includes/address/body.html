@@ -1,11 +1,12 @@
-<div class="container">
+<div class="container" ng-controller="AddressCtrl">
    <div class="section-title">
        <span>Select Address</span>
    </div>
     {% include address/address-details.html %}
     {% include address/contact-details.html %}
     {% include address/specific-instruction.html %}
-    <a href="#">
+    <pre>form = [[contact | json]]</pre>
+    <a ng-click="saveBillingAddress(contact)">
         <div class="proceed-button">
             <span>CONTINUE</span>
         </div>
