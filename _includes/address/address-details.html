@@ -1,28 +1,26 @@
 <div class="address-section">
-    <h2>DELIVERY ADDRESS</h2>
+    <h2>Shipping Address</h2>
     <div class="row">
-        <div class="col-lg-9 col-md-9 col-sm-7">
-            <input ng-model="billing.street" placeholder="STREET" required>
+        <div class="col-lg-6 col-md-6 col-sm-6 billing-info">
+            <input ng-model="billing.street" placeholder="First Name" required>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-5">
-            <input ng-model="billing.postal" placeholder="POSTAL CODE" required>
+        <div class="col-lg-6 col-md-6 col-sm-6 billing-info">
+            <input ng-model="billing.postal" placeholder="Last Name" required>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-4">
-            <input ng-model="billing.company" placeholder="COMPANY NAME(OPTIONAL)" required>
+        <div class="col-lg-12 col-md-12 col-sm-12 billing-info">
+            <input ng-model="billing.postal" placeholder="Address" required>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-2">
-            <input ng-model="billing.buildingName" placeholder="BUILDING NAME" required>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 billing-info">
+            <input ng-model="billing.company" placeholder="City" required>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2">
-            <input ng-model="billing.blockNumber" placeholder="BLOCK/HOUSE NO" required>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 billing-info">
+            <input ng-model="billing.company" placeholder="Provice" required>
         </div>
-        <div class="col-lg-1 col-md-1 col-sm-2">
-            <input ng-model="billing.floor" placeholder="FLOOR" required>
-        </div>
-        <div class="col-lg-1 col-md-1 col-sm-2">
-            <input ng-model="billing.unit" placeholder="UNIT" required>
+
+        <div class="col-lg-6 col-md-6 col-sm-6 billing-info">
+            <input ng-model="billing.company" placeholder="Postal Code" required>
         </div>
     </div>
 </div>
