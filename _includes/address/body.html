@@ -2,13 +2,12 @@
    <div class="section-title">
        <span>Select Address</span>
    </div>
-    {% include address/address-details.html %}
-    {% include address/contact-details.html %}
-    {% include address/specific-instruction.html %}
-    <pre>form = [[contact | json]]</pre>
-    <a ng-click="saveBillingAddress(contact)">
-        <div class="proceed-button">
+    <form ng-submit="saveBillingAddress(billing)" name="form">
+        {% include address/address-details.html %}
+        {% include address/contact-details.html %}
+        {% include address/specific-instruction.html %}
+        <button class="proceed-button">
             <span>CONTINUE</span>
-        </div>
-    </a>
+        </button>
+    </form>
 </div>
