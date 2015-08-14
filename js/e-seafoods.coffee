@@ -78,7 +78,7 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
   ($scope, $log) ->
     $scope.billing = angular.fromJson(localStorage.getItem("billingAddress"))
 
-    $scope.saveBillingAddress = (details) ->
+    $scope.saveBillingAddress = (billing) ->
       $log.debug 'Successfully save to localstorage'
-      localStorage.setItem("billingAddress", angular.toJson(details));
+      localStorage.setItem("billingAddress", angular.toJson(billing));
       window.location.href = '/checkout/order'
