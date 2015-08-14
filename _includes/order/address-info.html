@@ -1,23 +1,41 @@
+<div class="edit-shipping-info">
+    <a href="#">
+        <div class="proceed-button">
+            <span>Edit Info</span>
+        </div>
+    </a>
+</div>
 <div class="address-section">
     <!-- use for loop :)-->
     <div class="result-container">
-        <h2 class="result-header">Address</h2>
+        <h2 class="result-header">Shipping Address</h2>
         <span class="result-header">
-            UPH-G, Sen. Gil Puyat, Makati City, Philippines
+            Rens Daniel M. Ramos
         </span>
-    </div>
-
-    <div class="result-container" ng-controller="DeliveryDateCtrl">
-        <h2 class="result-header">Earliest Delivery Date</h2>
+        <br/>
         <span class="result-header">
-            [[ deliveryDate | date: 'longDate' ]]
+            Unit 1121, Dela Rosa Condominium, Pio Del Pilar, Makati City 8790
         </span>
     </div>
 
     <div class="result-container">
-        <h2 class="result-header">Payment</h2>
+        <h2 class="result-header">Contact Information</h2>
         <span class="result-header">
-            Paypal
+            0933-295-2361
+        </span>
+        <br/>
+         <span class="result-header">
+            rens.ramos@crux.design
+        </span>
+        <br/>
+         <span class="result-header">
+            Bring bulalo.
+        </span>
+    </div>
+    <div class="result-container" ng-controller="DeliveryDateCtrl">
+        <h2 class="result-header">Delivery Date</h2>
+        <span class="result-header">
+            [[ deliveryDate | date: 'longDate' ]]
         </span>
     </div>
 </div>
