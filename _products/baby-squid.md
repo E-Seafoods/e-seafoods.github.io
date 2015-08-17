@@ -17,11 +17,14 @@ types:
    - name: live
      sizes:
      -  sku: 1
+        size: small
+        price: 1900.00
+     -  sku: 3
         size: normal
         price: 2900.00
    - name: fresh
      sizes:
      -  sku: 2
         size: small
-        price: 1900.00
+        price: 3900.00
 ---

@@ -48,11 +48,7 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
 
 .controller 'PickOptionsCtrl',
   ($scope, $log) ->
-    $scope.data = {}
-    $scope.product =
-    $scope.data.selectedType
-    $scope.data.selectedSize
-    $scope.data.kg = 1
+    $scope.product = []
 
     $scope.setProduct = (data) ->
       $log.debug 'Initializing product data'
@@ -60,19 +56,21 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
 
     $scope.setSelectedType = (type) ->
       $log.debug 'Initializing selected type'
-      $scope.data.selectedType = type
+      $scope.product.selectedType = type
 
     $scope.setSelectedSize = (size) ->
       $log.debug 'Initializing selected size'
-      $log.debug size
-      $scope.data.selectedSize = size
+      $scope.product.selectedSize = size
 
     $scope.calculateTotal = ->
       $total = 0
-      if(!angular.isUndefined($scope.data.selectedSize))
-        $total = $scope.data.selectedSize.price * $scope.data.kg
+      if(!angular.isUndefined($scope.product.selectedSize))
+        $total = $scope.product.selectedSize.price * $scope.product.kg
 
       return $total
+
+    $scope.$watchCollection '[product.selectedType, product.selectedSize]', (newValue, oldValue) ->
+      $scope.cartData = angular.copy($scope.product)
 
 .controller 'AddressCtrl',
   ($scope, $log) ->

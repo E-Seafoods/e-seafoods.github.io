@@ -63,9 +63,9 @@
                                         <td>
                                             <div class="image-container">
                                                 <div class="picker-banner-container">
-                                                    <span>" LIVE "</span>
+                                                    <span>" [[ item.getData().selectedType.name ]] / [[ item.getData().selectedSize.size ]] "</span>
                                                 </div>
-                                                <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ item.getData()[0] ]]"/>
+                                                <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ item.getData().images[0] ]]"/>
                                             </div>
                                         </td>
                                         <td>[[ item.getName() ]]</td>
