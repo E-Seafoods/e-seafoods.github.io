@@ -17,9 +17,9 @@ $(document).ready(function(){
         stickyMenu();
     });
 
-    /*-------------------------------------------------------------------*/
-    /*  3. Page scrolling feature, requires jQuery Easing plugin.
-     /*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/*  3. Page scrolling feature, requires jQuery Easing plugin.
+ /*-------------------------------------------------------------------*/
     var pageScroll = function(){
         $('.page-scroll a').bind('click', function(e){
             e.preventDefault();
