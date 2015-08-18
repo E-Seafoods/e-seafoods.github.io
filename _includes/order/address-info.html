@@ -1,25 +1,31 @@
-<div class="address-section">
+<div class="address-section" ng-controller="AddressCtrl">
     <h2 class="section-header">Shipping Information</h2>
     <a href="/checkout/address/" class="change-button">Change Details</a>
     <div class="result-container">
         <h2 class="result-header">Customer Information</h2>
         <span class="result-header">
-            Rens Daniel M. Ramos
+            [[ shipping.firstName ]] [[ shipping.lastName ]]
         </span>
         <br/>
         <span class="result-header">
-            Unit 1121, Dela Rosa Condominium, Pio Del Pilar, Makati City 8790
+            [[ shipping.address ]] <br>
+        </span>
+        <span class="result-header">
+            [[ shipping.province ]] <br>
+        </span>
+        <span class="result-header">
+            [[ shipping.city ]] [[ shipping.postal ]]
         </span>
     </div>
 
     <div class="result-container">
         <h2 class="result-header">Contact Information</h2>
         <span class="result-header">
-            0933-295-2361
+            [[ shipping.cellphoneNumber ]]
         </span>
         <br/>
          <span class="result-header">
-            rens.ramos@crux.design
+            [[ shipping.emailAddress ]]
         </span>
         <br/>
     </div>
@@ -27,7 +33,7 @@
     <div class="result-container">
         <h2 class="result-header">Specific Instruction</h2>
         <span class="result-header">
-           Bring Bulalo.
+            [[ shipping.specialInstructions || "None" ]]
         </span>
     </div>
     <div class="result-container" ng-controller="DeliveryDateCtrl">
