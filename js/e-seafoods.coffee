@@ -6,20 +6,32 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
 .filter 'joinBy', ->
   (input, delimiter) ->
     (input or []).join delimiter or ','
-.directive 'mixItUpAfterRender', [
-  '$timeout'
-  ($timeout) ->
-    {
-      restrict: 'A'
-      link: (scope, element, attrs) ->
-        $timeout scope.refreshMixItUp, 0
-        #Calling a scoped method
-        return
-    }
-]
+
 .filter 'capitalize', ->
   (input) ->
     input.charAt(0).toUpperCase() + input.substr(1).toLowerCase()
+
+.directive 'mixItUpAfterRender', ($log) ->
+  (scope, element, attrs) ->
+    scope.$watch '$last', (v) ->
+      if v
+        console.log(v)
+        $("#products").mixItUp
+          callbacks:
+            onMixLoad: ->
+              $log.debug "MixItUp ready!"
+            onMixFail: ->
+              $log.debug "No elements found matching"
+
+          load:
+            filter: "all"
+
+.directive 'imageSliderAfterRender', ($log) ->
+  (scope, element, attrs) ->
+    scope.$watch '$last', (v) ->
+      if v
+        $log.debug "Initializing image slider"
+        esf.imageSlider()
 
 .controller 'StoreCtrl',
   ($scope, $http, $log, $cookies) ->
@@ -27,9 +39,6 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
     SPLASH_COOKIE_NAME = '_splash'
     $scope.splashed = $cookies.get(SPLASH_COOKIE_NAME)
     $cookies.put(SPLASH_COOKIE_NAME, new Date().getTime())
-
-    $scope.refreshMixItUp = ->
-      $('#products').mixItUp('filter', 'all')
 
     $http.get('/api/products.json').success (data) ->
       $scope.products = data
@@ -41,10 +50,7 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
         ))
 #        $log.debug product
       $ ->
-#        $log.debug "INIT MIXITUP"
-        $('#products').mixItUp
-          load: filter: 'all'
-        esf.imageSlider()
+#        success here
 
 .controller 'PickOptionsCtrl',
   ($scope, $log) ->
