@@ -1,24 +1,28 @@
 <div class="items-ordered">
     <h2>Items You've Ordered</h2>
     <div class="row order-product" ng-show="ngCart.getTotalItems() > 0" ng-repeat="item in ngCart.getCart().items track by $index">
-        <div class="col-lg-4 col-md-4 col-sm-4 product-image">
+        <div class="col-lg-3 col-md-3 col-sm-4 product-image">
             <img class="center-block" ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ item.getData().images[0] ]]"/>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 product-title">
+        <div class="col-lg-3 col-md-3 col-sm-4 product-title">
             <ul>
                 <li>[[ item.getName() ]]</li>
                 <li>[[ item.getPrice() | currency:"P " ]]/KILO</li>
             </ul>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 product-picker">
+
+        <div class="col-lg-3 col-md-3 col-sm-3 product-picker" ng-init="product.kg = 1">
             <div class="picker-container">
-                <a href="javascript:void(0)">
-                    <span class="glyphicon glyphicon-minus option-operator"/>
-                </a>
+                <a href="" id="option-quantity-minus"><span class="glyphicon glyphicon-minus option-operator"/></a>
+                <input name="quantity" disabled id="option-quantity-value" ng-model="product.kg" class="option-quantity-value" type="number" min="1"/>
+                <span class="option-quantity-unit">kg</span>
+                <a href="" id="option-quantity-plus"><span class="glyphicon glyphicon-plus option-operator"/></a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-4 product-total">
+            <div class="picker-container">
                 <span class="option-quantity-value">[[ item.getPrice() | currency:"P " ]]/KILO</span>
-                <a href="javascript:void(0)">
-                    <span class="glyphicon glyphicon-plus option-operator"/>
-                </a>
             </div>
             <a ng-click="ngCart.removeItemById(item.getId())">
                 <span class="glyphicon glyphicon-remove product-close"></span>
