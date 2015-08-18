@@ -2,7 +2,7 @@
     <h2>Items You've Ordered</h2>
     <div class="row order-product" ng-show="ngCart.getTotalItems() > 0" ng-repeat="item in ngCart.getCart().items track by $index">
         <div class="col-lg-4 col-md-4 col-sm-4 product-image">
-            <img class="center-block" ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ item.getData()[0] ]]"/>
+            <img class="center-block" ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ item.getData().images[0] ]]"/>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 product-title">
             <ul>
