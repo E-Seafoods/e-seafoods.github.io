@@ -98,15 +98,14 @@
       border-bottom: 1px solid #CBCBCB
       .product-image
         height: inherit
-        top: 50%
-        position: relative
-        transform: translateY(-50%)
         .picker-banner-container
           top: 80px
           position: absolute
           width: 118px
           height: 25px
           background-color: #41b4e3
+          z-index: 5
+          left: 11px
           span
             float: none
             display: table
@@ -118,6 +117,10 @@
             font-size: 18px
         img
           height: 110px
+          top: 50%
+          position: relative
+          transform: translateY(-50%)
+          z-index: 1
       .product-title
         height: inherit
         font-size: 1.8em
@@ -182,16 +185,26 @@
 @media (max-width: 1200px)
   #order
     .items-ordered
-      .order-product
-        height: 120px
-        .product-image
-          img
-            height: 80px
-@media (max-width: 991px) and (min-width: 768px)
-  #order
-    .items-ordered
       max-width: 150%
       min-width: 150%
+      .order-product
+        height: 120px
+
+@media (max-width: 991px) and (min-width: 768px)
+  #order
+    .container
+      width: 100%
+    .items-ordered
+      .order-product
+        .product-title
+          font-size: 1.5em
+        .product-picker
+          .picker-container
+            input
+              font-size: 1.5em
+              width: 50%
+        .product-total
+          font-size: 1.5em
 
 @media (max-width: 767px)
   #order
@@ -206,7 +219,8 @@
       .proceed-container
         padding-bottom: 130px
       .items-ordered
-        width: 100%
+        max-width: 100%
+        min-width: 100%
         text-align: center
         .order-product
           padding-top: 5px
@@ -214,10 +228,16 @@
           height: auto
           .product-image
             padding: 15px 0
+            .picker-banner-container
+              top: 90px
+              width: 150px
+              right: 0
+              left: 0
+              margin-left: auto
+              margin-right: auto
             img
               height: 120px
               top: 0px
-              display: block
               transform: none
           .product-title
             ul
@@ -232,8 +252,16 @@
               padding: 15px 0
               top: 0
               transform: none
+              input
+                width: 100px
+          .product-total
+            .picker-container
+              padding: 15px 0
+              top: 0
+              transform: none
+
             .product-close
-              top: -230px
+              top: -290px
 
         h2
           text-align: center

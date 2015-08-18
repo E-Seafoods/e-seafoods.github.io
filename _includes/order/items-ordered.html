@@ -1,13 +1,14 @@
 <div class="items-ordered">
     <h2>Items You've Ordered</h2>
     <div class="row order-product" ng-show="ngCart.getTotalItems() > 0" ng-repeat="item in ngCart.getCart().items track by $index">
-        <div class="col-lg-3 col-md-3 col-sm-4 product-image">
+        <div class="col-lg-3 col-md-3 col-sm-3 product-image">
             <div class="picker-banner-container">
                 <span>" [[ item.getData().selectedType.name ]] / [[ item.getData().selectedSize.size ]] "</span>
             </div>
             <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ item.getData().images[0] ]]"/>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-4 product-title">
+
+        <div class="col-lg-3 col-md-3 col-sm-3 product-title">
             <ul>
                 <li>[[ item.getName() ]]</li>
                 <li>[[ item.getPrice() | currency:"P " ]]/KILO</li>
@@ -23,7 +24,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 col-md-3 col-sm-4 product-total">
+        <div class="col-lg-3 col-md-3 col-sm-3 product-total">
             <div class="picker-container">
                 <span class="option-quantity-value">[[ item.getTotal() | currency:"P " ]]/KILO</span>
             </div>
