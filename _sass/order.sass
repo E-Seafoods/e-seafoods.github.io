@@ -91,16 +91,32 @@
     h2
       margin: 50px 0
     .order-product
+      position: relative
       margin: 0
       height: 140px
       border-top: 1px solid #CBCBCB
       border-bottom: 1px solid #CBCBCB
       .product-image
         height: inherit
+        top: 50%
+        position: relative
+        transform: translateY(-50%)
+        .picker-banner-container
+          top: 80px
+          position: absolute
+          width: 118px
+          height: 25px
+          background-color: #41b4e3
+          span
+            float: none
+            display: table
+            margin: 0 auto
+            position: relative
+            top: 40%
+            transform: translateY(-50%)
+            color: white
+            font-size: 18px
         img
-          top: 50%
-          position: relative
-          transform: translateY(-50%)
           height: 110px
       .product-title
         height: inherit
