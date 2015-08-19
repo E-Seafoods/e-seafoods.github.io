@@ -6,7 +6,7 @@
         <div class="container-fluid full-width collapse navbar-collapse" id="navbar-category-collapse">
             <ul class="category-nav">
                 {% for category in site.data.categories %}
-                <li class="col-sm-2 filter" data-filter=".{{ category.slug }}" href="#">
+                <li class="col-lg-2 col-md-2 col-sm-6 col-xs-6 filter" data-filter=".{{ category.slug }}" href="#">
                     <span>{{ category.name }}</span>
                 </li>
                 {% endfor %}
