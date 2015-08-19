@@ -18,7 +18,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 product-picker" ng-init="product.kg = 1">
             <div class="picker-container">
                 <a ng-click="item.setQuantity(-1, true)" href="" id="option-quantity-minus"><span class="glyphicon glyphicon-minus option-operator"/></a>
-                <input  disabled name="quantity" id="option-quantity-value" ng-model="product.kg" class="option-quantity-value" type="number" min="1"/>
+                <input  disabled name="quantity" id="option-quantity-value" ng-model="item.getQuantity()" class="option-quantity-value" type="number" min="1"/>
                 <span class="option-quantity-unit">kg</span>
                 <a ng-click="item.setQuantity(1, true)" href="" id="option-quantity-plus"><span class="glyphicon glyphicon-plus option-operator"/></a>
             </div>
