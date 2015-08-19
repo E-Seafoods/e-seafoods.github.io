@@ -9,7 +9,7 @@ $(document).ready(function(){
     };
 
     stickyMenu();
-    $("#category-nav-container").sticky({topSpacing:50});
+    $(".category-nav-container").sticky({topSpacing:50});
 
     // Call pageScroll() and stickyMenu() when window is resized.
     $(window).smartresize(function(){
