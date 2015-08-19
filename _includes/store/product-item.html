@@ -1,5 +1,5 @@
 <ul id="products" class="clearfix">
-    <li mix-it-up-after-render class="mix col-lg-3 col-md-3 col-sm-4 col-xs-6  [[ product.categories | joinBy: ' ' ]]" ng-repeat="product in products | orderBy: ['categories[0]', 'name'] | filter: searchText">
+    <li mix-it-up-after-render class="mix col-lg-3 col-md-3 col-sm-4 col-xs-6  [[ product.categories | joinBy: ' ' ]]" ng-repeat="product in products | orderBy: ['categories[0]', 'name']">
         <a ng-href="[[ product.url ]]">
             <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_250,h_250,c_fill,r_max,f_auto/[[ product.images[0] ]]"/>
             <div class="name">[[ product.name ]]</div>
