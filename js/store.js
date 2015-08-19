@@ -14,7 +14,7 @@ $(document).ready(function(){
     // Call pageScroll() and stickyMenu() when window is resized.
     $(window).smartresize(function(){
         pageScroll();
-        stickyMenu();
+        //stickyMenu();
     });
 
 /*-------------------------------------------------------------------*/

@@ -33,6 +33,16 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
         $log.debug "Initializing image slider"
         esf.imageSlider()
 
+.directive 'ngConfirmClick', [ ->
+  { link: (scope, element, attr) ->
+    msg = attr.ngConfirmClick or 'Are you sure?'
+    clickAction = attr.confirmedClick
+    element.bind 'click', (event) ->
+      if window.confirm(msg)
+        scope.$apply clickAction
+  }
+]
+
 .controller 'StoreCtrl',
   ($scope, $http, $log, $cookies) ->
 
