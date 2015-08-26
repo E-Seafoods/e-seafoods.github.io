@@ -101,3 +101,56 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
   ($scope, $log) ->
     $scope.deliveryDate = new Date()
     $scope.deliveryDate.setDate($scope.deliveryDate.getDate() + 1)
+
+.controller 'CheckoutCtrl',
+  ($scope, $log) ->
+    $scope.checkout = (cart, shippingPrice) ->
+      $log.debug cart
+
+      data =
+        cmd: '_cart'
+        business: 'raaballe-facilitator@yahoo.com'
+        upload: '1'
+        rm: '2'
+        charset: 'utf-8'
+        currency_code: 'PHP'
+        return: 'http://localhost:4000/'
+        cancel_return: 'http://localhost:4000/cancel'
+
+      # item data
+      i = 0
+      while i < cart.length
+        item = cart[i]
+        ctr = i + 1
+        data['item_number_' + ctr] = item._id
+        data['item_name_' + ctr] = item._name
+        data['quantity_' + ctr] = item._quantity
+        data['amount_' + ctr] = item._price.toFixed(2)
+        data['shipping_' + ctr] = shippingPrice / cart.length
+        data['on0_' + ctr] = 'test'
+        i++
+
+      # build form
+      form = $('<form/></form>')
+      form.attr 'action', 'https://www.sandbox.paypal.com/cgi-bin/webscr'
+      form.attr 'method', 'POST'
+      form.attr 'style', 'display:none;'
+      $scope.addFormFields form, data
+#      @addFormFields form, parms.options
+      $('body').append form
+
+      # submit form
+#      @clearCart = clearCart == null or clearCart
+      form.submit()
+      form.remove()
+      return
+
+    $scope.addFormFields = (form, data) ->
+      if data != null
+        $.each data, (name, value) ->
+          if value != null
+            input = $('<input></input>').attr('type', 'hidden').attr('name', name).val(value)
+            form.append input
+          return
+    return
+

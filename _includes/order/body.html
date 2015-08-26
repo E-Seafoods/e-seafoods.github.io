@@ -8,8 +8,8 @@
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
         {% include order/total-order.html %}
-        <div class="proceed-container">
-            <a href="#">
+        <div class="proceed-container" ng-controller="CheckoutCtrl">
+            <a ng-click="checkout(ngCart.getCart().items, ngCart.getShipping())">
                 <div class="proceed-button">
                     <span>Checkout Now</span>
                 </div>
