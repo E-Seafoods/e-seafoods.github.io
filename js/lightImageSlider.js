@@ -6,7 +6,7 @@ esf.imageSlider = function() {
 esf.productImageSlider = function(){
     var $autoPlaySlider = esf.autoPlaySlider;
     autoPlaySlider = $('.product-img-slider').lightSlider({
-        item: 1,
+        item: 4,
         controls: true,
         speed: 2000,
         pause: 6000,
@@ -15,9 +15,15 @@ esf.productImageSlider = function(){
         enableDrag:false,
         responsive : [
             {
-                breakpoint:991,
+                breakpoint:1366,
                 settings: {
                     item:3,
+                    enableDrag:true
+                }
+            },
+            {
+                breakpoint:991,
+                settings: {
                     enableDrag:true
                 }
             },
