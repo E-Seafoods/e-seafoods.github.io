@@ -1,6 +1,6 @@
-<!--Pick option-->
 <div id="product-option">
     <div data-ng-init='setProduct({{ page | jsonify }}); setSelectedType(product.types[0]); setSelectedSize(product.selectedType.sizes[0])'></div>
+    <!--Pick option-->
     <div class="row" id="picker-option">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
             <span class="option-title">Pick</span>
@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <!--Choose option-->
+    <!--Size option-->
     <div class="row" id="size-option">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
             <span class="option-title">Size</span>
@@ -36,7 +36,17 @@
         </div>
     </div>
 
-<!--Quantity option-->
+    <!--Approximation-->
+    <div class="row" id="approximation">
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+            <span class="option-title">Approximation</span>
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+            <span class="approximate">[[ product.selectedSize.approx ]]</span>
+        </div>
+    </div>
+
+    <!--Quantity option-->
     <div class="row" id="quantity-option">
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
             <span class="option-title">Quantity</span>
