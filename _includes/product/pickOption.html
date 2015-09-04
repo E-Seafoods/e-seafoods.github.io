@@ -41,11 +41,11 @@
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
             <span class="option-title">Quantity</span>
         </div>
-        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" ng-init="product.kg = 1">
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7" ng-init="product.quantity = 1">
             <div class="picker-container">
                 <a href="" id="option-quantity-minus"><span class="glyphicon glyphicon-minus option-operator"/></a>
-                <input name="quantity" id="option-quantity-value" ng-model="product.kg" class="option-quantity-value" type="number" min="1"/>
-                <span class="option-quantity-unit">kg</span>
+                <input name="quantity" id="option-quantity-value" ng-model="product.quantity" class="option-quantity-value" type="number" min="1"/>
+                <span class="option-quantity-unit">[[ product.measure ]]</span>
                 <a href="" id="option-quantity-plus"><span class="glyphicon glyphicon-plus option-operator"/></a>
             </div>
         </div>

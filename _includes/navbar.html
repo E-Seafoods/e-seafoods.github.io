@@ -23,7 +23,7 @@
                 <li><a href="#">Best Sellers</a></li>
                 <li><a href="/">Our Products</a></li>
                 <li>
-                    <a id="cart-button" data-content-template="cart-summary.html" placement="bottom" html="true" bs-popover>
+                    <a id="cart-button" data-content-template="cart-summary.html" placement="bottom" html="true" data-auto-close="true" bs-popover>
                         <ngcart-summary></ngcart-summary>
                     </a>
                     <script type="text/ng-template" id="cart-summary.html" ng-controller="CartController">
@@ -69,7 +69,7 @@
                                             </div>
                                         </td>
                                         <td>[[ item.getName() ]]</td>
-                                        <td class="cart-summary-quantity">[[ item.getQuantity() | number ]] KG</td>
+                                        <td class="cart-summary-quantity">[[ item.getQuantity() | number ]] [[ item.getData().measure ]]</td>
                                         <td class="cart-summary-price">[[ item.getTotal() | currency:"P " ]]</td>
                                         <td class="cross-item"><span ng-click="ngCart.removeItemById(item.getId())" class="glyphicon glyphicon-remove"></span></td>
                                     </tr>
