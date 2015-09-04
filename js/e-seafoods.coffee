@@ -139,11 +139,12 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
         item = cart[i]
         ctr = i + 1
         data['item_number_' + ctr] = item._id
-        data['item_name_' + ctr] = item._name + " / " + item._data.selectedType.name + " / " + item._data.selectedSize.size
+        data['item_name_' + ctr] = item._name + " / " + item._data.selectedType.name
+        data['on0_' + ctr] = "Size"
+        data['os0_' + ctr] = item._data.selectedSize.size
         data['quantity_' + ctr] = item._quantity
         data['amount_' + ctr] = item._price.toFixed(2)
         data['shipping_' + ctr] = shippingPrice / cart.length
-#        data['on0_' + ctr] = 'test'
         i++
 
       # build form
