@@ -68,6 +68,10 @@ data.findAll().groupBy { it.PRODUCT }.each { product ->
     productMap.categories.each { category ->
         file << "   - \"$category\"\n"
     }
+    file << "images:\n"
+    productMap.images.each { image ->
+        file << "   - \"$image\"\n"
+    }
     file << "description: >\n"
     file << "   $productMap.description\n"
     file << "measure: \"$productMap.measure\"\n"
