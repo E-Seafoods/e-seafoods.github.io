@@ -103,12 +103,16 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
     $scope.deliveryDate.setDate($scope.deliveryDate.getDate() + 1)
 
 .controller 'CheckoutCtrl',
-  ($scope, $log) ->
+  ($scope, $controller, $log) ->
+    angular.extend this, $controller('AddressCtrl', $scope: $scope)
     $scope.checkout = (cart, shippingPrice) ->
       $log.debug cart
+      $log.debug $scope.shipping
+      $log.debug $scope.shipping.emailAddress
 
       data =
         cmd: '_cart'
+#        business: 'sales@e-seafoods.com'
         business: 'raaballe-facilitator@yahoo.com'
         upload: '1'
         rm: '2'
@@ -116,6 +120,18 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
         currency_code: 'PHP'
         return: 'http://localhost:4000/'
         cancel_return: 'http://localhost:4000/cancel'
+#        address_override: 1
+        email: $scope.shipping.emailAddress
+        first_name: $scope.shipping.firstName
+        last_name: $scope.shipping.lastName
+        address1: $scope.shipping.address
+        city: $scope.shipping.city
+        state: $scope.shipping.province
+        zip: $scope.shipping.postal
+        country: "PH"
+        no_note: 0
+
+      $log.debug data
 
       # item data
       i = 0
