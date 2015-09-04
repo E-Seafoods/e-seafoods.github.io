@@ -16,4 +16,5 @@ types:
      - sku: 31
        size: "Regular"
        price: 400
+       approx: "500 g"
 ---

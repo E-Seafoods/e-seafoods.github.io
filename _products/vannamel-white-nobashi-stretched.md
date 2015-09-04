@@ -15,7 +15,9 @@ types:
      - sku: 12
        size: "Regular"
        price: 200
+       approx: "41-50 pcs"
      - sku: 13
        size: "Large"
        price: 300
+       approx: "26-30 pcs"
 ---

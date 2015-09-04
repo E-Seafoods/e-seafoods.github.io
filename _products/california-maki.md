@@ -16,4 +16,5 @@ types:
      - sku: 67
        size: "Regular"
        price: 150
+       approx: "3 - 5 person"
 ---

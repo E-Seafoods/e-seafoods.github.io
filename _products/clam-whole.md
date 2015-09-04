@@ -15,9 +15,11 @@ types:
      - sku: 14
        size: "Regular"
        price: 200
+       approx: "60-80 pcs"
    - name: "Frozen"
      sizes: 
      - sku: 34
        size: "Regular"
        price: 225
+       approx: "500 g"
 ---

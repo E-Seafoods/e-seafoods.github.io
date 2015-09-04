@@ -16,10 +16,13 @@ types:
      - sku: 99
        size: "Small"
        price: 200
+       approx: "4 pc."
      - sku: 100
        size: "Regular"
        price: 300
+       approx: "8 pc."
      - sku: 101
        size: "Large"
        price: 400
+       approx: "12 pc."
 ---

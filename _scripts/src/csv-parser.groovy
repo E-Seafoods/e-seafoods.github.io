@@ -45,11 +45,12 @@ data.findAll().groupBy { it.PRODUCT }.each { product ->
         item.value.findAll().groupBy {it.TYPE}.each { types ->
             List sizeList = new ArrayList();
 
-            types.value.each { type ->
+            types.value.each { size ->
                 def map = [
-                        sku: type.SKU_ID,
-                        size: type.SIZE,
-                        price: type.PRICE_PER_UNIT
+                        sku: size.SKU_ID,
+                        size: size.SIZE,
+                        price: size.PRICE_PER_UNIT,
+                        approx: size.APPROXIMATION
                 ]
                 sizeList.add(map)
             }
@@ -83,6 +84,7 @@ data.findAll().groupBy { it.PRODUCT }.each { product ->
             file << "     - sku: $size.sku\n"
             file << "       size: \"$size.size\"\n"
             file << "       price: $size.price\n"
+            file << "       approx: \"$size.approx\"\n"
         }
     }
 

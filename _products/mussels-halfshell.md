@@ -15,4 +15,5 @@ types:
      - sku: 15
        size: "Regular"
        price: 200
+       approx: "30-45 pcs"
 ---
