@@ -1,18 +1,19 @@
 ---
 layout: "product"
-slug: "mussels-halfshell"
-name: "Mussels Halfshell"
+slug: "halibut-fillet"
+name: "Halibut Fillet"
 categories:
-   - "Mollusk"
+   - "Fish"
+   - "Value Added"
 images:
    - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
 description: >
    lorem
 measure: "pack"
 types: 
-   - name: "Fresh"
+   - name: "Frozen"
      sizes: 
-     - sku: 15
+     - sku: 39
        size: "Regular"
-       price: 200
+       price: 380
 ---

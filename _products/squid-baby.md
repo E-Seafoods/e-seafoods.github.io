@@ -1,18 +1,18 @@
 ---
 layout: "product"
-slug: "mussels-halfshell"
-name: "Mussels Halfshell"
+slug: "squid-baby"
+name: "Squid Baby"
 categories:
-   - "Mollusk"
+   - "Cephalopods"
 images:
    - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
 description: >
    lorem
 measure: "pack"
 types: 
-   - name: "Fresh"
+   - name: "Frozen"
      sizes: 
-     - sku: 15
+     - sku: 28
        size: "Regular"
-       price: 200
+       price: 100
 ---

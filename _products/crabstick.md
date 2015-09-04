@@ -1,18 +1,22 @@
 ---
 layout: "product"
-slug: "mussels-halfshell"
-name: "Mussels Halfshell"
+slug: "crabstick"
+name: "Crabstick"
 categories:
-   - "Mollusk"
+   - "Crustaceans"
+   - "Value Added"
 images:
    - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
 description: >
    lorem
 measure: "pack"
 types: 
-   - name: "Fresh"
+   - name: "Frozen"
      sizes: 
-     - sku: 15
+     - sku: 30
        size: "Regular"
-       price: 200
+       price: 265
+     - sku: 36
+       size: "Regular"
+       price: 160
 ---

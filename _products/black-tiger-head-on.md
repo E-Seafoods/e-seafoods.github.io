@@ -1,23 +1,29 @@
 ---
 layout: "product"
-slug: "clam-whole"
-name: "Clam Whole"
+slug: "black-tiger-head-on"
+name: "Black Tiger - Head On"
 categories:
-   - "Mollusk"
+   - "Crustaceans"
 images:
    - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
 description: >
    lorem
 measure: "pack"
 types: 
-   - name: "Fresh"
-     sizes: 
-     - sku: 14
-       size: "Regular"
-       price: 200
    - name: "Frozen"
      sizes: 
-     - sku: 34
+     - sku: 1
        size: "Regular"
-       price: 225
+       price: 200
+     - sku: 2
+       size: "Large"
+       price: 300
+   - name: "Live"
+     sizes: 
+     - sku: 3
+       size: "Regular"
+       price: 400
+     - sku: 4
+       size: "Large"
+       price: 500
 ---

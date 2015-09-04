@@ -1,9 +1,9 @@
 ---
 layout: "product"
-slug: "mussels-halfshell"
-name: "Mussels Halfshell"
+slug: "vannamel-white-nobashi-stretched"
+name: "Vannamel White - Nobashi (Stretched)"
 categories:
-   - "Mollusk"
+   - "Crustaceans"
 images:
    - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
 description: >
@@ -12,7 +12,10 @@ measure: "pack"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 15
+     - sku: 12
        size: "Regular"
        price: 200
+     - sku: 13
+       size: "Large"
+       price: 300
 ---

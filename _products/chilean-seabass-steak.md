@@ -1,18 +1,19 @@
 ---
 layout: "product"
-slug: "mussels-halfshell"
-name: "Mussels Halfshell"
+slug: "chilean-seabass-steak"
+name: "Chilean Seabass Steak"
 categories:
-   - "Mollusk"
+   - "Fish"
+   - "Value Added"
 images:
    - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
 description: >
    lorem
 measure: "pack"
 types: 
-   - name: "Fresh"
+   - name: "Frozen"
      sizes: 
-     - sku: 15
+     - sku: 33
        size: "Regular"
        price: 200
 ---

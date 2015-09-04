@@ -1,7 +1,7 @@
 ---
 layout: "product"
-slug: "mussels-halfshell"
-name: "Mussels Halfshell"
+slug: "mussels-whole"
+name: "Mussels Whole"
 categories:
    - "Mollusk"
 images:
@@ -12,7 +12,7 @@ measure: "pack"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 15
+     - sku: 16
        size: "Regular"
        price: 200
 ---

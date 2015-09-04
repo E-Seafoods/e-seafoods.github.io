@@ -1,21 +1,18 @@
 ---
-layout: product
-slug: squid-loligo
-name: Squid Loligo
+layout: "product"
+slug: "squid-loligo"
+name: "Squid Loligo"
 categories:
-   - cephalopod
-specie: Loligo sp
-form: Whole Round 
+   - "Cephalopods"
 images:
-    - http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec217854e5a294.jpg
+   - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
 description: >
-   Squid offer a mild and somewhat sweet flavour.
-   The meat is tender and succulent.
-   Frozen tubes should be ivory-white in colour and have no distinct odor.
-measure: kg
-types:
-   - name: fresh
-     sizes:
-     -  size: normal
-        price: 1734.00
+   lorem
+measure: "pack"
+types: 
+   - name: "Frozen"
+     sizes: 
+     - sku: 27
+       size: "Regular"
+       price: 100
 ---

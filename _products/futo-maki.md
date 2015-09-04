@@ -1,9 +1,10 @@
 ---
 layout: "product"
-slug: "mussels-halfshell"
-name: "Mussels Halfshell"
+slug: "futo-maki"
+name: "Futo Maki"
 categories:
-   - "Mollusk"
+   - "Fish"
+   - "Value Added"
 images:
    - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
 description: >
@@ -12,7 +13,7 @@ measure: "pack"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 15
+     - sku: 73
        size: "Regular"
-       price: 200
+       price: 150
 ---

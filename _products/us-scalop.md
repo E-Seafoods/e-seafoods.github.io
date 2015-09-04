@@ -1,7 +1,7 @@
 ---
 layout: "product"
-slug: "mussels-halfshell"
-name: "Mussels Halfshell"
+slug: "us-scalop"
+name: "U.S. Scalop"
 categories:
    - "Mollusk"
 images:
@@ -12,7 +12,13 @@ measure: "pack"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 15
+     - sku: 17
+       size: "Small"
+       price: 100
+     - sku: 18
        size: "Regular"
        price: 200
+     - sku: 19
+       size: "Large"
+       price: 300
 ---
