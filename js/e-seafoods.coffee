@@ -81,7 +81,7 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
     $scope.calculateTotal = ->
       $total = 0
       if(!angular.isUndefined($scope.product.selectedSize))
-        $total = $scope.product.selectedSize.price * $scope.product.kg
+        $total = $scope.product.selectedSize.price * $scope.product.quantity
 
       return $total
 
@@ -153,11 +153,9 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
       form.attr 'method', 'POST'
       form.attr 'style', 'display:none;'
       $scope.addFormFields form, data
-#      @addFormFields form, parms.options
       $('body').append form
 
       # submit form
-#      @clearCart = clearCart == null or clearCart
       form.submit()
       form.remove()
       return
