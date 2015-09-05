@@ -5,9 +5,9 @@ name: "Squid Tubes"
 categories:
    - "Cephalopods"
 images:
-   - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
+   - "http://placehold.it/400x400/000/fff"
 description: >
-   lorem
+   Squid tubes can be used as is, or cut into rings or strips. Squid can then be marinated, or crumbed and cooked by deep frying, pan frying, baking or grilling.
 measure: "pack"
 types: 
    - name: "Frozen"

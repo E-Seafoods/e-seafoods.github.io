@@ -5,9 +5,9 @@ name: "Squid Loligo"
 categories:
    - "Cephalopods"
 images:
-   - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
+   - "http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec217854e5a294.jpg"
 description: >
-   lorem
+   Squid offer a mild and somewhat sweet flavour. The meat is tender and succulent. Frozen tubes should be ivory-white in colour and have no distinct odor.
 measure: "pack"
 types: 
    - name: "Frozen"

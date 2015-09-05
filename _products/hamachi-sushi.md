@@ -6,7 +6,7 @@ categories:
    - "Fish"
    - "Value Added"
 images:
-   - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
+   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/hamachi-sushi.jpg"
 description: >
    lorem
 measure: "pack"

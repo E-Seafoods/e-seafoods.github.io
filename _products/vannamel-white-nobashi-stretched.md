@@ -5,9 +5,9 @@ name: "Vannamel White - Nobashi (Stretched)"
 categories:
    - "Crustaceans"
 images:
-   - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
+   - "http://midafood.com/Data/Images/Shrimp_album/1024x1024/54ace47525b26390.jpg"
 description: >
-   lorem
+   Nobashi Ebi is peeled, deveined, tail-on, and stretched shrimps. Its sweet taste and firm texture make it perfect for Tempura.
 measure: "pack"
 types: 
    - name: "Fresh"

@@ -5,7 +5,7 @@ name: "Mussels Whole"
 categories:
    - "Mollusk"
 images:
-   - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
+   - "http://placehold.it/400x400/000/fff"
 description: >
    lorem
 measure: "pack"

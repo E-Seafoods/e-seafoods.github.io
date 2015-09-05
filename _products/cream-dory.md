@@ -6,9 +6,9 @@ categories:
    - "Fish"
    - "Value Added"
 images:
-   - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
+   - "http://placehold.it/400x400/000/fff"
 description: >
-   lorem
+   Known for its mild taste and white, flaky meat, Most feel the cream dory fish has a "cleaner" taste than most other forms of farm-raised fish, because of new water constantly flowing in to their pens.
 measure: "pack"
 types: 
    - name: "Frozen"

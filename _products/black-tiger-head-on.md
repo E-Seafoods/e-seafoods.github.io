@@ -5,9 +5,9 @@ name: "Black Tiger - Head On"
 categories:
    - "Crustaceans"
 images:
-   - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
+   - "http://midafood.com/Data/Images/Shrimp_album/1024x1024/54ace48db8ac685.jpg"
 description: >
-   lorem
+   Has a light salty taste and a tender to firm texture ideal for soup, grilling or sautéing.
 measure: "pack"
 types: 
    - name: "Frozen"

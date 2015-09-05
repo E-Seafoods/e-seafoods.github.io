@@ -6,9 +6,9 @@ categories:
    - "Crustaceans"
    - "Value Added"
 images:
-   - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
+   - "http://placehold.it/400x400/000/fff"
 description: >
-   lorem
+   This is usually used in sushi preparations, they are actually made from fish good quality product should resemble and taste like real crab leg meat.
 measure: "pack"
 types: 
    - name: "Frozen"
