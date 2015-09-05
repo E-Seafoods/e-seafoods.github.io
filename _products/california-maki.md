@@ -6,7 +6,7 @@ categories:
    - "Crustaceans"
    - "Value Added"
 images:
-   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/colifornia-maki.jpg"
+   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/california-maki.jpg"
 description: >
    lorem
 measure: "pack"

@@ -34,9 +34,14 @@ data.findAll().groupBy { it.PRODUCT }.each { product ->
     productMap.layout = "product"
     productMap.slug = slug.toLowerCase(Locale.ENGLISH)
     productMap.name = product.value[0].PRODUCT
-    productMap.categories = product.value[0].CATEGORY.toString().split(":")
+    productMap.categories = product.value[0].CATEGORY.toString().split("\\|")
     productMap.form = ""
-    productMap.images = ["http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"]
+    productMap.images = product.value[0].IMAGE_URL.toString().split("\\|").collect { image ->
+        if(!image.startsWith("http"))
+            image = "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/" + image
+        else
+            image = image
+    }
     productMap.description = product.value[0].DESCRIPTION
     productMap.measure = product.value[0].MEASURING_UNIT
     productMap.types = []
