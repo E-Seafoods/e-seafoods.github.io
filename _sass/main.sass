@@ -40,11 +40,13 @@
       position: relative
       vertical-align: middle
       font-size: 20px
+      text-align: center
       .image-container
+        padding: 0
         .picker-banner-container
           top: 80px
           position: absolute
-          width: 118px
+          width: 90%
           height: 25px
           background-color: #41b4e3
           span
@@ -55,6 +57,9 @@
             top: 40%
             transform: translateY(-50%)
             color: white
+        img
+          margin: 10px
+          max-width: 120px
       &.cross-item
         text-align: center
         font-size: 15px
@@ -68,11 +73,6 @@
         color: black
         background-color: transparent
         border-color: #cbcbcb
-    .image-container
-      padding: 0
-      img
-        margin: 10px
-        max-width: 100px
 
 #mock
   display: none
