@@ -1,4 +1,29 @@
 $(document).ready(function(){
+    var searchInput = $("#search-input");
+    var searchBar = $("#search-bar");
+
+    function getSearchParameters() {
+        var prmstr = window.location.search.substr(1);
+        return prmstr != null && prmstr != "" ? transformToAssocArray(prmstr) : {};
+    }
+
+    function transformToAssocArray( prmstr ) {
+        var params = {};
+        var prmarr = prmstr.split("&");
+        for ( var i = 0; i < prmarr.length; i++) {
+            var tmparr = prmarr[i].split("=");
+            params[tmparr[0]] = tmparr[1];
+        }
+        return params;
+    }
+
+    var params = getSearchParameters();
+
+    if(params.search){
+        searchInput.val(params.search);
+        scrollToBody();
+    }
+
     videoPlayer = document.getElementById("video-sample");
     video_count = 0;
 
@@ -17,9 +42,9 @@ $(document).ready(function(){
         //stickyMenu();
     });
 
-/*-------------------------------------------------------------------*/
-/*  3. Page scrolling feature, requires jQuery Easing plugin.
- /*-------------------------------------------------------------------*/
+    /*-------------------------------------------------------------------*/
+    /*  3. Page scrolling feature, requires jQuery Easing plugin.
+    /*-------------------------------------------------------------------*/
     var pageScroll = function(){
         $('.page-scroll a').bind('click', function(e){
             e.preventDefault();
@@ -36,13 +61,20 @@ $(document).ready(function(){
     pageScroll();
 
     if(location.pathname == "/") {
-        $("#search-bar").on("submit", function() {
+        searchBar.on("submit", function(event) {
+            event.preventDefault();
             scrollToBody();
         });
 
-        $("#search-input").on("focus", function() {
+        searchInput.on("focus", function() {
             scrollToBody();
         });
+
+        /*
+         * For searching filter for mixItUt.
+         */
+        var inputText;
+        var $matching = $();
 
         // Delay function
         var delay = (function(){
@@ -53,10 +85,10 @@ $(document).ready(function(){
             };
         })();
 
-        $("#search-input").keyup(function(){
+        searchInput.keyup(function(){
             // Delay function invoked to make sure user stopped typing
             delay(function(){
-                inputText = $("#search-input").val().toLowerCase();
+                inputText = searchInput.val().toLowerCase();
 
                 // Check to see if input field is empty
                 if ((inputText.length) > 0) {
@@ -84,7 +116,6 @@ $(document).ready(function(){
         /* end searching filter for mixItUp. */
     }
 
-
     function scrollToBody() {
         var $anchor = $("#products");
         var offset = $('body').attr('data-offset');
@@ -93,12 +124,6 @@ $(document).ready(function(){
             scrollTop: $anchor.offset().top - (offset - 1)
         }, 1500, 'easeInOutExpo');
     }
-
-    /*
-     * For searching filter for mixItUt.
-     */
-    var inputText;
-    var $matching = $();
 });
 
 function videoChange(){

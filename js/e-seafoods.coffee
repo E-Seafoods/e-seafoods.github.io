@@ -20,6 +20,7 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
           callbacks:
             onMixLoad: ->
               $log.debug "MixItUp ready!"
+              $('#search-input').keyup()
             onMixFail: ->
               $log.debug "No elements found matching"
 
