@@ -13,7 +13,7 @@ measure: "pack"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 67
+     - sku: 65
        size: "Regular"
        price: 150
        approx: "3 - 5 person"

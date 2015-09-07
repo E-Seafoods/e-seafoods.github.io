@@ -13,7 +13,7 @@ measure: "pack"
 types: 
    - name: "Frozen"
      sizes: 
-     - sku: 32
+     - sku: 34
        size: "Regular"
        price: 903
        approx: "500 g"

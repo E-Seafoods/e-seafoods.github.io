@@ -13,15 +13,15 @@ measure: "pack"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 81
+     - sku: 79
        size: "Small"
        price: 200
        approx: "4 pc."
-     - sku: 82
+     - sku: 80
        size: "Regular"
        price: 300
        approx: "8 pc."
-     - sku: 83
+     - sku: 81
        size: "Large"
        price: 400
        approx: "12 pc."

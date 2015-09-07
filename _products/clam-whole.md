@@ -5,9 +5,9 @@ name: "Clam Whole"
 categories:
    - "Mollusk"
 images:
-   - "http://placehold.it/400x400/000/fff"
+   - "http://www.midafood.com/Data/Images/Mollusk_album/1024x1024/54ace0ef8b582232.jpg"
 description: >
-   lorem
+   It is excellent for soups, pasta and salads. These clams are depurated and cleaned whole shell. It has sweet meat and briny juice.
 measure: "pack"
 types: 
    - name: "Fresh"
@@ -16,10 +16,8 @@ types:
        size: "Regular"
        price: 200
        approx: "60-80 pcs"
-   - name: "Frozen"
-     sizes: 
-     - sku: 34
-       size: "Regular"
-       price: 225
-       approx: "500 g"
+     - sku: 15
+       size: "Large"
+       price: 300
+       approx: "40-60 pcs"
 ---
