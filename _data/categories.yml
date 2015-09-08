@@ -6,7 +6,5 @@
   name: Mussel & Clam
 - slug: cephalopod
   name: Squid & Octopus
-- slug: processed
-  name: Processed
-- slug: sushi-sashimi
-  name: Sushi & Sashimi
+- slug: value-added
+  name: Value Added
