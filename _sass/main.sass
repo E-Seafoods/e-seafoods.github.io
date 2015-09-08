@@ -9,9 +9,11 @@
   left: -300% !important
   display: table !important
   .table
+    display: table
     color: black
     font-family: LemonYellowSun, sans-serif
     thead
+      display: table-header-group
       th
         width: 230px
         vertical-align: middle
@@ -36,44 +38,50 @@
             filter: invert(100%)
       td
         font-size: 25px
-    td
-      position: relative
-      vertical-align: middle
-      font-size: 20px
-      text-align: center
-      .image-container
-        padding: 0
-        .picker-banner-container
-          top: 80px
-          position: absolute
-          width: 90%
-          height: 25px
-          background-color: #41b4e3
-          span
-            float: none
-            display: table
-            margin: 0 auto
-            position: relative
-            top: 40%
-            transform: translateY(-50%)
-            color: white
-        img
-          margin: 10px
-          max-width: 120px
-      &.cross-item
-        text-align: center
-        font-size: 15px
-        color: grey
-      &.cart-summary-price
-        text-align: right
-      &.cart-summary-quantity
-        text-align: right
-      .alert
-        margin-bottom: 0
-        color: black
-        background-color: transparent
-        border-color: #cbcbcb
-
+    tbody
+      display: table-caption
+      overflow-y: scroll
+      height: 450px
+      tr
+        td
+          position: relative
+          vertical-align: middle
+          font-size: 20px
+          text-align: center
+          .image-container
+            padding: 0
+            .picker-banner-container
+              top: 80px
+              position: absolute
+              width: 90%
+              height: 25px
+              background-color: #41b4e3
+              span
+                float: none
+                display: table
+                margin: 0 auto
+                position: relative
+                top: 40%
+                transform: translateY(-50%)
+                color: white
+            img
+              margin: 10px
+              max-width: 120px
+          &.cross-item
+            text-align: center
+            font-size: 15px
+            color: grey
+          &.cart-summary-price
+            text-align: right
+          &.cart-summary-quantity
+            text-align: right
+          .alert
+            margin-bottom: 0
+            color: black
+            background-color: transparent
+            border-color: #cbcbcb
+    tfoot
+      display: table-footer-group
 #mock
   display: none
   width: 100%

@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -42,18 +43,10 @@
                                         </th>
                                     </tr>
                                     </thead>
-                                    <tfoot>
-                                    <tr>
-                                        <td>Sub Total:</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td>[[ ngCart.getSubTotal() | currency:"P " ]]</td>
-                                    </tr>
-                                    </tfoot>
+                                    <!-- body-->
                                     <tbody>
                                     <tr ng-show="ngCart.getTotalItems() === 0">
-                                        <td colspan="5">
+                                        <td>
                                             <div class="alert alert-warning" role="alert">
                                                 Your cart is empty
                                             </div>
@@ -74,6 +67,16 @@
                                         <td class="cross-item"><span ng-click="ngCart.removeItemById(item.getId())" class="glyphicon glyphicon-remove"></span></td>
                                     </tr>
                                     </tbody>
+
+                                    <tfoot>
+                                    <tr>
+                                        <td>Sub Total:</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>[[ ngCart.getSubTotal() | currency:"P " ]]</td>
+                                    </tr>
+                                    </tfoot>
                                 </table>
                             </div>
                         </div>
