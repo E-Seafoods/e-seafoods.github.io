@@ -1,15 +1,17 @@
 <div class="category-nav-container">
-    <div class="category-nav-mobile">
-        <a href="javascript:void(0)" id="category-button" data-toggle="collapse" data-target="#navbar-category-collapse">PRODUCTS <span class="caret"></span></a>
-    </div>
-    <div class="container-fluid full-width collapse navbar-collapse" id="navbar-category-collapse">
-        <ul class="category-nav">
-            {% for category in site.data.categories %}
-            <li class="col-lg-2 col-md-2 col-sm-6 col-xs-6 filter" data-filter=".{{ category.slug }}" href="#">
-                <span>{{ category.name }}</span>
-            </li>
-            {% endfor %}
-        </ul>
+    <div class="category-nav-container">
+        <div class="category-nav-mobile">
+            <a href="javascript:void(0)" id="category-button" data-toggle="collapse" data-target="#navbar-category-collapse">PRODUCTS <span class="caret"></span></a>
+        </div>
+        <div class="container-fluid full-width collapse navbar-collapse" id="navbar-category-collapse">
+            <ul class="category-nav">
+                {% for category in site.data.categories %}
+                <li class="filter" data-filter=".{{ category.slug }}" href="#">
+                    <span>{{ category.name }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 </div>
 
