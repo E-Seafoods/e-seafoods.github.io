@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "saba-sushi"
+isShown: "FALSE"
 name: "Saba Sushi"
 categories:
    - "fish"

@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "unagi-sushi"
+isShown: "FALSE"
 name: "Unagi Sushi"
 categories:
    - "fish"

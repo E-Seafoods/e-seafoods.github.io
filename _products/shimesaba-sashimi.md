@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "shimesaba-sashimi"
+isShown: "FALSE"
 name: "Shimesaba Sashimi"
 categories:
    - "fish"

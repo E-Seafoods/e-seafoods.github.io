@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "salmon-sashimi"
+isShown: "TRUE"
 name: "Salmon Sashimi"
 categories:
    - "fish"

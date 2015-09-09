@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "clam-whole"
+isShown: "TRUE"
 name: "Clam Whole"
 categories:
    - "mollusk"

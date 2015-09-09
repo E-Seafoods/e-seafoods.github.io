@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "mixed-sushi"
+isShown: "FALSE"
 name: "Mixed Sushi"
 categories:
    - "fish"

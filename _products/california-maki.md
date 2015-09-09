@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "california-maki"
+isShown: "TRUE"
 name: "California Maki"
 categories:
    - "crustaceans"

@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "tamago-sushi"
+isShown: "FALSE"
 name: "Tamago Sushi"
 categories:
    - "fish"

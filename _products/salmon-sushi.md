@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "salmon-sushi"
+isShown: "FALSE"
 name: "Salmon Sushi"
 categories:
    - "fish"

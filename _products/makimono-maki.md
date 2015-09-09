@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "makimono-maki"
+isShown: "FALSE"
 name: "Makimono Maki"
 categories:
    - "fish"

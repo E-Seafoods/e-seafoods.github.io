@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "gindara-steaks"
+isShown: "TRUE"
 name: "Gindara Steaks"
 categories:
    - "fish"

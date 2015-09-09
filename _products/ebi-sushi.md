@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "ebi-sushi"
+isShown: "FALSE"
 name: "Ebi Sushi"
 categories:
    - "crustaceans"

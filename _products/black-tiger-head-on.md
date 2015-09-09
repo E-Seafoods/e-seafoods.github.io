@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "black-tiger-head-on"
+isShown: "TRUE"
 name: "Black Tiger - Head On"
 categories:
    - "crustaceans"

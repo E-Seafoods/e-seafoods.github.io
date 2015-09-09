@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "mussels-whole"
+isShown: "TRUE"
 name: "Mussels Whole"
 categories:
    - "mollusk"

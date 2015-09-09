@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "crabstick-regular"
+isShown: "TRUE"
 name: "Crabstick Regular"
 categories:
    - "crustaceans"

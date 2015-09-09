@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "squid-rings"
+isShown: "TRUE"
 name: "Squid Rings"
 categories:
    - "cephalopods"

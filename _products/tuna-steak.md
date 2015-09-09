@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "tuna-steak"
+isShown: "FALSE"
 name: "Tuna Steak"
 categories:
    - "fish"

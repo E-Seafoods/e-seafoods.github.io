@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "uni-sashimi"
+isShown: "FALSE"
 name: "Uni Sashimi"
 categories:
    - "crustaceans"

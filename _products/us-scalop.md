@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "us-scalop"
+isShown: "TRUE"
 name: "U.S. Scalop"
 categories:
    - "mollusk"

@@ -33,6 +33,7 @@ data.findAll().groupBy { it.PRODUCT }.each { product ->
 
     productMap.layout = "product"
     productMap.slug = slug.toLowerCase(Locale.ENGLISH)
+    productMap.isShown = product.value[0].SHOWN
     productMap.name = product.value[0].PRODUCT
     productMap.categories = product.value[0].CATEGORY.toString().toLowerCase().replaceAll(" ", "-").split("\\|")
     productMap.form = ""
@@ -69,6 +70,7 @@ data.findAll().groupBy { it.PRODUCT }.each { product ->
     file << '\n'
     file << "layout: \"$productMap.layout\"\n"
     file << "slug: \"$productMap.slug\"\n"
+    file << "isShown: \"$productMap.isShown\"\n"
     file << "name: \"$productMap.name\"\n"
     file << "categories:\n"
     productMap.categories.each { category ->

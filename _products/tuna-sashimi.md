@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "tuna-sashimi"
+isShown: "TRUE"
 name: "Tuna Sashimi"
 categories:
    - "fish"

@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "squid-tubes"
+isShown: "TRUE"
 name: "Squid Tubes"
 categories:
    - "cephalopods"

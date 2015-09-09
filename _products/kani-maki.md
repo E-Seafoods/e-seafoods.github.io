@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "kani-maki"
+isShown: "FALSE"
 name: "Kani Maki"
 categories:
    - "fish"

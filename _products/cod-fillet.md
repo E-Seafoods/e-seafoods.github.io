@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "cod-fillet"
+isShown: "FALSE"
 name: "Cod Fillet"
 categories:
    - "fish"

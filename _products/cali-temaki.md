@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "cali-temaki"
+isShown: "FALSE"
 name: "Cali Temaki"
 categories:
    - "crustaceans"

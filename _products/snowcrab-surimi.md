@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "snowcrab-surimi"
+isShown: "TRUE"
 name: "Snowcrab Surimi"
 categories:
    - "crustaceans"

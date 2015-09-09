@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "kani-sushi"
+isShown: "FALSE"
 name: "Kani Sushi"
 categories:
    - "fish"

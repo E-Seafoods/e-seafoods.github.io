@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "tamago-maki"
+isShown: "FALSE"
 name: "Tamago Maki"
 categories:
    - "fish"

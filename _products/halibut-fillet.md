@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "halibut-fillet"
+isShown: "FALSE"
 name: "Halibut Fillet"
 categories:
    - "fish"

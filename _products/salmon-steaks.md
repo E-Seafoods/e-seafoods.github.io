@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "salmon-steaks"
+isShown: "FALSE"
 name: "Salmon Steaks"
 categories:
    - "fish"

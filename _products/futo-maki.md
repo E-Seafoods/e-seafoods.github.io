@@ -1,6 +1,7 @@
 ---
 layout: "product"
 slug: "futo-maki"
+isShown: "FALSE"
 name: "Futo Maki"
 categories:
    - "fish"
