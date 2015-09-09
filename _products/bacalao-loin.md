@@ -3,8 +3,8 @@ layout: "product"
 slug: "bacalao-loin"
 name: "Bacalao Loin"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec21215c2c2508.jpg"
 description: >

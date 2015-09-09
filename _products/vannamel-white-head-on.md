@@ -3,7 +3,7 @@ layout: "product"
 slug: "vannamel-white-head-on"
 name: "Vannamel White - Head On"
 categories:
-   - "Crustaceans"
+   - "crustaceans"
 images:
    - "http://midafood.com/Data/Images/Shrimp_album/1024x1024/54ace48db8ac685.jpg"
 description: >

@@ -3,8 +3,8 @@ layout: "product"
 slug: "chilean-seabass-steak"
 name: "Chilean Seabass Steak"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://midafood.com/Data/Images/Special_album/1024x1024/54ace5947628a592.jpg"
 description: >

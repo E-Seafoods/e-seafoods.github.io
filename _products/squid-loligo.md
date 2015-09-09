@@ -3,7 +3,7 @@ layout: "product"
 slug: "squid-loligo"
 name: "Squid Loligo"
 categories:
-   - "Cephalopods"
+   - "cephalopods"
 images:
    - "http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec217854e5a294.jpg"
 description: >

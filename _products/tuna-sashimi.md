@@ -3,8 +3,8 @@ layout: "product"
 slug: "tuna-sashimi"
 name: "Tuna Sashimi"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/tuna-sashimi.jpg"
 description: >

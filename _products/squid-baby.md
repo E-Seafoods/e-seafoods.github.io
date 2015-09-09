@@ -3,7 +3,7 @@ layout: "product"
 slug: "squid-baby"
 name: "Squid Baby"
 categories:
-   - "Cephalopods"
+   - "cephalopods"
 images:
    - "http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb77e60ec196.jpg"
 description: >

@@ -3,8 +3,8 @@ layout: "product"
 slug: "snowcrab-surimi"
 name: "Snowcrab Surimi"
 categories:
-   - "Crustaceans"
-   - "Value Added"
+   - "crustaceans"
+   - "value-added"
 images:
    - "http://www.midafood.com/Data/Images/Value-Added_album/1024x1024/54ec249ab4398262.jpg"
 description: >

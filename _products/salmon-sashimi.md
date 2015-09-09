@@ -3,8 +3,8 @@ layout: "product"
 slug: "salmon-sashimi"
 name: "Salmon Sashimi"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/salmon-sashimi.jpg"
 description: >

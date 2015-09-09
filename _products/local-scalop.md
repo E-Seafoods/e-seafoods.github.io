@@ -3,8 +3,8 @@ layout: "product"
 slug: "local-scalop"
 name: "Local Scalop"
 categories:
-   - "Mollusk"
-   - "Value Added"
+   - "mollusk"
+   - "value-added"
 images:
    - "http://www.midafood.com/Data/Images/Mollusk_album/1024x1024/54ace0f93565f120.jpg"
 description: >

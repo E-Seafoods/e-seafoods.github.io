@@ -3,8 +3,8 @@ layout: "product"
 slug: "mixed-sushi"
 name: "Mixed Sushi"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://placehold.it/400x400/000/fff"
 description: >

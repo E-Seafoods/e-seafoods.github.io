@@ -3,8 +3,8 @@ layout: "product"
 slug: "tuna-sushi"
 name: "Tuna Sushi"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/tuna-sushi.jpg"
 description: >

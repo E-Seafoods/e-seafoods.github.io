@@ -3,8 +3,8 @@ layout: "product"
 slug: "futo-maki"
 name: "Futo Maki"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://placehold.it/400x400/000/fff"
 description: >

@@ -3,8 +3,8 @@ layout: "product"
 slug: "uni-sushi"
 name: "Uni Sushi"
 categories:
-   - "Crustaceans"
-   - "Value Added"
+   - "crustaceans"
+   - "value-added"
 images:
    - "http://placehold.it/400x400/000/fff"
 description: >

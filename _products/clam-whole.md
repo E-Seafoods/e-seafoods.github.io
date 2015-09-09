@@ -3,7 +3,7 @@ layout: "product"
 slug: "clam-whole"
 name: "Clam Whole"
 categories:
-   - "Mollusk"
+   - "mollusk"
 images:
    - "http://www.midafood.com/Data/Images/Mollusk_album/1024x1024/54ace0ef8b582232.jpg"
 description: >

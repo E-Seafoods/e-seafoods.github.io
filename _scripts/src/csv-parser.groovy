@@ -34,7 +34,7 @@ data.findAll().groupBy { it.PRODUCT }.each { product ->
     productMap.layout = "product"
     productMap.slug = slug.toLowerCase(Locale.ENGLISH)
     productMap.name = product.value[0].PRODUCT
-    productMap.categories = product.value[0].CATEGORY.toString().split("\\|")
+    productMap.categories = product.value[0].CATEGORY.toString().toLowerCase().replaceAll(" ", "-").split("\\|")
     productMap.form = ""
     productMap.images = product.value[0].IMAGE_URL.toString().split("\\|").collect { image ->
         if(!image.startsWith("http"))

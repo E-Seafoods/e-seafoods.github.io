@@ -3,8 +3,8 @@ layout: "product"
 slug: "hamachi-sushi"
 name: "Hamachi Sushi"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/hamachi-sushi.jpg"
 description: >

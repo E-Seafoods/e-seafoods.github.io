@@ -3,7 +3,7 @@ layout: "product"
 slug: "black-tiger-nobashi-stretched"
 name: "Black Tiger - Nobashi (Stretched)"
 categories:
-   - "Crustaceans"
+   - "crustaceans"
 images:
    - "http://midafood.com/Data/Images/Shrimp_album/1024x1024/54ace47525b26390.jpg"
 description: >

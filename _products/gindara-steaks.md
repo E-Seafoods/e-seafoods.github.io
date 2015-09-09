@@ -3,8 +3,8 @@ layout: "product"
 slug: "gindara-steaks"
 name: "Gindara Steaks"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://midafood.com/Data/Images/Special_album/1024x1024/54ace59bb7aca615.jpg"
 description: >

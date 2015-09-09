@@ -3,8 +3,8 @@ layout: "product"
 slug: "us-scalop"
 name: "U.S. Scalop"
 categories:
-   - "Mollusk"
-   - "Value Added"
+   - "mollusk"
+   - "value-added"
 images:
    - "http://www.midafood.com/Data/Images/Mollusk_album/1024x1024/54ace0ffd0b7f574.jpg"
 description: >

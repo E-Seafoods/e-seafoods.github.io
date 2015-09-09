@@ -3,7 +3,7 @@ layout: "product"
 slug: "squid-tubes"
 name: "Squid Tubes"
 categories:
-   - "Cephalopods"
+   - "cephalopods"
 images:
    - "http://www.midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb83c147a444.jpg"
 description: >

@@ -3,7 +3,7 @@ layout: "product"
 slug: "mussels-halfshell"
 name: "Mussels Halfshell"
 categories:
-   - "Mollusk"
+   - "mollusk"
 images:
    - "http://www.midafood.com/Data/Images/Mollusk_album/1024x1024/54ace0edb709420.jpg"
 description: >

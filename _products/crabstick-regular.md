@@ -3,8 +3,8 @@ layout: "product"
 slug: "crabstick-regular"
 name: "Crabstick Regular"
 categories:
-   - "Crustaceans"
-   - "Value Added"
+   - "crustaceans"
+   - "value-added"
 images:
    - "http://www.midafood.com/Data/Images/Value-Added_album/1024x1024/54ace7995003e580.jpg"
 description: >

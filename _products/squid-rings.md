@@ -3,8 +3,8 @@ layout: "product"
 slug: "squid-rings"
 name: "Squid Rings"
 categories:
-   - "Cephalopods"
-   - "Value Added"
+   - "cephalopods"
+   - "value-added"
 images:
    - "http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb860b253565.jpg"
 description: >

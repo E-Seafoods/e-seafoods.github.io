@@ -3,8 +3,8 @@ layout: "product"
 slug: "california-maki"
 name: "California Maki"
 categories:
-   - "Crustaceans"
-   - "Value Added"
+   - "crustaceans"
+   - "value-added"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/california-maki.jpg"
 description: >

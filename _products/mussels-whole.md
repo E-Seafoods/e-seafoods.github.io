@@ -3,7 +3,7 @@ layout: "product"
 slug: "mussels-whole"
 name: "Mussels Whole"
 categories:
-   - "Mollusk"
+   - "mollusk"
 images:
    - "http://www.midafood.com/Data/Images/Mollusk_album/1024x1024/54ace0e1acbdb711.jpg"
 description: >

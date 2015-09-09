@@ -3,7 +3,7 @@ layout: "product"
 slug: "squid-fillet"
 name: "Squid Fillet"
 categories:
-   - "Cephalopods"
+   - "cephalopods"
 images:
    - "http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec21215c2c2508.jpg"
 description: >

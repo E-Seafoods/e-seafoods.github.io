@@ -3,8 +3,8 @@ layout: "product"
 slug: "kani-sushi"
 name: "Kani Sushi"
 categories:
-   - "Fish"
-   - "Value Added"
+   - "fish"
+   - "value-added"
 images:
    - "http://placehold.it/400x400/000/fff"
 description: >
