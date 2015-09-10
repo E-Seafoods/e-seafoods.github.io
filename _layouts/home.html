@@ -24,6 +24,7 @@
     <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/js/jquery.sticky.js"></script>
     <script type="text/javascript" src="/js/debouncer.js"></script>
+    <script type="text/javascript" src="/js/lightslider.min.js"></script>
 
     {{ page.javascripts }}
 
@@ -39,4 +40,28 @@
 {{ content }}
 {% include footer.html %}
 </body>
+<script>
+    $(document).ready(function(){
+        $('#lightSlider1').lightSlider({
+            item: 1,
+            controls: false,
+            speed: 2000,
+            pause: 6000,
+            auto: true,
+            loop:true,
+            enableDrag:true,
+            slideEndAnimation: true,
+        });
+        $('#lightSlider2').lightSlider({
+            item: 1,
+            controls: false,
+            speed: 2000,
+            pause: 6000,
+            auto: true,
+            loop:true,
+            enableDrag:true,
+            slideEndAnimation: true,
+        });
+    });
+</script>
 </html>

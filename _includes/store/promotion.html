@@ -1,23 +1,26 @@
 <div id="promotional" class="container-fluid full-width">
     <div class="row row-no-gutter">
-        <div class="promotional-content col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <img src="/images/promotional/crabs-promo.jpg"/>
+        <div class="promo-img-slider-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <ul id="lightSlider1">
+                {% for promo in site.data.testLeft %}
+                <li>
+                    <a href="#">
+                        <img src="{{ promo.img }}"/>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
-        <div class="promotional-content col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            <img src="/images/promotional/mussels-promo.jpg"/>
-            <div class="promo-description-container">
-                <div class="promo-content">
-                    <span>PHP 500</span>
-                    <br/>
-                    <span>CASH COUPON</span>
-                    <br/>
-                    <span>First Time</span>
-                    <br/>
-                    <span>To Order?</span>
-                    <br/>
-                    <a href="javascript:void(0)">Click here for details</a>
-                </div>
-            </div>
+        <div class="promo-img-slider-container col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <ul id="lightSlider2">
+                {% for promo in site.data.testRight %}
+                <li>
+                    <a href="#">
+                        <img src="{{ promo.img }}"/>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
 </div>
