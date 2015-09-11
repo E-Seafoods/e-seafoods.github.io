@@ -42,4 +42,28 @@
 {% include product/body.html %}
 {% include footer.html %}
 </body>
+<script>
+    $(document).ready(function(){
+        $('#lightSlider1').lightSlider({
+            item: 1,
+            controls: false,
+            speed: 2000,
+            pause: 6000,
+            auto: true,
+            loop:true,
+            enableDrag:true,
+            slideEndAnimation: true,
+        });
+        $('#lightSlider2').lightSlider({
+            item: 1,
+            controls: false,
+            speed: 2000,
+            pause: 6000,
+            auto: true,
+            loop:true,
+            enableDrag:true,
+            slideEndAnimation: true,
+        });
+    });
+</script>
 </html>
