@@ -2,46 +2,20 @@
     <div class="row row-no-gutter">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <ul class="owl-carousel">
+                {% for bestSeller in site.data.bestSeller %}
                 <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
+                    <img src="{{ bestSeller.img }}"/>
                 </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
+                {% endfor %}
             </ul>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
             <ul class="owl-carousel">
+                {% for promo in site.data.promo %}
                 <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
+                    <img src="{{ promo.img }}"/>
                 </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
-                <li>
-                    <img src="http://lorempixel.com/1000/500/"/>
-                </li>
+                {% endfor %}
             </ul>
         </div>
     </div>
