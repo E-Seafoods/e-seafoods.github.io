@@ -24,7 +24,33 @@
   background: rgba(0, 0, 0, 0.5)
   .product-image
     .image-container
-      margin-top: 50px
+      margin-top: 25%
+      .product-img
+        border: 8px solid #D5D3D0
+        border-radius: 50%
+        -webkit-border-radius: 50%
+        -moz-border-radius: 50%
+        -o-border-radius: 50%
+        -ms-border-radius: 50%
+      .lSSlideOuter
+        .product-img
+          border: 8px solid #D5D3D0
+          border-radius: 50%
+          -webkit-border-radius: 50%
+          -moz-border-radius: 50%
+          -o-border-radius: 50%
+          -ms-border-radius: 50%
+        .lSPager.lSGallery
+          img
+            max-width: 70%
+            border: 3px solid white
+            border-radius: 50%
+            -webkit-border-radius: 50%
+            -moz-border-radius: 50%
+            -o-border-radius: 50%
+            -ms-border-radius: 50%
+
+
   .product-description
     margin-top: 30px
     margin-bottom: 5%
@@ -174,6 +200,7 @@
             &.lSNext
               background-position: -28px
         .lSPager
+          margin: 0 auto !important
           display: none
 @media (max-width: 1200px)
   #product-container
@@ -200,10 +227,6 @@
     .row
       margin: 0
       padding: 0
-      .product-image
-        .image-container
-          img
-            height: 300px
       .product-description
         padding: 0
         .description-container
