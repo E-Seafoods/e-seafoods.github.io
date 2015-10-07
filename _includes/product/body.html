@@ -1,13 +1,30 @@
 <div class="container-fluid" id="product-container">
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 product-image">
-            <div class="back-button-container">
-                <button class="back-button" onclick="window.history.back()">
-                    <span class="price ngå-binding">BACK</span>
-                </button>
-            </div>
+            <!--<div class="back-button-container">-->
+                <!--<button class="back-button" onclick="window.history.back()">-->
+                    <!--<span class="price ngå-binding">BACK</span>-->
+                <!--</button>-->
+            <!--</div>-->
             <div class="image-container">
-                <img class="center-block img-responsive" ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/{{ page.images[0] }}" src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://www.midafood.com/Data/Images/Fillets_album/1024x1024/54acdeb3a71f8242.jpg">
+                <!--<img class="center-block img-responsive" ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/{{ page.images[0] }}" src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://www.midafood.com/Data/Images/Fillets_album/1024x1024/54acdeb3a71f8242.jpg">-->
+                <ul id="product-img-slider">
+                    <li data-thumb="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec21215c2c2508.jpg">
+                        <img class="center-block product-img" src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec21215c2c2508.jpg"/>
+                    </li>
+
+                    <li data-thumb="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec21215c2c2508.jpg">
+                        <img class="center-block product-img" src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec21215c2c2508.jpg"/>
+                    </li>
+
+                    <li data-thumb="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb860b253565.jpg">
+                        <img class="center-block product-img" src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb860b253565.jpg"/>
+                    </li>
+                    <li data-thumb="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb860b253565.jpg">
+                        <img class="center-block product-img" src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb860b253565.jpg"/>
+                    </li>
+
+                </ul>
             </div>
         </div>
         <div class="col-lg-7 col-md-7 product-description">
