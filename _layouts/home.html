@@ -10,9 +10,6 @@
 
     <title>e-seafoods - {{ page.title }}</title>
     <link rel="stylesheet" href="{{ page.css }}">
-    <link rel="stylesheet" href="/css/owl.carousel.css">
-    <link rel="stylesheet" href="/css/animate.css">
-
     <script type="text/javascript" src="/js/underscore-min.js"></script>
     <script type="text/javascript" src="/js/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="/js/angular.min.js"></script>
@@ -26,7 +23,6 @@
     <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="/js/jquery.sticky.js"></script>
     <script type="text/javascript" src="/js/debouncer.js"></script>
-    <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
     {{ page.javascripts }}
     <script type="text/javascript" src="/js/e-seafoods.js"></script>
     <link rel="icon" type="image/png" href="/images/favicon.png">
@@ -42,18 +38,4 @@
 {{ content }}
 {% include footer.html %}
 </body>
-<script>
-    $(document).ready(function(){
-        var owl = $('.owl-carousel');
-        owl.owlCarousel({
-            animateIn: 'flipInY',
-            animateOut: 'flipOutY',
-            items:1,
-            loop:true,
-            autoplay:true,
-            autoplayTimeout:3000,
-            autoplayHoverPause:true
-        });
-    });
-</script>
 </html>
