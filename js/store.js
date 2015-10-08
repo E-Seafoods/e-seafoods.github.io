@@ -32,9 +32,14 @@ $(document).ready(function(){
         nav.unstick();
         nav.sticky({topSpacing: 0});
     };
-
     stickyMenu();
-    $(".category-nav-container").sticky({topSpacing:56});
+
+    if($(window).outerWidth >=992) {
+        $(".category-nav-container").sticky({topSpacing: 55});
+    }
+    else{
+        $(".category-nav-container").sticky({topSpacing: 51});
+    }
 
     // Call pageScroll() and stickyMenu() when window is resized.
     $(window).smartresize(function(){
