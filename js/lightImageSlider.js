@@ -2,31 +2,45 @@ var esf = esf || {};
 esf.imageSlider = function() {
     esf.productImageSlider();
     esf.relatedProductSlider();
+    //esf.highlightSlider();
+};
+
+esf.highlightSlider = function(){
+    $('#highlight-slider').lightSlider({
+        item: 2,
+        slideEndAnimation: false,
+        slideMargin: 0,
+        controls: false,
+        speed: 2000,
+        pause: 3000,
+        auto: true,
+        loop:true,
+        enableDrag:false
+    });
 };
 
 esf.productImageSlider = function(){
     //var $autoPlaySlider = esf.autoPlaySlider;
-        $('#product-img-slider').lightSlider({
-            gallery:true,
-            item:1,
-            loop:true,
-            thumbItem:4,
-            slideMargin:0,
-            mode: 'fade',
-            enableDrag: false,
-            controls: false,
-            speed: 1000,
-            pause: 4000,
-            auto: true,
-            currentPagerPosition:'left',
-            onSliderLoad: function(el) {
-                el.lightGallery({
-                    selector: '#product-img-slider .lslide'
-                });
-            }
-        });
-
-    };
+    $('#product-img-slider').lightSlider({
+        gallery:true,
+        item:1,
+        loop:true,
+        thumbItem:4,
+        slideMargin:0,
+        mode: 'fade',
+        enableDrag: false,
+        controls: false,
+        speed: 1000,
+        pause: 4000,
+        auto: true,
+        currentPagerPosition:'left',
+        onSliderLoad: function(el) {
+            el.lightGallery({
+                selector: '#product-img-slider .lslide'
+            });
+        }
+    });
+};
 
 esf.relatedProductSlider = function(){
     //var $relatedAutoPlaySlider = esf.autoPlaySlider;

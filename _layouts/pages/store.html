@@ -5,5 +5,21 @@ title: Home
 javascripts: >
     <script type="text/javascript" src="/js/jquery.mixitup.min.js"></script>
     <script type="text/javascript" src="/js/store.js"></script>
+    <script type="text/javascript" src="/js/lightslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#highlight-slider').lightSlider({
+                item: 2,
+                slideMove: 2,
+                controls: false,
+                speed: 2000,
+                pause: 3000,
+                auto: true,
+                loop:true,
+                enableDrag:false,
+                pager: false
+            });
+        });
+    </script>
 ---
 {{ content }}
