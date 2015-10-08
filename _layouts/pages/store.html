@@ -9,15 +9,20 @@ javascripts: >
     <script type="text/javascript">
         $(document).ready(function(){
             $('#highlight-slider-container').lightSlider({
-                item: 1,
-                slideMargin: 0,
+                item:1,
+                slideMove:1,
+                slideMargin:0,
                 controls: false,
-                speed: 2000,
-                pause: 10000,
-                auto: true,
+                verticalHeight: 500,
+                speed:2000,
+                pause:10000,
+                auto:true,
                 loop:true,
                 enableDrag:false,
-                pager: false
+                pager:false,
+                onSliderLoad: function() {
+                    $('#highlight-slider-container').removeClass('cS-hidden');
+                }
             });
         });
     </script>
