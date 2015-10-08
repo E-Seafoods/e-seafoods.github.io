@@ -9,8 +9,9 @@ javascripts: >
     <script type="text/javascript">
         $(document).ready(function(){
             $('#highlight-slider').lightSlider({
-                item: 2,
-                slideMove: 2,
+                item: 1,
+                slideMargin: 0,
+                adaptiveHeight: true,
                 controls: false,
                 speed: 2000,
                 pause: 3000,
@@ -22,4 +23,5 @@ javascripts: >
         });
     </script>
 ---
+
 {{ content }}
