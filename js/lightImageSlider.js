@@ -21,25 +21,27 @@ esf.highlightSlider = function(){
 
 esf.productImageSlider = function(){
     //var $autoPlaySlider = esf.autoPlaySlider;
-    $('#product-img-slider').lightSlider({
-        gallery:true,
-        item:1,
-        loop:true,
-        thumbItem:4,
-        slideMargin:0,
-        mode: 'fade',
-        enableDrag: false,
-        controls: false,
-        speed: 1000,
-        pause: 4000,
-        auto: true,
-        currentPagerPosition:'left',
-        onSliderLoad: function(el) {
-            el.lightGallery({
-                selector: '#product-img-slider .lslide'
-            });
-        }
-    });
+    if($('#product-img-slider li').size() > 1) {
+        $('#product-img-slider').lightSlider({
+            gallery: true,
+            item: 1,
+            loop: true,
+            thumbItem: 4,
+            slideMargin: 0,
+            mode: 'fade',
+            enableDrag: false,
+            controls: false,
+            speed: 1000,
+            pause: 4000,
+            auto: true,
+            currentPagerPosition: 'left',
+            onSliderLoad: function (el) {
+                el.lightGallery({
+                    selector: '#product-img-slider .lslide'
+                });
+            }
+        });
+    }
 };
 
 esf.relatedProductSlider = function(){

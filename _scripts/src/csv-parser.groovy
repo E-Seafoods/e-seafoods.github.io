@@ -37,7 +37,7 @@ data.findAll().groupBy { it.PRODUCT }.each { product ->
     productMap.name = product.value[0].PRODUCT
     productMap.categories = product.value[0].CATEGORY.toString().toLowerCase().replaceAll(" ", "-").split("\\|")
     productMap.form = ""
-    productMap.images = product.value[0].IMAGE_URL.toString().split("\\|").collect { image ->
+    productMap.images = product.value[0].IMAGE_URL.toString().replaceAll(" ", "").split("\\|").collect { image ->
         if(!image.startsWith("http"))
             image = "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/" + image
         else
