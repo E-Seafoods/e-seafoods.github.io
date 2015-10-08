@@ -1,10 +1,16 @@
 <div id="promotional" class="container-fluid full-width">
     <div class="row row-no-gutter">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 promotional-content">
-            <ul id="highlight-slider">
+            <ul id="highlight-slider-container">
                 {% for promo in site.data.promo %}
-                <li>
+                <li class="highlight-slider-content">
                     <img src="{{ promo.img }}"/>
+                    <div class="slider-description">
+                        <h1 class="slider-title">MOUTH-WATERING CRABS</h1>
+                        <a href="#">
+                            <span class="slider-button">SHOP NOW</span>
+                        </a>
+                    </div>
                 </li>
                 {% endfor %}
             </ul>

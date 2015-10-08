@@ -137,13 +137,54 @@ ul#products
 //  font-size: 15px
 #promotional
   width: 100%
+  min-width: 100%
+  position: relative
   .promotional-content
-    #highlight-slider
-      img
-        width: 100%
-        max-width: 100%
-        height: auto
-        
+    #highlight-slider-container
+      .highlight-slider-content
+        position: relative
+        img
+          width: 100%
+          max-width: 100%
+          height: auto
+        .slider-description
+          position: absolute
+          width: 42.2%
+          left: 0%
+          top: 50%
+          transform: translateY(-50%)
+          -webkit-transform: translateY(-50%)
+          -moz-transform: translateY(-50%)
+          -o-transform: translateY(-50%)
+          -ms-transform: translateY(-50%)
+          .slider-title
+            text-align: center
+            font-family: 'Gotham-light'
+            font-size: 41px
+          a
+            margin: 5% auto 0
+            float: none
+            display: table
+            text-decoration: none
+            .slider-button
+              color: black
+              display: inline-block
+              text-decoration: none
+              position: relative
+              border: 1px solid #000
+              padding: 15px 25px
+              font-family: Gotham-Light
+              font-size: 1.2em
+              background: linear-gradient(to right, transparent 50%, black 50%)
+              background-size: 200% 100%
+              background-position: left bottom
+              transition: all 500ms ease
+              &:hover
+                color: white
+                background-position: right bottom
+
+            
+  
 @media (max-width: 1200px)
   ul#products
     li
