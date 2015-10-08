@@ -16,7 +16,7 @@ esf.productImageSlider = function(){
             enableDrag: false,
             controls: false,
             speed: 1000,
-            pause: 6000,
+            pause: 4000,
             auto: true,
             currentPagerPosition:'left',
             onSliderLoad: function(el) {
