@@ -5,25 +5,13 @@ title: Home
 javascripts: >
     <script type="text/javascript" src="/js/jquery.mixitup.min.js"></script>
     <script type="text/javascript" src="/js/store.js"></script>
-    <script type="text/javascript" src="/js/lightslider.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $('#highlight-slider-container').lightSlider({
-                item:1,
-                slideMove:1,
-                slideMargin:0,
-                controls: false,
-                verticalHeight: 500,
-                speed:2000,
-                pause:10000,
-                auto:true,
-                loop:true,
-                enableDrag:false,
-                pager:false,
-                onSliderLoad: function() {
-                    $('#highlight-slider-container').removeClass('cS-hidden');
-                }
+            $('.carousel').carousel({
+                interval: 6000
             });
+            $('.carousel-indicators').find('li').css('display','none');
+            $('.carousel-inner .item:first-child').addClass('active');
         });
     </script>
 ---
