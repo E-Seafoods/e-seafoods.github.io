@@ -2,6 +2,7 @@
 layout: "product"
 slug: "tobiko-sushi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Tobiko Sushi"
 categories:
    - "fish"

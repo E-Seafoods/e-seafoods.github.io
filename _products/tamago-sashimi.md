@@ -2,6 +2,7 @@
 layout: "product"
 slug: "tamago-sashimi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Tamago Sashimi"
 categories:
    - "fish"

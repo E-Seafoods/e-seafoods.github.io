@@ -2,6 +2,7 @@
 layout: "product"
 slug: "hamachi-sashimi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Hamachi Sashimi"
 categories:
    - "fish"

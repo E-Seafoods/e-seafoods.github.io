@@ -2,6 +2,7 @@
 layout: "product"
 slug: "tuna-steak"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Tuna Steak"
 categories:
    - "fish"

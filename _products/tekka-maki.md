@@ -2,6 +2,7 @@
 layout: "product"
 slug: "tekka-maki"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Tekka Maki"
 categories:
    - "fish"

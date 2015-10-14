@@ -2,6 +2,7 @@
 layout: "product"
 slug: "halibut-steaks"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Halibut Steaks"
 categories:
    - "fish"

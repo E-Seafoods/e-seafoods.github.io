@@ -2,6 +2,7 @@
 layout: "product"
 slug: "crabs-male"
 isShown: "TRUE"
+isBestSeller: "FALSE"
 name: "Crabs (Male)"
 categories:
    - "crustaceans"

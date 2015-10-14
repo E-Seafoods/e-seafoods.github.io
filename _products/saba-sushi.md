@@ -2,6 +2,7 @@
 layout: "product"
 slug: "saba-sushi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Saba Sushi"
 categories:
    - "fish"

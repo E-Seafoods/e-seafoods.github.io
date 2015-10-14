@@ -2,6 +2,7 @@
 layout: "product"
 slug: "squid-rings"
 isShown: "TRUE"
+isBestSeller: "TRUE"
 name: "Squid Rings"
 categories:
    - "cephalopods"

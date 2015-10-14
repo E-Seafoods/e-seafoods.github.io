@@ -2,6 +2,7 @@
 layout: "product"
 slug: "chilean-seabass-steak"
 isShown: "TRUE"
+isBestSeller: "TRUE"
 name: "Chilean Seabass Steak"
 categories:
    - "fish"

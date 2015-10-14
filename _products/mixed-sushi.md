@@ -2,6 +2,7 @@
 layout: "product"
 slug: "mixed-sushi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Mixed Sushi"
 categories:
    - "fish"

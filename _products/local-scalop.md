@@ -2,6 +2,7 @@
 layout: "product"
 slug: "local-scalop"
 isShown: "TRUE"
+isBestSeller: "TRUE"
 name: "Local Scalop"
 categories:
    - "mollusk"

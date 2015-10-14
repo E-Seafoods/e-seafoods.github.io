@@ -2,6 +2,7 @@
 layout: "product"
 slug: "tuna-belly-premium"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Tuna Belly Premium"
 categories:
    - "fish"

@@ -2,6 +2,7 @@
 layout: "product"
 slug: "tamago-sushi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Tamago Sushi"
 categories:
    - "fish"

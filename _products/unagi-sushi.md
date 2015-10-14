@@ -2,6 +2,7 @@
 layout: "product"
 slug: "unagi-sushi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Unagi Sushi"
 categories:
    - "fish"

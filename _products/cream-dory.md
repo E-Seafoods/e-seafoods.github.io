@@ -2,6 +2,7 @@
 layout: "product"
 slug: "cream-dory"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Cream Dory"
 categories:
    - "fish"

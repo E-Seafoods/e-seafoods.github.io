@@ -2,6 +2,7 @@
 layout: "product"
 slug: "squid-rings-blanched"
 isShown: "TRUE"
+isBestSeller: "TRUE"
 name: "Squid Rings Blanched"
 categories:
    - "cephalopods"

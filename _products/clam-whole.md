@@ -2,6 +2,7 @@
 layout: "product"
 slug: "clam-whole"
 isShown: "TRUE"
+isBestSeller: "FALSE"
 name: "Clam Whole"
 categories:
    - "mollusk"

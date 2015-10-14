@@ -2,6 +2,7 @@
 layout: "product"
 slug: "kappa-maki"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Kappa Maki"
 categories:
    - "fish"

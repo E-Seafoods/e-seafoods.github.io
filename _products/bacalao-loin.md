@@ -2,6 +2,7 @@
 layout: "product"
 slug: "bacalao-loin"
 isShown: "TRUE"
+isBestSeller: "TRUE"
 name: "Bacalao Loin"
 categories:
    - "fish"

@@ -2,6 +2,7 @@
 layout: "product"
 slug: "makimono-maki"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Makimono Maki"
 categories:
    - "fish"

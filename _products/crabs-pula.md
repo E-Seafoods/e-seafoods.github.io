@@ -2,6 +2,7 @@
 layout: "product"
 slug: "crabs-pula"
 isShown: "TRUE"
+isBestSeller: "FALSE"
 name: "Crabs (Pula)"
 categories:
    - "crustaceans"

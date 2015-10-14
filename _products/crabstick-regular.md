@@ -2,6 +2,7 @@
 layout: "product"
 slug: "crabstick-regular"
 isShown: "TRUE"
+isBestSeller: "TRUE"
 name: "Crabstick Regular"
 categories:
    - "crustaceans"

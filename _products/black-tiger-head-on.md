@@ -2,6 +2,7 @@
 layout: "product"
 slug: "black-tiger-head-on"
 isShown: "TRUE"
+isBestSeller: "FALSE"
 name: "Black Tiger - Head On"
 categories:
    - "crustaceans"

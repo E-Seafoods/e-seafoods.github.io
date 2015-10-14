@@ -2,6 +2,7 @@
 layout: "product"
 slug: "cod-fillet"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Cod Fillet"
 categories:
    - "fish"

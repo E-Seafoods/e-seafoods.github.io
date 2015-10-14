@@ -2,6 +2,7 @@
 layout: "product"
 slug: "salmon-sushi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Salmon Sushi"
 categories:
    - "fish"

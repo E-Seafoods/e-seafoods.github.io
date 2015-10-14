@@ -2,6 +2,7 @@
 layout: "product"
 slug: "uni-sushi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Uni Sushi"
 categories:
    - "crustaceans"

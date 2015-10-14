@@ -2,6 +2,7 @@
 layout: "product"
 slug: "us-scalop"
 isShown: "TRUE"
+isBestSeller: "TRUE"
 name: "U.S. Scalop"
 categories:
    - "mollusk"

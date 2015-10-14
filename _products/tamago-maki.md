@@ -2,6 +2,7 @@
 layout: "product"
 slug: "tamago-maki"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Tamago Maki"
 categories:
    - "fish"

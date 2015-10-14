@@ -2,6 +2,7 @@
 layout: "product"
 slug: "kani-maki"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Kani Maki"
 categories:
    - "fish"

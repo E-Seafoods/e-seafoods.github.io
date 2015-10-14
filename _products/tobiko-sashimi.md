@@ -2,6 +2,7 @@
 layout: "product"
 slug: "tobiko-sashimi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Tobiko Sashimi"
 categories:
    - "fish"

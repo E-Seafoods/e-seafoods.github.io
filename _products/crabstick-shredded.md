@@ -2,6 +2,7 @@
 layout: "product"
 slug: "crabstick-shredded"
 isShown: "TRUE"
+isBestSeller: "TRUE"
 name: "Crabstick Shredded"
 categories:
    - "crustaceans"

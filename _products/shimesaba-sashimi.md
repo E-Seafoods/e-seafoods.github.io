@@ -2,6 +2,7 @@
 layout: "product"
 slug: "shimesaba-sashimi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Shimesaba Sashimi"
 categories:
    - "fish"

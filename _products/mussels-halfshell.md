@@ -2,6 +2,7 @@
 layout: "product"
 slug: "mussels-halfshell"
 isShown: "TRUE"
+isBestSeller: "FALSE"
 name: "Mussels Halfshell"
 categories:
    - "mollusk"

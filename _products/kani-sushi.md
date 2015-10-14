@@ -2,6 +2,7 @@
 layout: "product"
 slug: "kani-sushi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Kani Sushi"
 categories:
    - "fish"

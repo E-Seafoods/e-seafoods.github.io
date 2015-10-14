@@ -2,6 +2,7 @@
 layout: "product"
 slug: "squid-loligo"
 isShown: "TRUE"
+isBestSeller: "FALSE"
 name: "Squid Loligo"
 categories:
    - "cephalopods"

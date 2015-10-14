@@ -2,6 +2,7 @@
 layout: "product"
 slug: "uni-sashimi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Uni Sashimi"
 categories:
    - "crustaceans"

@@ -2,6 +2,7 @@
 layout: "product"
 slug: "ebi-sushi"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Ebi Sushi"
 categories:
    - "crustaceans"

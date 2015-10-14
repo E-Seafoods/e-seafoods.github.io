@@ -2,6 +2,7 @@
 layout: "product"
 slug: "salmon-steaks"
 isShown: "FALSE"
+isBestSeller: "TRUE"
 name: "Salmon Steaks"
 categories:
    - "fish"

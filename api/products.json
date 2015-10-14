@@ -13,6 +13,7 @@ layout: null
       "measure": {{product.measure | jsonify}},
       "approx": {{product.approx | jsonify}},
       "isShown": {{product.isShown | jsonify}},
+      "isBestSeller": {{product.isBestSeller | jsonify}},
       "categories": {{product.categories | jsonify}}
     }
     {% assign first = false %}
