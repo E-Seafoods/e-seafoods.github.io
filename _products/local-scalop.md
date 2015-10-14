@@ -2,11 +2,11 @@
 layout: "product"
 slug: "local-scalop"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Local Scalop"
 categories:
    - "mollusk"
    - "value-added"
+   - "best-seller"
 images:
    - "http://www.midafood.com/Data/Images/Mollusk_album/1024x1024/54ace0f93565f120.jpg"
 description: >

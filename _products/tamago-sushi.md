@@ -2,11 +2,11 @@
 layout: "product"
 slug: "tamago-sushi"
 isShown: "FALSE"
-isBestSeller: "TRUE"
 name: "Tamago Sushi"
 categories:
    - "fish"
    - "value-added"
+   - "best-seller"
 images:
    - "http://placehold.it/400x400/000/fff"
 description: >

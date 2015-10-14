@@ -2,11 +2,11 @@
 layout: "product"
 slug: "bacalao-loin"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Bacalao Loin"
 categories:
    - "fish"
    - "value-added"
+   - "best-seller"
 images:
    - "http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54ec21215c2c2508.jpg"
 description: >

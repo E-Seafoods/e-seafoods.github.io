@@ -2,11 +2,11 @@
 layout: "product"
 slug: "crabstick-regular"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Crabstick Regular"
 categories:
    - "crustaceans"
    - "value-added"
+   - "best-seller"
 images:
    - "http://www.midafood.com/Data/Images/Value-Added_album/1024x1024/54ace7995003e580.jpg"
 description: >

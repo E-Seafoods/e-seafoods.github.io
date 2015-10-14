@@ -2,11 +2,11 @@
 layout: "product"
 slug: "tuna-sashimi"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Tuna Sashimi"
 categories:
    - "fish"
    - "value-added"
+   - "best-seller"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/tuna-sashimi.jpg"
 description: >

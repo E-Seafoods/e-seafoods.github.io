@@ -2,11 +2,11 @@
 layout: "product"
 slug: "salmon-sashimi"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Salmon Sashimi"
 categories:
    - "fish"
    - "value-added"
+   - "best-seller"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/salmon-sashimi.jpg"
 description: >

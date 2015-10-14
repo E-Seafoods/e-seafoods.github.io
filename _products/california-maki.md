@@ -2,11 +2,11 @@
 layout: "product"
 slug: "california-maki"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "California Maki"
 categories:
    - "crustaceans"
    - "value-added"
+   - "best-seller"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/california-maki.jpg"
 description: >

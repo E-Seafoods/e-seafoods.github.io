@@ -2,11 +2,11 @@
 layout: "product"
 slug: "squid-rings-blanched"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Squid Rings Blanched"
 categories:
    - "cephalopods"
    - "value-added"
+   - "best-seller"
 images:
    - "http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb860b253565.jpg"
 description: >

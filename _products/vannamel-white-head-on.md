@@ -2,7 +2,6 @@
 layout: "product"
 slug: "vannamel-white-head-on"
 isShown: "TRUE"
-isBestSeller: "FALSE"
 name: "Vannamel White - Head On"
 categories:
    - "crustaceans"

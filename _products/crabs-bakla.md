@@ -2,7 +2,6 @@
 layout: "product"
 slug: "crabs-bakla"
 isShown: "TRUE"
-isBestSeller: "FALSE"
 name: "Crabs (Bakla)"
 categories:
    - "crustaceans"

@@ -2,11 +2,11 @@
 layout: "product"
 slug: "crabstick-shredded"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Crabstick Shredded"
 categories:
    - "crustaceans"
    - "value-added"
+   - "best-seller"
 images:
    - "http://www.midafood.com/Data/Images/Value-Added_album/1024x1024/54ec2360aff2b443.jpg"
 description: >

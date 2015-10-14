@@ -2,11 +2,11 @@
 layout: "product"
 slug: "cali-temaki"
 isShown: "FALSE"
-isBestSeller: "TRUE"
 name: "Cali Temaki"
 categories:
    - "crustaceans"
    - "value-added"
+   - "best-seller"
 images:
    - "http://placehold.it/400x400/000/fff"
 description: >

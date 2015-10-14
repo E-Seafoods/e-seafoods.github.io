@@ -2,11 +2,11 @@
 layout: "product"
 slug: "squid-rings"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Squid Rings"
 categories:
    - "cephalopods"
    - "value-added"
+   - "best-seller"
 images:
    - "http://midafood.com/Data/Images/Cephalopods_album/1024x1024/54acdb860b253565.jpg"
 description: >

@@ -2,11 +2,11 @@
 layout: "product"
 slug: "hamachi-sushi"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Hamachi Sushi"
 categories:
    - "fish"
    - "value-added"
+   - "best-seller"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/hamachi-sushi.jpg"
 description: >

@@ -2,7 +2,6 @@
 layout: "product"
 slug: "vannamel-white-nobashi-stretched"
 isShown: "TRUE"
-isBestSeller: "FALSE"
 name: "Vannamel White - Nobashi (Stretched)"
 categories:
    - "crustaceans"

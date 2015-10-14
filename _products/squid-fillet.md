@@ -2,7 +2,6 @@
 layout: "product"
 slug: "squid-fillet"
 isShown: "TRUE"
-isBestSeller: "FALSE"
 name: "Squid Fillet"
 categories:
    - "cephalopods"

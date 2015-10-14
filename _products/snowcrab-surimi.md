@@ -2,11 +2,11 @@
 layout: "product"
 slug: "snowcrab-surimi"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Snowcrab Surimi"
 categories:
    - "crustaceans"
    - "value-added"
+   - "best-seller"
 images:
    - "http://www.midafood.com/Data/Images/Value-Added_album/1024x1024/54ec249ab4398262.jpg"
 description: >

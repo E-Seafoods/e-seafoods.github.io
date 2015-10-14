@@ -2,7 +2,6 @@
 layout: "product"
 slug: "black-tiger-nobashi-stretched"
 isShown: "TRUE"
-isBestSeller: "FALSE"
 name: "Black Tiger - Nobashi (Stretched)"
 categories:
    - "crustaceans"

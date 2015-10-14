@@ -2,11 +2,11 @@
 layout: "product"
 slug: "uni-sushi"
 isShown: "FALSE"
-isBestSeller: "TRUE"
 name: "Uni Sushi"
 categories:
    - "crustaceans"
    - "value-added"
+   - "best-seller"
 images:
    - "http://placehold.it/400x400/000/fff"
 description: >

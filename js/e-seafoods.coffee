@@ -18,7 +18,7 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
         console.log(v)
         $("#products").mixItUp
           load:
-            filter: ".bestseller"
+            filter: ".best-seller"
           callbacks:
             onMixLoad: ->
               $log.debug "MixItUp ready!"

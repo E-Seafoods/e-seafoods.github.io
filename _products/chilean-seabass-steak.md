@@ -2,11 +2,11 @@
 layout: "product"
 slug: "chilean-seabass-steak"
 isShown: "TRUE"
-isBestSeller: "TRUE"
 name: "Chilean Seabass Steak"
 categories:
    - "fish"
    - "value-added"
+   - "best-seller"
 images:
    - "http://midafood.com/Data/Images/Special_album/1024x1024/54ace5947628a592.jpg"
 description: >

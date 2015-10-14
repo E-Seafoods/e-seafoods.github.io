@@ -2,11 +2,11 @@
 layout: "product"
 slug: "ebi-sushi"
 isShown: "FALSE"
-isBestSeller: "TRUE"
 name: "Ebi Sushi"
 categories:
    - "crustaceans"
    - "value-added"
+   - "best-seller"
 images:
    - "http://placehold.it/400x400/000/fff"
 description: >

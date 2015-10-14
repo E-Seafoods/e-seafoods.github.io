@@ -2,7 +2,6 @@
 layout: "product"
 slug: "squid-baby"
 isShown: "TRUE"
-isBestSeller: "FALSE"
 name: "Squid Baby"
 categories:
    - "cephalopods"

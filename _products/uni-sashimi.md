@@ -2,11 +2,11 @@
 layout: "product"
 slug: "uni-sashimi"
 isShown: "FALSE"
-isBestSeller: "TRUE"
 name: "Uni Sashimi"
 categories:
    - "crustaceans"
    - "value-added"
+   - "best-seller"
 images:
    - "http://placehold.it/400x400/000/fff"
 description: >
