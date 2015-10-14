@@ -17,15 +17,15 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
       if v
         console.log(v)
         $("#products").mixItUp
+          load:
+            filter: ".bestseller"
           callbacks:
             onMixLoad: ->
               $log.debug "MixItUp ready!"
-              $('#search-input').keyup()
+#              $('#search-input').keyup()
             onMixFail: ->
               $log.debug "No elements found matching"
 
-          load:
-            filter: "all"
 
 .directive 'imageSliderAfterRender', ($log) ->
   (scope, element, attrs) ->
