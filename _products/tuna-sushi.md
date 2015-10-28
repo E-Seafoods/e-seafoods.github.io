@@ -1,7 +1,7 @@
 ---
 layout: "product"
 slug: "tuna-sushi"
-isShown: "TRUE"
+isShown: "FALSE"
 name: "Tuna Sushi"
 categories:
    - "fish"
