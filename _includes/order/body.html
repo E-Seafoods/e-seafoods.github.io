@@ -1,6 +1,6 @@
 <div class="container" ng-controller="CartController">
     <div class="section-title">
-        <span>REVIEW YOUR ORDER</span>
+        <span>Review Your Order</span>
     </div>
     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
         {% include order/address-info.html %}
@@ -11,7 +11,7 @@
         <div class="proceed-container" ng-controller="CheckoutCtrl">
             <a ng-click="checkout(ngCart.getCart().items, ngCart.getShipping())">
                 <div class="proceed-button">
-                    <span>Checkout Now</span>
+                    <span>Proceed to Payment</span>
                 </div>
             </a>
         </div>

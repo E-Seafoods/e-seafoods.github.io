@@ -22,23 +22,18 @@
         vertical-align: middle
         font-size: 19px
         .price-button
-          font-size: 20px !important
+          font-size: 14px !important
           text-shadow: none !important
           font-family: Gotham-Rounded-Medium !important
           float: right
-          -webkit-filter: invert(100%)
-          filter: invert(100%)
-          background-image: url(/images/black-box.png)
-          background-color: transparent
-          background-repeat: no-repeat
-          background-size: contain
           border: 0
           padding: 0px 15px 8px 15px
           display: inline-block
           span
             color: black
-            -webkit-filter: invert(100%)
-            filter: invert(100%)
+            background-image: url(/images/black-box.png)
+            padding: 20px 33px
+            position: relative
       td
         font-size: 25px
     tbody
@@ -86,6 +81,11 @@
             border-color: #cbcbcb
     tfoot
       display: table-footer-group
+      font-size: 18px
+      tr
+        td
+          padding-left: 23px
+          padding-top: 15px
 #mock
   display: none
   width: 100%
@@ -124,13 +124,15 @@ body
   #navbar
     li
       a
+        padding-top: 15px
+        padding-bottom: 15px
         color: white
         font-size: 18px
         font-family: Gotham-Rounded-Medium
         margin: 0 15px 0 15px
         text-shadow: 0px 1px 3px #000
         .cart-items
-          font-size: 15px
+          font-size: 14px
   #search-bar
     margin-bottom: 0
     float: left
