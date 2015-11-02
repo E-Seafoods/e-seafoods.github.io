@@ -35,4 +35,15 @@
 {{ content }}
 {% include footer.html %}
 </body>
+<script>
+    $(document).ready(function(){
+        $('.product-menu a').on('click', function(e){
+            e.preventDefault();
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - 52
+            }, 1500, 'easeInOutExpo');
+        });
+    });
+</script>
 </html>
