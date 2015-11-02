@@ -1,5 +1,5 @@
 <div class="related-products" ng-controller="StoreCtrl">
-    <h3 class="text-center">RELATED PRODUCT</h3>
+    <h3 class="text-center">RELATED PRODUCTS</h3>
     <!--<input ng-model="category">-->
     <ul id="related-product-slider">
         <li image-slider-after-render ng-repeat="product in products | filter: '{{ page.categories[0] }}'" class="text-center" ng-if="product.categories">
