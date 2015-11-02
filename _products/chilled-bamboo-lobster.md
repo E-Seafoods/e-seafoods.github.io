@@ -5,6 +5,7 @@ isShown: "TRUE"
 name: "Chilled Bamboo Lobster"
 categories:
    - "crustaceans"
+   - "best-seller"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/chilled-bamboo-lobster.jpg"
 description: >

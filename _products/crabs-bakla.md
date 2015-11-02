@@ -5,6 +5,7 @@ isShown: "TRUE"
 name: "Crabs (Bakla)"
 categories:
    - "crustaceans"
+   - "best-seller"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/crab-bakla.jpg"
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/crab-bakla1.jpg"

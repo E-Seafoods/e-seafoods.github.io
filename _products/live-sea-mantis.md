@@ -5,6 +5,7 @@ isShown: "TRUE"
 name: "Live Sea Mantis"
 categories:
    - "crustaceans"
+   - "best-seller"
 images:
    - "http://www.mexfish.com/fish/tibmshrimp/tibmshrimpsnowb.jpg"
 description: >

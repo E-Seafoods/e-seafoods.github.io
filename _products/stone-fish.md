@@ -5,6 +5,7 @@ isShown: "TRUE"
 name: "Stone Fish"
 categories:
    - "fish"
+   - "best-seller"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/stone-fish.jpg"
 description: >

@@ -5,6 +5,7 @@ isShown: "TRUE"
 name: "Chilled Original Lobster"
 categories:
    - "crustaceans"
+   - "best-seller"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/chilled-original-lobster.jpg"
 description: >

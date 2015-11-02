@@ -5,6 +5,7 @@ isShown: "TRUE"
 name: "Crabs (Male)"
 categories:
    - "crustaceans"
+   - "best-seller"
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/crab-male.jpg"
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/crab-male1.jpg"
