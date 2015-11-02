@@ -1,26 +1,26 @@
 ---
 layout: "product"
-slug: "chill-brown-slipper-lobster"
+slug: "bamboo-lobster"
 isShown: "TRUE"
-name: "Chill Brown Slipper Lobster"
+name: "Bamboo Lobster"
 categories:
    - "crustaceans"
    - "best-seller"
 images:
-   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/chill-brown-slipper-lobster.jpg"
+   - "http://res.cloudinary.com/ruel/image/upload/v1446439825/bamboo_lobster_v95dt7.jpg"
 description: >
    lorem
 measure: "piece"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 118
+     - sku: 119
        size: "Small"
        price: 111
        approx: "111 g"
    - name: "Live"
      sizes: 
-     - sku: 114
+     - sku: 120
        size: "Small"
        price: 111
        approx: "111 g"

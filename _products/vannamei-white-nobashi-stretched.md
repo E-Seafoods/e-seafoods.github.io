@@ -1,8 +1,8 @@
 ---
 layout: "product"
-slug: "vannamel-white-nobashi-stretched"
+slug: "vannamei-white-nobashi-stretched shrimp"
 isShown: "TRUE"
-name: "Vannamel White - Nobashi (Stretched)"
+name: "Vannamei White - Nobashi (Stretched) Shrimp"
 categories:
    - "crustaceans"
 images:

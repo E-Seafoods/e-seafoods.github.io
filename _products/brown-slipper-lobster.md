@@ -1,27 +1,27 @@
 ---
 layout: "product"
-slug: "chilled-red-coral-trout-suno"
+slug: "chill-brown-slipper-lobster"
 isShown: "TRUE"
-name: "Chilled Red Coral Trout (Suno)"
+name: "Brown Slipper Lobster"
 categories:
-   - "fish"
+   - "crustaceans"
    - "best-seller"
 images:
-   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/chilled-red-coral-trout.jpg"
+   - "http://res.cloudinary.com/ruel/image/upload/v1446437744/brownSlipper_lobster_uxtbjp.jpg"
 description: >
    lorem
 measure: "piece"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 124
+     - sku: 118
        size: "Small"
        price: 111
-       approx: "112 g"
+       approx: "111 g"
    - name: "Live"
      sizes: 
-     - sku: 125
+     - sku: 114
        size: "Small"
        price: 111
-       approx: "113 g"
+       approx: "111 g"
 ---

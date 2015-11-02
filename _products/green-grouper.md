@@ -1,27 +1,27 @@
 ---
 layout: "product"
-slug: "chilled-red-lobster"
+slug: "green-grouper"
 isShown: "TRUE"
-name: "Chilled Red Lobster"
+name: "Green Grouper"
 categories:
-   - "crustaceans"
+   - "fish"
    - "best-seller"
 images:
-   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/chilled-red-lobster.jpg"
+   - "http://res.cloudinary.com/ruel/image/upload/v1446136855/e-seafoods/green_grouper.jpg"
 description: >
    lorem
 measure: "piece"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 115
+     - sku: 126
        size: "Small"
        price: 111
-       approx: "111 g"
+       approx: "114 g"
    - name: "Live"
      sizes: 
-     - sku: 116
+     - sku: 127
        size: "Small"
        price: 111
-       approx: "111 g"
+       approx: "115 g"
 ---

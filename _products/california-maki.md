@@ -2,7 +2,7 @@
 layout: "product"
 slug: "california-maki"
 isShown: "TRUE"
-name: "California Maki"
+name: "California Maki Sushi"
 categories:
    - "crustaceans"
    - "value-added"

@@ -1,13 +1,13 @@
 ---
 layout: "product"
-slug: "live-sea-mantis"
+slug: "sea-mantis"
 isShown: "TRUE"
-name: "Live Sea Mantis"
+name: "Sea Mantis"
 categories:
    - "crustaceans"
    - "best-seller"
 images:
-   - "http://www.mexfish.com/fish/tibmshrimp/tibmshrimpsnowb.jpg"
+   - "http://res.cloudinary.com/ruel/image/upload/v1446442109/sea_mantis_b0yzos.jpg"
 description: >
    lorem
 measure: "piece"

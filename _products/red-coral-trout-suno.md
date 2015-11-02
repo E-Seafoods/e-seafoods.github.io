@@ -1,27 +1,27 @@
 ---
 layout: "product"
-slug: "chilled-green-grouper"
+slug: "chilled-red-coral-trout-suno"
 isShown: "TRUE"
-name: "Chilled Green Grouper"
+name: "Chilled Red Coral Trout (Suno)"
 categories:
    - "fish"
    - "best-seller"
 images:
-   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/chilled-green-grouper.jpg"
+   - "http://res.cloudinary.com/ruel/image/upload/v1446136855/e-seafoods/coral_trout.jpg"
 description: >
    lorem
 measure: "piece"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 126
+     - sku: 124
        size: "Small"
        price: 111
-       approx: "114 g"
+       approx: "112 g"
    - name: "Live"
      sizes: 
-     - sku: 127
+     - sku: 125
        size: "Small"
        price: 111
-       approx: "115 g"
+       approx: "113 g"
 ---

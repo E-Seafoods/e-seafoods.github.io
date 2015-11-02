@@ -4,8 +4,8 @@ slug: "black-eel"
 isShown: "TRUE"
 name: "Black Eel"
 categories:
-   - "cephalopods"
-   - "best-seller"
+   - "fish"
+>>>>>>> Stashed changes
 images:
    - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/black-eel.jpg"
 description: >

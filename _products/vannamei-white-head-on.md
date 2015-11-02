@@ -1,8 +1,8 @@
 ---
 layout: "product"
-slug: "vannamel-white-head-on"
+slug: "vannamei-white-head-on shrimp"
 isShown: "TRUE"
-name: "Vannamel White - Head On"
+name: "Vannamei White - Head On Shrimp"
 categories:
    - "crustaceans"
 images:
