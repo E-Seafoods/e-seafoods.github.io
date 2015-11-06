@@ -2,7 +2,7 @@
     <h3 class="text-center">Related Products</h3>
     <!--<input ng-model="category">-->
     <ul id="related-product-slider">
-        <li image-slider-after-render ng-repeat="product in products | filter: '{{ page.categories[0] }}'" class="text-center" ng-if="product.categories">
+        <li image-slider-after-render ng-repeat="product in products | filter: '{{ page.categories[0] }}'" class="text-center" ng-if="product.categories && product.isShown == 'TRUE'">
             <a ng-href="[[ product.url ]]">
                 <img ng-src="https://res.cloudinary.com/e-seafoods/image/fetch/w_350,h_350,c_fill,r_max,f_auto/[[ product.images[0] ]]"/>
                 <h4>[[ product.name ]]</h4>
