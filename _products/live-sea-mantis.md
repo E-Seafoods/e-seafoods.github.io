@@ -1,20 +1,20 @@
 ---
 layout: "product"
-slug: "stone-fish"
-isShown: "TRUE"
-name: "Stone Fish"
+slug: "live-sea-mantis"
+isShown: "FALSE"
+name: "Live Sea Mantis"
 categories:
-   - "fish"
+   - "crustaceans"
    - "best-seller"
 images:
-   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/stone-fish.jpg"
+   - "http://www.mexfish.com/fish/tibmshrimp/tibmshrimpsnowb.jpg"
 description: >
    lorem
 measure: "piece"
 types: 
    - name: "Live"
      sizes: 
-     - sku: 122
+     - sku: 115
        size: "Small"
        price: 111
        approx: "111 g"

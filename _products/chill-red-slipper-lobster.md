@@ -1,26 +1,26 @@
 ---
 layout: "product"
-slug: "original-lobster"
+slug: "chill-red-slipper-lobster"
 isShown: "TRUE"
-name: "Original Lobster"
+name: "Chill Red Slipper Lobster"
 categories:
    - "crustaceans"
    - "best-seller"
 images:
-   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/chilled-original-lobster.jpg"
+   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/chill-brown-slipper-lobster.jpg"
 description: >
    lorem
 measure: "piece"
 types: 
    - name: "Fresh"
      sizes: 
-     - sku: 116
+     - sku: 118
        size: "Small"
        price: 111
        approx: "111 g"
    - name: "Live"
      sizes: 
-     - sku: 117
+     - sku: 114
        size: "Small"
        price: 111
        approx: "111 g"

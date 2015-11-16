@@ -8,7 +8,7 @@ categories:
    - "value-added"
    - "best-seller"
 images:
-   - "http://res.cloudinary.com/ruel/image/upload/v1446441173/ebi_sushi_zzcofi.jpg"
+   - "http://placehold.it/400x400/000/fff"
 description: >
    lorem
 measure: "pack"

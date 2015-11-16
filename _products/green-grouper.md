@@ -7,7 +7,7 @@ categories:
    - "fish"
    - "best-seller"
 images:
-   - "http://res.cloudinary.com/ruel/image/upload/v1446136855/e-seafoods/green_grouper.jpg"
+   - "http://res.cloudinary.com/ruel/image/upload/v1441365362/e-seafoods/chilled-green-grouper.jpg"
 description: >
    lorem
 measure: "piece"
