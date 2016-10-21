@@ -113,13 +113,13 @@ angular.module 'eSeafoodsApp', ['ngCookies', 'ngCart', 'mgcrea.ngStrap', 'ngSani
 
       data =
         cmd: '_cart'
-        business: "rens.ramos-facilitator@crux.design"
+        business: "rens.ramos@crux.design"
         upload: '1'
         rm: '2'
         charset: 'utf-8'
         currency_code: 'PHP'
         return: "http://localhost:4000/"
-        cancel_return: "http://localhost:4000/cancel"
+        cancel_return: "http://localhost:4000/"
 #        address_override: 1
         email: $scope.shipping.emailAddress
         first_name: $scope.shipping.firstName
